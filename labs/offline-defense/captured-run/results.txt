@@ -1,0 +1,9 @@
+PASS lab 1: lab1
+PASS lab 2: lab2
+PASS lab 3: lab3
+PASS lab 4: lab4
+PASS lab 5: lab5
+PASS lab 6: lab6
+PASS: 6 offline demonstrations, 33 assertions
+PASS: output matches committed expected-results.json
+Scope: synthetic fixtures only; no search-engine or LLM efficacy measured.

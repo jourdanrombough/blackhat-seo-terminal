@@ -1,0 +1,1324 @@
+[
+  {
+    "id": "tool-openai-api-gpt-4o-later",
+    "name": "OpenAI API",
+    "category": "CONTENT GENERATION",
+    "status": "OFFERING DOCUMENTED",
+    "purpose": "Text and other model inference through an API. Model suitability and output accuracy require separate evaluation.",
+    "platformRequirements": "API account and credentials; an HTTP client or supported SDK. No model version, SDK version, region or account entitlement was tested.",
+    "price": "Current price unverified",
+    "license": "Exact license or subscription terms not independently audited; consult the identified vendor/project terms. An advertised free plan is not an open-source license.",
+    "testedVersion": null,
+    "reviewedAt": "2026-09-17",
+    "reviewScope": "Record structure, public-link reachability and explicitly noted content corrections. No purchase, installation, account entitlement or efficacy test.",
+    "sourceUrls": [
+      "https://platform.openai.com/"
+    ],
+    "evidence": "Mainstream API; website presence does not establish availability of any particular model. First-party source.",
+    "sourceAccess": [
+      {
+        "url": "https://platform.openai.com/",
+        "method": "Python HTTP retrieval",
+        "status": 200,
+        "finalUrl": "https://platform.openai.com/",
+        "artifact": "qa/evidence/source-review-2026-09-17/9c4cd7f299ad4fe2.html",
+        "sha256": "8a77dac53cf760ff126df7009c43d73945d13d318d5a5aa0998fc8cc9831963c",
+        "error": null
+      }
+    ]
+  },
+  {
+    "id": "tool-anthropic-claude-api",
+    "name": "Anthropic Claude API",
+    "category": "CONTENT GENERATION",
+    "status": "OFFERING DOCUMENTED",
+    "purpose": "Model inference for writing and analysis through an API.",
+    "platformRequirements": "API account and credentials; HTTP client or supported SDK. Model, SDK, region and entitlement requirements remain untested.",
+    "price": "Current price unverified",
+    "license": "Exact license or subscription terms not independently audited; consult the identified vendor/project terms. An advertised free plan is not an open-source license.",
+    "testedVersion": null,
+    "reviewedAt": "2026-09-17",
+    "reviewScope": "Record structure, public-link reachability and explicitly noted content corrections. No purchase, installation, account entitlement or efficacy test.",
+    "sourceUrls": [
+      "https://claude.com/platform/api"
+    ],
+    "evidence": "Use the current platform URL; output quality and model availability were not benchmarked. First-party source.",
+    "sourceAccess": [
+      {
+        "url": "https://claude.com/platform/api",
+        "method": "Python HTTP retrieval",
+        "status": 200,
+        "finalUrl": "https://claude.com/platform/api",
+        "artifact": "qa/evidence/source-review-2026-09-17/d35aa40ef129007e.html",
+        "sha256": "f9b0f18803dedb1e744fea050d481c8dbdbd078b1c19d224d2544885d4d7baea",
+        "error": null
+      }
+    ]
+  },
+  {
+    "id": "tool-ahrefs-semrush",
+    "name": "Ahrefs",
+    "category": "COMPETITIVE INTELLIGENCE",
+    "status": "OFFERING DOCUMENTED",
+    "purpose": "Hosted backlink, keyword and site-audit research. Third-party metrics are not Google ranking scores.",
+    "platformRequirements": "Web browser and account; plan-specific report and API limits are unverified.",
+    "price": "Current price unverified",
+    "license": "Exact license or subscription terms not independently audited; consult the identified vendor/project terms. An advertised free plan is not an open-source license.",
+    "testedVersion": null,
+    "reviewedAt": "2026-09-17",
+    "reviewScope": "Record structure, public-link reachability and explicitly noted content corrections. No purchase, installation, account entitlement or efficacy test.",
+    "sourceUrls": [
+      "https://ahrefs.com/"
+    ],
+    "evidence": "This record now covers Ahrefs only; Semrush has its own record. First-party source.",
+    "sourceAccess": [
+      {
+        "url": "https://ahrefs.com/",
+        "method": "Python HTTP retrieval",
+        "status": 200,
+        "finalUrl": "https://ahrefs.com/",
+        "artifact": "qa/evidence/source-review-2026-09-17/a3ba1a97f24044f2.html",
+        "sha256": "8e0d038648883ee31915ed6c6620b7940f001f9db100dd7f1bf833db89c9d1b3",
+        "error": null
+      }
+    ]
+  },
+  {
+    "id": "tool-semrush",
+    "name": "Semrush",
+    "category": "COMPETITIVE INTELLIGENCE",
+    "status": "OFFERING DOCUMENTED",
+    "purpose": "Hosted keyword, backlink, site-audit and visibility research suite.",
+    "platformRequirements": "Browser and account; individual toolkit/API plan limits and requirements unverified.",
+    "price": "Current price unverified",
+    "license": "Exact license or subscription terms not independently audited; consult the identified vendor/project terms. An advertised free plan is not an open-source license.",
+    "testedVersion": null,
+    "reviewedAt": "2026-09-17",
+    "reviewScope": "Record structure, public-link reachability and explicitly noted content corrections. No purchase, installation, account entitlement or efficacy test.",
+    "sourceUrls": [
+      "https://www.semrush.com/"
+    ],
+    "evidence": "Separated from Ahrefs. The official product site documents the offering; third-party traffic estimates are not complete first-party measurements. First-party source.",
+    "sourceAccess": [
+      {
+        "url": "https://www.semrush.com/",
+        "method": "Python HTTP retrieval",
+        "status": 200,
+        "finalUrl": "https://www.semrush.com/",
+        "artifact": "qa/evidence/source-review-2026-09-17/eaf0818edd218820.html",
+        "sha256": "a105a828c56c7871b0ef053ab7c3ed4c3f484f8614970b7ef4f367d4bf9aa958",
+        "error": null
+      }
+    ]
+  },
+  {
+    "id": "tool-selenium-playwright",
+    "name": "Playwright",
+    "category": "BROWSER AUTOMATION",
+    "status": "OFFERING DOCUMENTED",
+    "purpose": "Browser automation framework for testing sites and local research fixtures.",
+    "platformRequirements": "Developer runtime, Playwright package and supported browser binaries. Exact supported OS/runtime versions must be checked in the project documentation.",
+    "price": "Open-source; infrastructure costs separate",
+    "license": "Exact license or subscription terms not independently audited; consult the identified vendor/project terms. An advertised free plan is not an open-source license.",
+    "testedVersion": null,
+    "reviewedAt": "2026-09-17",
+    "reviewScope": "Record structure, public-link reachability and explicitly noted content corrections. No purchase, installation, account entitlement or efficacy test.",
+    "sourceUrls": [
+      "https://playwright.dev/"
+    ],
+    "evidence": "Open-source software; framework availability does not authorize automation against third-party services. First-party source.",
+    "sourceAccess": [
+      {
+        "url": "https://playwright.dev/",
+        "method": "Python HTTP retrieval",
+        "status": 200,
+        "finalUrl": "https://playwright.dev/",
+        "artifact": "qa/evidence/source-review-2026-09-17/8960df5ea200923e.html",
+        "sha256": "3e57ea9f99a26830f073877f2f1e13c94d389fac463a4f20127ff7427bc0f6d0",
+        "error": null
+      }
+    ]
+  },
+  {
+    "id": "tool-selenium",
+    "name": "Selenium",
+    "category": "BROWSER AUTOMATION",
+    "status": "PROJECT DOCUMENTED",
+    "purpose": "Browser automation project, including WebDriver and distributed testing with Grid.",
+    "platformRequirements": "Language binding/runtime and compatible browser/driver or remote endpoint; exact supported versions need the selected binding documentation.",
+    "price": "Open-source; infrastructure costs separate",
+    "license": "Exact license or subscription terms not independently audited; consult the identified vendor/project terms. An advertised free plan is not an open-source license.",
+    "testedVersion": null,
+    "reviewedAt": "2026-09-17",
+    "reviewScope": "Record structure, public-link reachability and explicitly noted content corrections. No purchase, installation, account entitlement or efficacy test.",
+    "sourceUrls": [
+      "https://www.selenium.dev/documentation/overview/"
+    ],
+    "evidence": "Separated from Playwright; library licenses and browser/runtime compatibility must be checked per release. First-party source.",
+    "sourceAccess": [
+      {
+        "url": "https://www.selenium.dev/documentation/overview/",
+        "method": "Python HTTP retrieval",
+        "status": 200,
+        "finalUrl": "https://www.selenium.dev/documentation/overview/",
+        "artifact": "qa/evidence/source-review-2026-09-17/815ebd360cbe003f.html",
+        "sha256": "dc7af5318b9d6b4828ea4db7161428831b4c1347d04f4bc17a8e43bd4bf410a4",
+        "error": null
+      }
+    ]
+  },
+  {
+    "id": "tool-copyscape",
+    "name": "Copyscape",
+    "category": "PLAGIARISM CHECKING",
+    "status": "OFFERING DOCUMENTED",
+    "purpose": "Checks submitted content for matching text on the web. Matching text alone does not determine copyright ownership.",
+    "platformRequirements": "Web interface or API; API credentials and usage limits depend on the selected service.",
+    "price": "Current price unverified",
+    "license": "Exact license or subscription terms not independently audited; consult the identified vendor/project terms. An advertised free plan is not an open-source license.",
+    "testedVersion": null,
+    "reviewedAt": "2026-09-17",
+    "reviewScope": "Record structure, public-link reachability and explicitly noted content corrections. No purchase, installation, account entitlement or efficacy test.",
+    "sourceUrls": [
+      "https://www.copyscape.com/"
+    ],
+    "evidence": "The former bounded per-search estimate was removed: Premium pricing depends on text length. First-party source.",
+    "sourceAccess": [
+      {
+        "url": "https://www.copyscape.com/",
+        "method": "Python HTTP retrieval",
+        "status": 200,
+        "finalUrl": "https://www.copyscape.com/",
+        "artifact": "qa/evidence/source-review-2026-09-17/622a49da04f61c7d.html",
+        "sha256": "59b315176090333f8bedfdd36c01ee61ba0cec13ede3e6d9272c9145842f8ed7",
+        "error": null
+      }
+    ]
+  },
+  {
+    "id": "tool-deepl-api",
+    "name": "DeepL API",
+    "category": "TRANSLATION",
+    "status": "OFFERING DOCUMENTED",
+    "purpose": "Programmatic machine translation.",
+    "platformRequirements": "A DeepL API account and key, plus HTTPS or a supported client library. The official quickstart distinguishes Free and paid API endpoints and explains that a Translator account is separate. No API request or entitlement test was performed.",
+    "price": "Current price unverified",
+    "license": "Exact license or subscription terms not independently audited; consult the identified vendor/project terms. An advertised free plan is not an open-source license.",
+    "testedVersion": null,
+    "reviewedAt": "2026-09-17",
+    "reviewScope": "Record structure, public-link reachability and explicitly noted content corrections. No purchase, installation, account entitlement or efficacy test.",
+    "sourceUrls": [
+      "https://developers.deepl.com/docs/getting-started/quickstart"
+    ],
+    "evidence": "API-specific documentation checked September 17, 2026, replacing the old Pro API link that redirected to a generic subscription page. Price, region and actual account quota still require plan-specific confirmation.",
+    "sourceAccess": [
+      {
+        "url": "https://developers.deepl.com/docs/getting-started/quickstart",
+        "method": "See record content-review note; no direct HTTP artifact in initial batch",
+        "status": null
+      }
+    ]
+  },
+  {
+    "id": "tool-quillbot",
+    "name": "QuillBot",
+    "category": "PARAPHRASING",
+    "status": "OFFERING DOCUMENTED",
+    "purpose": "Hosted paraphrasing and writing assistance.",
+    "platformRequirements": "Web browser; account, premium features and extension compatibility require separate checking.",
+    "price": "Observed €8.33/month equivalent; Premium billed annually; locale-specific, 2026-09-17",
+    "license": "Exact license or subscription terms not independently audited; consult the identified vendor/project terms. An advertised free plan is not an open-source license.",
+    "testedVersion": null,
+    "reviewedAt": "2026-09-17",
+    "reviewScope": "Record structure, public-link reachability and explicitly noted content corrections. No purchase, installation, account entitlement or efficacy test.",
+    "sourceUrls": [
+      "https://quillbot.com/",
+      "https://quillbot.com/premium"
+    ],
+    "evidence": "Direct homepage HTTP access was blocked, but the public Premium page was readable through the research browser on September 17, 2026. It displayed EUR annual billing; taxes, checkout total and other locale prices were not verified. Detector and writing-quality claims were not tested.",
+    "sourceAccess": [
+      {
+        "url": "https://quillbot.com/",
+        "method": "Python HTTP retrieval",
+        "status": 403,
+        "finalUrl": null,
+        "artifact": null,
+        "sha256": null,
+        "error": "HTTP Error 403: Forbidden"
+      },
+      {
+        "url": "https://quillbot.com/premium",
+        "method": "See record content-review note; no direct HTTP artifact in initial batch",
+        "status": null
+      }
+    ]
+  },
+  {
+    "id": "tool-jasper-ai",
+    "name": "Jasper AI",
+    "category": "CONTENT GENERATION",
+    "status": "OFFERING DOCUMENTED",
+    "purpose": "Hosted AI-assisted marketing content creation.",
+    "platformRequirements": "Web browser and account; team permissions, plan limits and integrations unverified.",
+    "price": "Current price unverified",
+    "license": "Exact license or subscription terms not independently audited; consult the identified vendor/project terms. An advertised free plan is not an open-source license.",
+    "testedVersion": null,
+    "reviewedAt": "2026-09-17",
+    "reviewScope": "Record structure, public-link reachability and explicitly noted content corrections. No purchase, installation, account entitlement or efficacy test.",
+    "sourceUrls": [
+      "https://www.jasper.ai/"
+    ],
+    "evidence": "An official offering was located; no output-accuracy or ranking-effect test was performed. First-party source.",
+    "sourceAccess": [
+      {
+        "url": "https://www.jasper.ai/",
+        "method": "Python HTTP retrieval",
+        "status": 200,
+        "finalUrl": "https://www.jasper.ai/",
+        "artifact": "qa/evidence/source-review-2026-09-17/81690fdbcd7e34e9.html",
+        "sha256": "9cccd2583c3c04214d4ba5f5b24a64f6b5dda6aba644c6bad1cef5f65d8e5dae",
+        "error": null
+      }
+    ]
+  },
+  {
+    "id": "tool-content-at-scale",
+    "name": "BrandWell (formerly Content at Scale)",
+    "category": "BUYER INTELLIGENCE / CONTENT",
+    "status": "OFFERING DOCUMENTED",
+    "purpose": "BrandWell now markets buyer-intent and visitor-identification workflows alongside RankWell content generation. Content at Scale is a historical name, not a separate verified current product.",
+    "platformRequirements": "Hosted service; account, current plan and integration requirements unverified.",
+    "price": "Current price unverified",
+    "license": "Exact license or subscription terms not independently audited; consult the identified vendor/project terms. An advertised free plan is not an open-source license.",
+    "testedVersion": null,
+    "reviewedAt": "2026-09-17",
+    "reviewScope": "Record structure, public-link reachability and explicitly noted content corrections. No purchase, installation, account entitlement or efficacy test.",
+    "sourceUrls": [
+      "https://brandwell.ai/",
+      "https://brandwell.ai/blog/launch-story/"
+    ],
+    "evidence": "Current homepage checked September 17, 2026. The 2024 launch account supports the rename, not today’s package. Agency intent-data quotes and legacy writing subscriptions are not interchangeable.",
+    "sourceAccess": [
+      {
+        "url": "https://brandwell.ai/",
+        "method": "See record content-review note; no direct HTTP artifact in initial batch",
+        "status": null
+      },
+      {
+        "url": "https://brandwell.ai/blog/launch-story/",
+        "method": "Python HTTP retrieval",
+        "status": 200,
+        "finalUrl": "https://brandwell.ai/blog/launch-story/",
+        "artifact": "qa/evidence/source-review-2026-09-17/1760a38e3c58d272.html",
+        "sha256": "330373a77f7b13a60cb641d29ecf0038348414c50531c834ba9ba55724783341",
+        "error": null
+      }
+    ]
+  },
+  {
+    "id": "tool-bright-data-proxies",
+    "name": "Bright Data (Proxies)",
+    "category": "PROXY NETWORK",
+    "status": "OFFERING DOCUMENTED",
+    "purpose": "Proxy and data-access services for network requests.",
+    "platformRequirements": "Network client plus service credentials; each proxy/data product has separate integration and billing terms.",
+    "price": "Current price unverified",
+    "license": "Exact license or subscription terms not independently audited; consult the identified vendor/project terms. An advertised free plan is not an open-source license.",
+    "testedVersion": null,
+    "reviewedAt": "2026-09-17",
+    "reviewScope": "Record structure, public-link reachability and explicitly noted content corrections. No purchase, installation, account entitlement or efficacy test.",
+    "sourceUrls": [
+      "https://brightdata.com/"
+    ],
+    "evidence": "No access-rights, anonymity or effectiveness guarantee is inferred from the offering. First-party source.",
+    "sourceAccess": [
+      {
+        "url": "https://brightdata.com/",
+        "method": "Python HTTP retrieval",
+        "status": 200,
+        "finalUrl": "https://brightdata.com/",
+        "artifact": "qa/evidence/source-review-2026-09-17/0b770999a184d5d0.html",
+        "sha256": "29f16a255bd4ce43d4bf151e2df95e212014c431ea689c5ccc6b0e53a9dfe250",
+        "error": null
+      }
+    ]
+  },
+  {
+    "id": "tool-2captcha-anti-captcha",
+    "name": "2Captcha",
+    "category": "CAPTCHA SOLVING",
+    "status": "OFFERING DOCUMENTED",
+    "purpose": "Hosted CAPTCHA task-processing service.",
+    "platformRequirements": "Service account, API integration and credit balance; task-specific requirements unverified.",
+    "price": "Current price unverified",
+    "license": "Exact license or subscription terms not independently audited; consult the identified vendor/project terms. An advertised free plan is not an open-source license.",
+    "testedVersion": null,
+    "reviewedAt": "2026-09-17",
+    "reviewScope": "Record structure, public-link reachability and explicitly noted content corrections. No purchase, installation, account entitlement or efficacy test.",
+    "sourceUrls": [
+      "https://2captcha.com/"
+    ],
+    "evidence": "Anti-Captcha is a different vendor and has a separate record. Authorization and platform terms depend on the task. First-party source.",
+    "sourceAccess": [
+      {
+        "url": "https://2captcha.com/",
+        "method": "Python HTTP retrieval",
+        "status": 200,
+        "finalUrl": "https://2captcha.com/",
+        "artifact": "qa/evidence/source-review-2026-09-17/00468b620090a476.html",
+        "sha256": "db96bbb4ded426edbd5fb52962d4f39834041498ab7f384fc09a54e2a17cff96",
+        "error": null
+      }
+    ]
+  },
+  {
+    "id": "tool-anti-captcha",
+    "name": "Anti-Captcha",
+    "category": "CAPTCHA SOLVING",
+    "status": "OFFERING DOCUMENTED",
+    "purpose": "Hosted CAPTCHA task-processing service, separate from 2Captcha.",
+    "platformRequirements": "Service account and API integration; supported task types and usage limits require vendor documentation.",
+    "price": "Current price unverified",
+    "license": "Exact license or subscription terms not independently audited; consult the identified vendor/project terms. An advertised free plan is not an open-source license.",
+    "testedVersion": null,
+    "reviewedAt": "2026-09-17",
+    "reviewScope": "Record structure, public-link reachability and explicitly noted content corrections. No purchase, installation, account entitlement or efficacy test.",
+    "sourceUrls": [
+      "https://anti-captcha.com/"
+    ],
+    "evidence": "Official offering located during integration. Task prices and solving success were not independently validated. First-party source.",
+    "sourceAccess": [
+      {
+        "url": "https://anti-captcha.com/",
+        "method": "Python HTTP retrieval",
+        "status": 200,
+        "finalUrl": "https://anti-captcha.com/",
+        "artifact": "qa/evidence/source-review-2026-09-17/9665c56af4b80ff0.html",
+        "sha256": "fc5b4e32d7cbd8bfe351b135f145f68d9281fe916805af2659712a61469b8d37",
+        "error": null
+      }
+    ]
+  },
+  {
+    "id": "tool-indexnow-protocol",
+    "name": "IndexNow Protocol",
+    "category": "INDEXING",
+    "status": "OFFERING DOCUMENTED",
+    "purpose": "Notifies participating search engines that URLs were added, changed or deleted.",
+    "platformRequirements": "Control of the site and its key file or supported integration; follow the protocol specification.",
+    "price": "No protocol fee; implementation costs separate",
+    "license": "Exact license or subscription terms not independently audited; consult the identified vendor/project terms. An advertised free plan is not an open-source license.",
+    "testedVersion": null,
+    "reviewedAt": "2026-09-17",
+    "reviewScope": "Record structure, public-link reachability and explicitly noted content corrections. No purchase, installation, account entitlement or efficacy test.",
+    "sourceUrls": [
+      "https://www.indexnow.org/faq"
+    ],
+    "evidence": "Submission is a notification, not a guarantee of crawling, indexing or ranking. Do not infer Google participation. First-party source.",
+    "sourceAccess": [
+      {
+        "url": "https://www.indexnow.org/faq",
+        "method": "Python HTTP retrieval",
+        "status": 200,
+        "finalUrl": "https://www.indexnow.org/faq",
+        "artifact": "qa/evidence/source-review-2026-09-17/3a5e6cfc5d925abc.html",
+        "sha256": "fa678ff2c69ef503f1848421050509290010918242989255a93d417244382868",
+        "error": null
+      }
+    ]
+  },
+  {
+    "id": "tool-expireddomains-net",
+    "name": "ExpiredDomains.net",
+    "category": "DOMAIN ACQUISITION",
+    "status": "OFFERING DOCUMENTED",
+    "purpose": "Searches domain-registration and marketplace lists. A listing does not establish a domain’s search value.",
+    "platformRequirements": "Browser and free account for member features; purchase/auction registration requirements are separate.",
+    "price": "Database access free; domain costs separate",
+    "license": "Exact license or subscription terms not independently audited; consult the identified vendor/project terms. An advertised free plan is not an open-source license.",
+    "testedVersion": null,
+    "reviewedAt": "2026-09-17",
+    "reviewScope": "Record structure, public-link reachability and explicitly noted content corrections. No purchase, installation, account entitlement or efficacy test.",
+    "sourceUrls": [
+      "https://www.expireddomains.net/register/"
+    ],
+    "evidence": "The vendor registration page describes free access. Domain acquisition costs are separate from database access. First-party source.",
+    "sourceAccess": [
+      {
+        "url": "https://www.expireddomains.net/register/",
+        "method": "Python HTTP retrieval",
+        "status": 200,
+        "finalUrl": "https://www.expireddomains.net/register/",
+        "artifact": "qa/evidence/source-review-2026-09-17/678311798f0fb484.html",
+        "sha256": "e53f23e27f946ca167dc01bfb1d9d7ec53093ff1bf12c3cc8dcec5801422a145",
+        "error": null
+      }
+    ]
+  },
+  {
+    "id": "tool-sms-activate",
+    "name": "SMS-Activate",
+    "category": "PHONE VERIFICATION",
+    "status": "DISCONTINUED",
+    "purpose": "Historical SMS activation service retained to explain older references.",
+    "platformRequirements": "Discontinued: no current installation or purchasing instructions supplied.",
+    "price": "Not applicable — discontinued",
+    "license": "Exact license or subscription terms not independently audited; consult the identified vendor/project terms. An advertised free plan is not an open-source license.",
+    "testedVersion": null,
+    "reviewedAt": "2026-09-17",
+    "reviewScope": "Record structure, public-link reachability and explicitly noted content corrections. No purchase, installation, account entitlement or efficacy test.",
+    "sourceUrls": [
+      "https://sms-activate.org/"
+    ],
+    "evidence": "The official saved page says the service is closed and states December 22 without establishing a year. First-party source.",
+    "sourceAccess": [
+      {
+        "url": "https://sms-activate.org/",
+        "method": "Python HTTP retrieval",
+        "status": 200,
+        "finalUrl": "https://sms-activate.org/",
+        "artifact": "qa/evidence/source-review-2026-09-17/e5b8877b212ef833.html",
+        "sha256": "fe631170940b02ab56f30ab521b0ab98a1ce8c9906e1331b5c09e27b43f4fdb6",
+        "error": null
+      }
+    ]
+  },
+  {
+    "id": "tool-microworkers",
+    "name": "Microworkers",
+    "category": "CROWDSOURCING",
+    "status": "OFFERING DOCUMENTED",
+    "purpose": "Hosted marketplace for small tasks; tasks and permitted conduct depend on platform rules.",
+    "platformRequirements": "Browser and account; employer funding, task rules and fee schedules need current verification.",
+    "price": "Current price unverified",
+    "license": "Exact license or subscription terms not independently audited; consult the identified vendor/project terms. An advertised free plan is not an open-source license.",
+    "testedVersion": null,
+    "reviewedAt": "2026-09-17",
+    "reviewScope": "Record structure, public-link reachability and explicitly noted content corrections. No purchase, installation, account entitlement or efficacy test.",
+    "sourceUrls": [
+      "https://www.microworkers.com/"
+    ],
+    "evidence": "A marketplace listing is not proof that a task is permitted or a review is authentic. First-party source.",
+    "sourceAccess": [
+      {
+        "url": "https://www.microworkers.com/",
+        "method": "Python HTTP retrieval",
+        "status": 200,
+        "finalUrl": "https://www.microworkers.com/",
+        "artifact": "qa/evidence/source-review-2026-09-17/016184298fb9bad3.html",
+        "sha256": "4de6c305e0039bbe17b5a16836defe8646250f3ac0e62c056889cd6e154fb625",
+        "error": null
+      }
+    ]
+  },
+  {
+    "id": "tool-zennoposter-zennolab",
+    "name": "ZennoPoster (ZennoLab)",
+    "category": "BROWSER AUTOMATION",
+    "status": "OFFERING DOCUMENTED",
+    "purpose": "Desktop browser/workflow automation sold by ZennoLab.",
+    "platformRequirements": "Desktop installation; supported OS versions, runtime dependencies, editions and license terms are unverified in this edition.",
+    "price": "Current price unverified",
+    "license": "Exact license or subscription terms not independently audited; consult the identified vendor/project terms. An advertised free plan is not an open-source license.",
+    "testedVersion": null,
+    "reviewedAt": "2026-09-17",
+    "reviewScope": "Record structure, public-link reachability and explicitly noted content corrections. No purchase, installation, account entitlement or efficacy test.",
+    "sourceUrls": [
+      "https://zennolab.com/en/"
+    ],
+    "evidence": "Vendor offering located; operational capabilities were not tested. First-party source.",
+    "sourceAccess": [
+      {
+        "url": "https://zennolab.com/en/",
+        "method": "Python HTTP retrieval",
+        "status": 200,
+        "finalUrl": "https://zennolab.com/en/",
+        "artifact": "qa/evidence/source-review-2026-09-17/9ce43f4967beea6a.html",
+        "sha256": "f895ce95ee1eab0e60be5daacf5bee1b8d13c502185d7be95029c7b69877c503",
+        "error": null
+      }
+    ]
+  },
+  {
+    "id": "tool-browser-automation-studio",
+    "name": "Browser Automation Studio",
+    "category": "BROWSER AUTOMATION",
+    "status": "OFFERING DOCUMENTED",
+    "purpose": "Browser workflow automation platform from Bablosoft.",
+    "platformRequirements": "Desktop installation; supported OS/runtime versions and deployment requirements are unverified here.",
+    "price": "Current price unverified",
+    "license": "Exact license or subscription terms not independently audited; consult the identified vendor/project terms. An advertised free plan is not an open-source license.",
+    "testedVersion": null,
+    "reviewedAt": "2026-09-17",
+    "reviewScope": "Record structure, public-link reachability and explicitly noted content corrections. No purchase, installation, account entitlement or efficacy test.",
+    "sourceUrls": [
+      "https://bablosoft.com/"
+    ],
+    "evidence": "The vendor has a free base offering and premium options. The former paid-only framing was incomplete. First-party source.",
+    "sourceAccess": [
+      {
+        "url": "https://bablosoft.com/",
+        "method": "Python HTTP retrieval",
+        "status": 200,
+        "finalUrl": "https://bablosoft.com/",
+        "artifact": "qa/evidence/source-review-2026-09-17/618a357cc263b484.html",
+        "sha256": "3297f0b98cdf5c1ce950aad3d9b2f1229bbf66f1d9e23fb2ad142301f51ed646",
+        "error": null
+      }
+    ]
+  },
+  {
+    "id": "tool-omega-indexer",
+    "name": "Omega Indexer",
+    "category": "LINK INDEXING",
+    "status": "OFFERING DOCUMENTED",
+    "purpose": "Vendor service advertised for submitting URLs for indexing.",
+    "platformRequirements": "Hosted account; credit rules and service integrations must be checked with the vendor.",
+    "price": "Current price unverified",
+    "license": "Exact license or subscription terms not independently audited; consult the identified vendor/project terms. An advertised free plan is not an open-source license.",
+    "testedVersion": null,
+    "reviewedAt": "2026-09-17",
+    "reviewScope": "Record structure, public-link reachability and explicitly noted content corrections. No purchase, installation, account entitlement or efficacy test.",
+    "sourceUrls": [
+      "https://www.omegaindexer.com/"
+    ],
+    "evidence": "A submission service cannot guarantee a search engine will index or rank a page. Vendor efficacy was not independently tested. First-party source.",
+    "sourceAccess": [
+      {
+        "url": "https://www.omegaindexer.com/",
+        "method": "Python HTTP retrieval",
+        "status": 200,
+        "finalUrl": "https://www.omegaindexer.com/",
+        "artifact": "qa/evidence/source-review-2026-09-17/939e23b77f064b43.html",
+        "sha256": "70c709ab0308d936113d36c00a4517003ca2068f39a1d1466a8dbd3ab46ebc50",
+        "error": null
+      }
+    ]
+  },
+  {
+    "id": "tool-keitaro-tracker",
+    "name": "Keitaro Tracker",
+    "category": "TRACKER + CLOAKING",
+    "status": "OFFERING DOCUMENTED",
+    "purpose": "Self-hosted campaign and conversion tracking.",
+    "platformRequirements": "Server deployment and software license; supported server distribution, resources and integrations unverified.",
+    "price": "Current price unverified",
+    "license": "Exact license or subscription terms not independently audited; consult the identified vendor/project terms. An advertised free plan is not an open-source license.",
+    "testedVersion": null,
+    "reviewedAt": "2026-09-17",
+    "reviewScope": "Record structure, public-link reachability and explicitly noted content corrections. No purchase, installation, account entitlement or efficacy test.",
+    "sourceUrls": [
+      "https://keitaro.io/en/"
+    ],
+    "evidence": "Self-hosting describes deployment; it does not establish a free license alternative. First-party source.",
+    "sourceAccess": [
+      {
+        "url": "https://keitaro.io/en/",
+        "method": "Python HTTP retrieval",
+        "status": 200,
+        "finalUrl": "https://keitaro.io/en/",
+        "artifact": "qa/evidence/source-review-2026-09-17/a812505b03807dd8.html",
+        "sha256": "f7dc47b91b9d78de5110fb586c613d0860f24191f411355baac21b4c3f134700",
+        "error": null
+      }
+    ]
+  },
+  {
+    "id": "tool-gsa-search-engine-ranker",
+    "name": "GSA Search Engine Ranker",
+    "category": "AUTOMATED LINK BUILDING",
+    "status": "OFFERING DOCUMENTED",
+    "purpose": "Desktop software marketed for automated link submissions.",
+    "platformRequirements": "Desktop installation; supported OS, dependencies and license conditions require product documentation.",
+    "price": "Current price unverified",
+    "license": "Exact license or subscription terms not independently audited; consult the identified vendor/project terms. An advertised free plan is not an open-source license.",
+    "testedVersion": null,
+    "reviewedAt": "2026-09-17",
+    "reviewScope": "Record structure, public-link reachability and explicitly noted content corrections. No purchase, installation, account entitlement or efficacy test.",
+    "sourceUrls": [
+      "https://www.gsa-online.de/en/product/search_engine_ranker/"
+    ],
+    "evidence": "Vendor advertises lifetime updates. Automated manipulative linking can violate search spam policy; ranking efficacy is unmeasured. First-party source.",
+    "sourceAccess": [
+      {
+        "url": "https://www.gsa-online.de/en/product/search_engine_ranker/",
+        "method": "Python HTTP retrieval",
+        "status": 200,
+        "finalUrl": "https://www.gsa-online.de/en/product/search_engine_ranker/",
+        "artifact": "qa/evidence/source-review-2026-09-17/0e2ccbb98709b6fc.html",
+        "sha256": "f259c7851cd0e70b6ef528a7deb95cb2f5148f9b4400a1619532f2065be4dedb",
+        "error": null
+      }
+    ]
+  },
+  {
+    "id": "tool-scrapebox",
+    "name": "ScrapeBox",
+    "category": "SCRAPING & LINK BUILDING",
+    "status": "OFFERING DOCUMENTED",
+    "purpose": "Desktop URL collection and SEO workflow utility.",
+    "platformRequirements": "PC offer located; exact OS versions, license portability, plugins and network requirements remain unverified.",
+    "price": "Current price unverified",
+    "license": "Exact license or subscription terms not independently audited; consult the identified vendor/project terms. An advertised free plan is not an open-source license.",
+    "testedVersion": null,
+    "reviewedAt": "2026-09-17",
+    "reviewScope": "Record structure, public-link reachability and explicitly noted content corrections. No purchase, installation, account entitlement or efficacy test.",
+    "sourceUrls": [
+      "https://www.scrapebox.com/"
+    ],
+    "evidence": "An official one-time offer was located, but pricing is not carried forward without its complete license and billing context. First-party source.",
+    "sourceAccess": [
+      {
+        "url": "https://www.scrapebox.com/",
+        "method": "Python HTTP retrieval",
+        "status": 200,
+        "finalUrl": "https://www.scrapebox.com/",
+        "artifact": "qa/evidence/source-review-2026-09-17/18c1d22ba5af49c7.html",
+        "sha256": "7f8e737adf477b263be34af3c5a21b3daf406b6c75b18629bc3ef710dc5dc6db",
+        "error": null
+      }
+    ]
+  },
+  {
+    "id": "tool-xrumer",
+    "name": "XRumer",
+    "category": "FORUM SPAM",
+    "status": "UNRESOLVED",
+    "purpose": "Historically marketed for automated posting; present operational scope unresolved.",
+    "platformRequirements": "Unverified current platform, dependencies and license.",
+    "price": "Current price unverified",
+    "license": "Exact license or subscription terms not independently audited; consult the identified vendor/project terms. An advertised free plan is not an open-source license.",
+    "testedVersion": null,
+    "reviewedAt": "2026-09-17",
+    "reviewScope": "Record structure, public-link reachability and explicitly noted content corrections. No purchase, installation, account entitlement or efficacy test.",
+    "sourceUrls": [
+      "https://www.botmasterlabs.net/"
+    ],
+    "evidence": "The listed vendor endpoint refused the audit connection. This does not prove discontinuation. First-party source.",
+    "sourceAccess": [
+      {
+        "url": "https://www.botmasterlabs.net/",
+        "method": "Python HTTP retrieval",
+        "status": null,
+        "finalUrl": null,
+        "artifact": null,
+        "sha256": null,
+        "error": "<urlopen error [Errno 61] Connection refused>"
+      }
+    ]
+  },
+  {
+    "id": "tool-rankerx",
+    "name": "RankerX",
+    "category": "WEB 2.0 CREATION",
+    "status": "OFFERING DOCUMENTED",
+    "purpose": "Vendor software marketed for link-building workflows.",
+    "platformRequirements": "Account and software/service environment; OS, runtime and deployment requirements unverified.",
+    "price": "Current price unverified",
+    "license": "Exact license or subscription terms not independently audited; consult the identified vendor/project terms. An advertised free plan is not an open-source license.",
+    "testedVersion": null,
+    "reviewedAt": "2026-09-17",
+    "reviewScope": "Record structure, public-link reachability and explicitly noted content corrections. No purchase, installation, account entitlement or efficacy test.",
+    "sourceUrls": [
+      "https://rankerx.com/homepage/"
+    ],
+    "evidence": "Official offering located; indexing, ranking and evasion claims have not been independently validated. First-party source.",
+    "sourceAccess": [
+      {
+        "url": "https://rankerx.com/homepage/",
+        "method": "Python HTTP retrieval",
+        "status": 200,
+        "finalUrl": "https://rankerx.com/homepage/",
+        "artifact": "qa/evidence/source-review-2026-09-17/f7df619208c2d7d6.html",
+        "sha256": "d4e0c6ba247da74ead70613876ea71b5f94cd5a08b07ba62eb990e86f10d5408",
+        "error": null
+      }
+    ]
+  },
+  {
+    "id": "tool-money-robot-submitter",
+    "name": "Money Robot",
+    "category": "AUTOMATED LINK BUILDING",
+    "status": "OFFERING DOCUMENTED",
+    "purpose": "Vendor software marketed for automated SEO/link-building tasks.",
+    "platformRequirements": "Installation/account requirements and supported OS versions unverified.",
+    "price": "Current price unverified",
+    "license": "Exact license or subscription terms not independently audited; consult the identified vendor/project terms. An advertised free plan is not an open-source license.",
+    "testedVersion": null,
+    "reviewedAt": "2026-09-17",
+    "reviewScope": "Record structure, public-link reachability and explicitly noted content corrections. No purchase, installation, account entitlement or efficacy test.",
+    "sourceUrls": [
+      "https://www.moneyrobot.com/"
+    ],
+    "evidence": "An advertised license offer is not evidence that submitted links receive ranking credit. First-party source.",
+    "sourceAccess": [
+      {
+        "url": "https://www.moneyrobot.com/",
+        "method": "Python HTTP retrieval",
+        "status": 200,
+        "finalUrl": "https://www.moneyrobot.com/",
+        "artifact": "qa/evidence/source-review-2026-09-17/ed29a1d2a8aaf5f6.html",
+        "sha256": "48f2ab7129a3bffa3dced01f3ccc77a9d28a8c020b8945d8c1125c2c9a3f2365",
+        "error": null
+      }
+    ]
+  },
+  {
+    "id": "tool-seo-autopilot",
+    "name": "SEO Autopilot",
+    "category": "AUTOMATED LINK BUILDING",
+    "status": "UNRESOLVED",
+    "purpose": "Vendor software historically marketed for SEO automation.",
+    "platformRequirements": "Current platform, runtime, editions and license requirements unverified.",
+    "price": "Current price unverified",
+    "license": "Exact license or subscription terms not independently audited; consult the identified vendor/project terms. An advertised free plan is not an open-source license.",
+    "testedVersion": null,
+    "reviewedAt": "2026-09-17",
+    "reviewScope": "Record structure, public-link reachability and explicitly noted content corrections. No purchase, installation, account entitlement or efficacy test.",
+    "sourceUrls": [
+      "https://seoautopilot.com/"
+    ],
+    "evidence": "Vendor endpoint timed out during the audit; present operation remains unresolved. First-party source.",
+    "sourceAccess": [
+      {
+        "url": "https://seoautopilot.com/",
+        "method": "Python HTTP retrieval",
+        "status": null,
+        "finalUrl": null,
+        "artifact": null,
+        "sha256": null,
+        "error": "<urlopen error timed out>"
+      }
+    ]
+  },
+  {
+    "id": "tool-wordai",
+    "name": "WordAi",
+    "category": "CONTENT SPINNING",
+    "status": "OFFERING DOCUMENTED",
+    "purpose": "Hosted text rewriting service.",
+    "platformRequirements": "Browser/account or supported API integration; plan quotas and API entitlements unverified.",
+    "price": "Current price unverified",
+    "license": "Exact license or subscription terms not independently audited; consult the identified vendor/project terms. An advertised free plan is not an open-source license.",
+    "testedVersion": null,
+    "reviewedAt": "2026-09-17",
+    "reviewScope": "Record structure, public-link reachability and explicitly noted content corrections. No purchase, installation, account entitlement or efficacy test.",
+    "sourceUrls": [
+      "https://wordai.com/"
+    ],
+    "evidence": "Different monthly and annual offers exist; no universal price or originality guarantee is asserted. First-party source.",
+    "sourceAccess": [
+      {
+        "url": "https://wordai.com/",
+        "method": "Python HTTP retrieval",
+        "status": 200,
+        "finalUrl": "https://wordai.com/",
+        "artifact": "qa/evidence/source-review-2026-09-17/15ccc40f189da364.html",
+        "sha256": "224c79d0c50b00c964e0a42cedc3b273b0f23d3469521397c3161fc2b4b5bc2f",
+        "error": null
+      }
+    ]
+  },
+  {
+    "id": "tool-spin-rewriter",
+    "name": "Spin Rewriter AI (formerly Spin Rewriter)",
+    "category": "CONTENT SPINNING",
+    "status": "OFFERING DOCUMENTED",
+    "purpose": "Hosted text rewriting service with current AI branding.",
+    "platformRequirements": "Browser/account; API availability, quotas and integration requirements unverified.",
+    "price": "Current price unverified",
+    "license": "Exact license or subscription terms not independently audited; consult the identified vendor/project terms. An advertised free plan is not an open-source license.",
+    "testedVersion": null,
+    "reviewedAt": "2026-09-17",
+    "reviewScope": "Record structure, public-link reachability and explicitly noted content corrections. No purchase, installation, account entitlement or efficacy test.",
+    "sourceUrls": [
+      "https://www.spinrewriter.com/"
+    ],
+    "evidence": "Rewriting does not by itself establish usefulness, originality or compliance with scaled-content policy. First-party source.",
+    "sourceAccess": [
+      {
+        "url": "https://www.spinrewriter.com/",
+        "method": "Python HTTP retrieval",
+        "status": 200,
+        "finalUrl": "https://www.spinrewriter.com/",
+        "artifact": "qa/evidence/source-review-2026-09-17/eb2089590c8d0b9f.html",
+        "sha256": "2ffc380157b4e70c1b932f882a2f79857892927cf81a0a154d25c57388da049b",
+        "error": null
+      }
+    ]
+  },
+  {
+    "id": "tool-article-forge",
+    "name": "Article Forge",
+    "category": "CONTENT GENERATION",
+    "status": "OFFERING DOCUMENTED",
+    "purpose": "Hosted automated article generation.",
+    "platformRequirements": "Browser/account and optional supported integration; quota and API entitlement checks required.",
+    "price": "Current price unverified",
+    "license": "Exact license or subscription terms not independently audited; consult the identified vendor/project terms. An advertised free plan is not an open-source license.",
+    "testedVersion": null,
+    "reviewedAt": "2026-09-17",
+    "reviewScope": "Record structure, public-link reachability and explicitly noted content corrections. No purchase, installation, account entitlement or efficacy test.",
+    "sourceUrls": [
+      "https://www.articleforge.com/"
+    ],
+    "evidence": "Plan limits vary with billing selection. Output accuracy and ranking value are not established by vendor availability. First-party source.",
+    "sourceAccess": [
+      {
+        "url": "https://www.articleforge.com/",
+        "method": "Python HTTP retrieval",
+        "status": 200,
+        "finalUrl": "https://www.articleforge.com/",
+        "artifact": "qa/evidence/source-review-2026-09-17/28bfc2992cf3a7ee.html",
+        "sha256": "13ea89fabee2e68a381ee639d7591eea7f4d0c290ee3c96dcde1e0088202f37f",
+        "error": null
+      }
+    ]
+  },
+  {
+    "id": "tool-kontentmachine",
+    "name": "KontentMachine",
+    "category": "CONTENT SPINNING",
+    "status": "UNRESOLVED",
+    "purpose": "Historical bulk-content software reference; current identity and operation unresolved.",
+    "platformRequirements": "Unverified current deployment, OS, account and license requirements.",
+    "price": "Current price unverified",
+    "license": "Exact license or subscription terms not independently audited; consult the identified vendor/project terms. An advertised free plan is not an open-source license.",
+    "testedVersion": null,
+    "reviewedAt": "2026-09-17",
+    "reviewScope": "Record structure, public-link reachability and explicitly noted content corrections. No purchase, installation, account entitlement or efficacy test.",
+    "sourceUrls": [
+      "https://kontentmachine.com/"
+    ],
+    "evidence": "The vendor URL returned HTTP 200 with an empty body in the audit; this is insufficient evidence of active service. First-party source.",
+    "sourceAccess": [
+      {
+        "url": "https://kontentmachine.com/",
+        "method": "Python HTTP retrieval",
+        "status": 200,
+        "finalUrl": "https://kontentmachine.com/",
+        "artifact": "qa/evidence/source-review-2026-09-17/6e46d75680e156e8.html",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "error": null
+      }
+    ]
+  },
+  {
+    "id": "tool-seo-content-machine",
+    "name": "SEO Content Machine (SEO Workspace)",
+    "category": "AI-ASSISTED GENERATION",
+    "status": "OFFERING DOCUMENTED",
+    "purpose": "Desktop workspace for planning, drafting, publishing and reviewing search data; the current vendor site describes a rebuilt agent workflow.",
+    "platformRequirements": "Vendor download page lists Windows 10/11, macOS Intel/Apple Silicon and Linux AppImage. Own model keys or local models; a one-time license is advertised. Installers and minimum memory/OS build were not tested.",
+    "price": "Current price unverified",
+    "license": "Exact license or subscription terms not independently audited; consult the identified vendor/project terms. An advertised free plan is not an open-source license.",
+    "testedVersion": null,
+    "reviewedAt": "2026-09-17",
+    "reviewScope": "Record structure, public-link reachability and explicitly noted content corrections. No purchase, installation, account entitlement or efficacy test.",
+    "sourceUrls": [
+      "https://seocontentmachine.com/",
+      "https://seocontentmachine.com/download/"
+    ],
+    "evidence": "Current product positioning checked September 17, 2026. The vendor’s claims about local processing, agents or ranking benefits are not independent performance evidence. First-party source.",
+    "sourceAccess": [
+      {
+        "url": "https://seocontentmachine.com/",
+        "method": "Python HTTP retrieval",
+        "status": 200,
+        "finalUrl": "https://seocontentmachine.com/",
+        "artifact": "qa/evidence/source-review-2026-09-17/c4793b9a701bfe29.html",
+        "sha256": "e1e68dcb941fa1233a6a5ad2c11a0456b59b573cdc248144d3d9bdf53727d4f3",
+        "error": null
+      },
+      {
+        "url": "https://seocontentmachine.com/download/",
+        "method": "See record content-review note; no direct HTTP artifact in initial batch",
+        "status": null
+      }
+    ]
+  },
+  {
+    "id": "tool-adspect",
+    "name": "Adspect",
+    "category": "CLOAKING SERVICE",
+    "status": "OFFERING DOCUMENTED",
+    "purpose": "Vendor traffic analysis and request-filtering service.",
+    "platformRequirements": "Hosted/API integration; server compatibility, credentials and integration requirements unverified.",
+    "price": "Current price unverified",
+    "license": "Exact license or subscription terms not independently audited; consult the identified vendor/project terms. An advertised free plan is not an open-source license.",
+    "testedVersion": null,
+    "reviewedAt": "2026-09-17",
+    "reviewScope": "Record structure, public-link reachability and explicitly noted content corrections. No purchase, installation, account entitlement or efficacy test.",
+    "sourceUrls": [
+      "https://www.adspect.ai/en/"
+    ],
+    "evidence": "Availability of a filtering product does not validate evasion rates or authorize deceptive cloaking. First-party source.",
+    "sourceAccess": [
+      {
+        "url": "https://www.adspect.ai/en/",
+        "method": "Python HTTP retrieval",
+        "status": 200,
+        "finalUrl": "https://www.adspect.ai/en/",
+        "artifact": "qa/evidence/source-review-2026-09-17/d852c42fda5754b2.html",
+        "sha256": "d97ae8ec4482faaedb69fdfc9f38fecd79f73e9edad77803f18f5f82006f4340",
+        "error": null
+      }
+    ]
+  },
+  {
+    "id": "tool-trafficshield",
+    "name": "TrafficShield",
+    "category": "CLOAKING SERVICE",
+    "status": "OFFERING DOCUMENTED",
+    "purpose": "Vendor traffic-filtering service.",
+    "platformRequirements": "Hosted account and website integration; supported server platforms and integration requirements unverified.",
+    "price": "Current price unverified",
+    "license": "Exact license or subscription terms not independently audited; consult the identified vendor/project terms. An advertised free plan is not an open-source license.",
+    "testedVersion": null,
+    "reviewedAt": "2026-09-17",
+    "reviewScope": "Record structure, public-link reachability and explicitly noted content corrections. No purchase, installation, account entitlement or efficacy test.",
+    "sourceUrls": [
+      "https://trafficshield.io/"
+    ],
+    "evidence": "No vendor efficacy, detection-avoidance or current price claims have been independently verified. First-party source.",
+    "sourceAccess": [
+      {
+        "url": "https://trafficshield.io/",
+        "method": "Python HTTP retrieval",
+        "status": 200,
+        "finalUrl": "https://trafficshield.io/",
+        "artifact": "qa/evidence/source-review-2026-09-17/9bc1486b2d63de24.html",
+        "sha256": "42dddc35d744dfa6a82aeb25addf041450eb57f0e6c72a5b854a1a68da1d42b3",
+        "error": null
+      }
+    ]
+  },
+  {
+    "id": "tool-serpclix",
+    "name": "SerpClix",
+    "category": "CTR MANIPULATION",
+    "status": "OFFERING DOCUMENTED",
+    "purpose": "Marketplace marketed for purchased search clicks.",
+    "platformRequirements": "Hosted account; credits, geography rules and service terms require plan-specific review.",
+    "price": "Posted Starter $197/month for 6,000 credits; displayed currency symbol, 2026-09-17",
+    "license": "Exact license or subscription terms not independently audited; consult the identified vendor/project terms. An advertised free plan is not an open-source license.",
+    "testedVersion": null,
+    "reviewedAt": "2026-09-17",
+    "reviewScope": "Record structure, public-link reachability and explicitly noted content corrections. No purchase, installation, account entitlement or efficacy test.",
+    "sourceUrls": [
+      "https://serpclix.com/pricing/"
+    ],
+    "evidence": "Public pricing was readable through the research browser; direct automated access separately returned HTTP 503. Credit consumption depends on targeting. ISO currency, tax and checkout total were not confirmed, and traffic delivery or ranking claims were not independently tested.",
+    "sourceAccess": [
+      {
+        "url": "https://serpclix.com/pricing/",
+        "method": "Python HTTP retrieval",
+        "status": 503,
+        "finalUrl": null,
+        "artifact": null,
+        "sha256": null,
+        "error": "HTTP Error 503: Service Temporarily Unavailable"
+      }
+    ]
+  },
+  {
+    "id": "tool-sape",
+    "name": "Sape",
+    "category": "LINK MARKETPLACE",
+    "status": "OFFERING DOCUMENTED",
+    "purpose": "Marketplace offering web links and related services.",
+    "platformRequirements": "Browser/account; listing, currency, commissions and access requirements unverified.",
+    "price": "Current price unverified",
+    "license": "Exact license or subscription terms not independently audited; consult the identified vendor/project terms. An advertised free plan is not an open-source license.",
+    "testedVersion": null,
+    "reviewedAt": "2026-09-17",
+    "reviewScope": "Record structure, public-link reachability and explicitly noted content corrections. No purchase, installation, account entitlement or efficacy test.",
+    "sourceUrls": [
+      "https://www.sape.ru/en/"
+    ],
+    "evidence": "Buying links for ranking manipulation can violate link-spam policy; marketplace presence does not establish link quality. First-party source.",
+    "sourceAccess": [
+      {
+        "url": "https://www.sape.ru/en/",
+        "method": "Python HTTP retrieval",
+        "status": 200,
+        "finalUrl": "https://www.sape.ru/en/",
+        "artifact": "qa/evidence/source-review-2026-09-17/148a1512fec40f40.html",
+        "sha256": "8d39d94363eff3e679f07fc3124c91efadf299f8010275dd18e4b64d992ab66d",
+        "error": null
+      }
+    ]
+  },
+  {
+    "id": "tool-easy-blog-networks",
+    "name": "Easy Blog Networks",
+    "category": "PBN HOSTING",
+    "status": "OFFERING DOCUMENTED",
+    "purpose": "Managed hosting marketed to multi-site operators.",
+    "platformRequirements": "Hosted account, domains and DNS control; plan/site limits and migration requirements unverified.",
+    "price": "Current price unverified",
+    "license": "Exact license or subscription terms not independently audited; consult the identified vendor/project terms. An advertised free plan is not an open-source license.",
+    "testedVersion": null,
+    "reviewedAt": "2026-09-17",
+    "reviewScope": "Record structure, public-link reachability and explicitly noted content corrections. No purchase, installation, account entitlement or efficacy test.",
+    "sourceUrls": [
+      "https://easyblognetworks.com/"
+    ],
+    "evidence": "Vendor footprint claims do not establish that common ownership is undetectable. First-party source.",
+    "sourceAccess": [
+      {
+        "url": "https://easyblognetworks.com/",
+        "method": "Python HTTP retrieval",
+        "status": 200,
+        "finalUrl": "https://easyblognetworks.com/",
+        "artifact": "qa/evidence/source-review-2026-09-17/cf81ad3b060c5ff4.html",
+        "sha256": "49e1099d55bc99cc62f3d3bbac9e3a53ff61ba807317ebffff798eb1f97fb39f",
+        "error": null
+      }
+    ]
+  },
+  {
+    "id": "tool-gmb-crush",
+    "name": "GMB Crush",
+    "category": "GMB MANAGEMENT",
+    "status": "CURRENT OFFER UNRESOLVED",
+    "purpose": "Local-search research/software brand; an official Sidekick offering was located.",
+    "platformRequirements": "Edition-specific browser/software requirements unverified; do not assume all brand products share one environment.",
+    "price": "Current price unverified",
+    "license": "Exact license or subscription terms not independently audited; consult the identified vendor/project terms. An advertised free plan is not an open-source license.",
+    "testedVersion": null,
+    "reviewedAt": "2026-09-17",
+    "reviewScope": "Record structure, public-link reachability and explicitly noted content corrections. No purchase, installation, account entitlement or efficacy test.",
+    "sourceUrls": [
+      "https://www.gmbcrush.com/money-in-the-bank-2/"
+    ],
+    "evidence": "The previously cited Sidekick offer URL returned HTTP 410 Gone on September 17, 2026. Historical page discovery does not establish that the offer remains available. Current product identity, edition and price require a new first-party record.",
+    "sourceAccess": [
+      {
+        "url": "https://www.gmbcrush.com/money-in-the-bank-2/",
+        "method": "Python HTTP retrieval",
+        "status": 410,
+        "finalUrl": null,
+        "artifact": null,
+        "sha256": null,
+        "error": "HTTP Error 410: Gone"
+      }
+    ]
+  },
+  {
+    "id": "tool-falcon-guard",
+    "name": "Falcon Guard (Local Falcon feature)",
+    "category": "GMB MONITORING",
+    "status": "OFFERING DOCUMENTED",
+    "purpose": "Monitors changes to business listings as a Local Falcon feature.",
+    "platformRequirements": "Local Falcon account and configured listings; polling interval and plan entitlement require current documentation.",
+    "price": "Current price unverified",
+    "license": "Exact license or subscription terms not independently audited; consult the identified vendor/project terms. An advertised free plan is not an open-source license.",
+    "testedVersion": null,
+    "reviewedAt": "2026-09-17",
+    "reviewScope": "Record structure, public-link reachability and explicitly noted content corrections. No purchase, installation, account entitlement or efficacy test.",
+    "sourceUrls": [
+      "https://www.localfalcon.com/answers/127-how-quickly-will-i-be-alerted-by-falcon-guard-if-my-listing-is-changed"
+    ],
+    "evidence": "Treat it as a named feature of Local Falcon, not a separate verified vendor. First-party source.",
+    "sourceAccess": [
+      {
+        "url": "https://www.localfalcon.com/answers/127-how-quickly-will-i-be-alerted-by-falcon-guard-if-my-listing-is-changed",
+        "method": "Python HTTP retrieval",
+        "status": 200,
+        "finalUrl": "https://www.localfalcon.com/answers/127-how-quickly-will-i-be-alerted-by-falcon-guard-if-my-listing-is-changed",
+        "artifact": "qa/evidence/source-review-2026-09-17/c747274c38b0961e.html",
+        "sha256": "fd7a73e9a0fe612d947cfd12b08c78c1278dbe9c740664eb65a0e93e415bc4c6",
+        "error": null
+      }
+    ]
+  },
+  {
+    "id": "tool-launchcdn",
+    "name": "LaunchCDN",
+    "category": "PBN HOSTING",
+    "status": "OFFERING DOCUMENTED",
+    "purpose": "Hosting service; its separate PBN build service is historical.",
+    "platformRequirements": "Hosted account and domain/DNS management; current plans and supported stack unverified.",
+    "price": "Current price unverified",
+    "license": "Exact license or subscription terms not independently audited; consult the identified vendor/project terms. An advertised free plan is not an open-source license.",
+    "testedVersion": null,
+    "reviewedAt": "2026-09-17",
+    "reviewScope": "Record structure, public-link reachability and explicitly noted content corrections. No purchase, installation, account entitlement or efficacy test.",
+    "sourceUrls": [
+      "https://launchcdn.com/"
+    ],
+    "evidence": "The vendor discontinued its separate build service. That notice does not say the hosting service closed. First-party source.",
+    "sourceAccess": [
+      {
+        "url": "https://launchcdn.com/",
+        "method": "Python HTTP retrieval",
+        "status": 200,
+        "finalUrl": "https://launchcdn.com/",
+        "artifact": "qa/evidence/source-review-2026-09-17/5862ba0754dcbe7e.html",
+        "sha256": "155c20d0a85c8384d2baedce9761a1db555bc15d5b8a1f986f854399b5f650f8",
+        "error": null
+      }
+    ]
+  },
+  {
+    "id": "tool-serebot",
+    "name": "SEREBot",
+    "category": "CTR MANIPULATION",
+    "status": "UNRESOLVED",
+    "purpose": "Unresolved product name retained for tracing references in earlier editions.",
+    "platformRequirements": "Identity, platform, purpose details, dependencies and license unverified.",
+    "price": "Current price unverified",
+    "license": "Exact license or subscription terms not independently audited; consult the identified vendor/project terms. An advertised free plan is not an open-source license.",
+    "testedVersion": null,
+    "reviewedAt": "2026-09-17",
+    "reviewScope": "Record structure, public-link reachability and explicitly noted content corrections. No purchase, installation, account entitlement or efficacy test.",
+    "sourceUrls": [],
+    "evidence": "No exact primary product match was established; no price or active-status claim is retained. No authoritative product URL established.",
+    "sourceAccess": []
+  },
+  {
+    "id": "tool-ctr-booster",
+    "name": "CTR Booster",
+    "category": "CTR MANIPULATION",
+    "status": "OFFERING DOCUMENTED",
+    "purpose": "Vendor automation software marketed for click/engagement workflows.",
+    "platformRequirements": "Software installation plus service components; exact supported OS and runtime requirements unverified.",
+    "price": "Current price unverified",
+    "license": "Exact license or subscription terms not independently audited; consult the identified vendor/project terms. An advertised free plan is not an open-source license.",
+    "testedVersion": null,
+    "reviewedAt": "2026-09-17",
+    "reviewScope": "Record structure, public-link reachability and explicitly noted content corrections. No purchase, installation, account entitlement or efficacy test.",
+    "sourceUrls": [
+      "https://ctrbooster.com/"
+    ],
+    "evidence": "The vendor page establishes an offering; independent ranking efficacy has not been demonstrated here. First-party source.",
+    "sourceAccess": [
+      {
+        "url": "https://ctrbooster.com/",
+        "method": "Python HTTP retrieval",
+        "status": 200,
+        "finalUrl": "https://ctrbooster.com/",
+        "artifact": "qa/evidence/source-review-2026-09-17/edc3f0f2c9afa4aa.html",
+        "sha256": "6842eb4f36d868ae0c56e14671b31c2ff58319983d19781099aac441444d41c4",
+        "error": null
+      }
+    ]
+  },
+  {
+    "id": "tool-cloakify",
+    "name": "Cloakify",
+    "category": "ADVANCED CLOAKING",
+    "status": "UNRESOLVED",
+    "purpose": "Ambiguous name used by multiple commercial offerings and unrelated software.",
+    "platformRequirements": "Exact product identity, platform and requirements unresolved.",
+    "price": "Current price unverified",
+    "license": "Exact license or subscription terms not independently audited; consult the identified vendor/project terms. An advertised free plan is not an open-source license.",
+    "testedVersion": null,
+    "reviewedAt": "2026-09-17",
+    "reviewScope": "Record structure, public-link reachability and explicitly noted content corrections. No purchase, installation, account entitlement or efficacy test.",
+    "sourceUrls": [],
+    "evidence": "No canonical URL is selected until vendor and edition can be matched to the historical reference. No authoritative product URL established.",
+    "sourceAccess": []
+  },
+  {
+    "id": "tool-justcloakit",
+    "name": "JustCloakit",
+    "category": "CLOAKING SERVICE",
+    "status": "OFFERING DOCUMENTED",
+    "purpose": "Vendor traffic-filtering/cloaking offering.",
+    "platformRequirements": "Service/software deployment requirements and supported environments unverified.",
+    "price": "Current price unverified",
+    "license": "Exact license or subscription terms not independently audited; consult the identified vendor/project terms. An advertised free plan is not an open-source license.",
+    "testedVersion": null,
+    "reviewedAt": "2026-09-17",
+    "reviewScope": "Record structure, public-link reachability and explicitly noted content corrections. No purchase, installation, account entitlement or efficacy test.",
+    "sourceUrls": [
+      "https://justcloakit.com/about.php"
+    ],
+    "evidence": "The official page was located; current operational uptime, efficacy and customer pricing were not established. First-party source.",
+    "sourceAccess": [
+      {
+        "url": "https://justcloakit.com/about.php",
+        "method": "Python HTTP retrieval",
+        "status": 200,
+        "finalUrl": "https://justcloakit.com/about.php",
+        "artifact": "qa/evidence/source-review-2026-09-17/6d79f2fdf6c84592.html",
+        "sha256": "3760d5fa494d55b084697898dd7ecb7f2637fd7ddc5f810adc6ee468d0f20216",
+        "error": null
+      }
+    ]
+  },
+  {
+    "id": "tool-noipfraud",
+    "name": "NoIPfraud",
+    "category": "IP FILTERING",
+    "status": "OFFERING DOCUMENTED",
+    "purpose": "Vendor request-filtering offering using a self-hosted PHP integration.",
+    "platformRequirements": "PHP-capable hosting plus a service subscription; exact PHP/server versions and license terms unverified.",
+    "price": "Current price unverified",
+    "license": "Exact license or subscription terms not independently audited; consult the identified vendor/project terms. An advertised free plan is not an open-source license.",
+    "testedVersion": null,
+    "reviewedAt": "2026-09-17",
+    "reviewScope": "Record structure, public-link reachability and explicitly noted content corrections. No purchase, installation, account entitlement or efficacy test.",
+    "sourceUrls": [
+      "https://noipfraud.com/"
+    ],
+    "evidence": "The vendor describes deployment, but no independent evasion or ranking-effect test is supplied. First-party source.",
+    "sourceAccess": [
+      {
+        "url": "https://noipfraud.com/",
+        "method": "Python HTTP retrieval",
+        "status": 200,
+        "finalUrl": "https://noipfraud.com/",
+        "artifact": "qa/evidence/source-review-2026-09-17/d8ead08b501bf9b3.html",
+        "sha256": "a3954dd8ee14124ba5f7c284ccb36c5b436ce71194b326467f02865381e3a316",
+        "error": null
+      }
+    ]
+  },
+  {
+    "id": "tool-kraken-viper-tools",
+    "name": "Kraken (Viper Tools)",
+    "category": "LOCAL SEO / CTR",
+    "status": "OFFERING DOCUMENTED",
+    "purpose": "Viper-branded software suite; exact current edition needs confirmation.",
+    "platformRequirements": "Current supported OS, runtime, modules and license terms unverified.",
+    "price": "Current price unverified",
+    "license": "Exact license or subscription terms not independently audited; consult the identified vendor/project terms. An advertised free plan is not an open-source license.",
+    "testedVersion": null,
+    "reviewedAt": "2026-09-17",
+    "reviewScope": "Record structure, public-link reachability and explicitly noted content corrections. No purchase, installation, account entitlement or efficacy test.",
+    "sourceUrls": [
+      "https://seovipertools.com/"
+    ],
+    "evidence": "A vendor offering was located. Do not infer that the unresolved Kraken Automation Suite label is a distinct product. First-party source.",
+    "sourceAccess": [
+      {
+        "url": "https://seovipertools.com/",
+        "method": "Python HTTP retrieval",
+        "status": 200,
+        "finalUrl": "https://seovipertools.com/",
+        "artifact": "qa/evidence/source-review-2026-09-17/81b63e404d5c0032.html",
+        "sha256": "77e7ca2e700ddcd96db49dd34a35ff0cfa09c9ce718c2321c25f7be563b9b4cd",
+        "error": null
+      }
+    ]
+  },
+  {
+    "id": "tool-kraken-automation-suite",
+    "name": "Kraken Automation Suite",
+    "category": "AUTOMATION SUITE",
+    "status": "UNRESOLVED",
+    "purpose": "Unresolved historical label; may duplicate the Kraken/Viper record.",
+    "platformRequirements": "Identity, platform, dependencies and license unverified.",
+    "price": "Current price unverified",
+    "license": "Exact license or subscription terms not independently audited; consult the identified vendor/project terms. An advertised free plan is not an open-source license.",
+    "testedVersion": null,
+    "reviewedAt": "2026-09-17",
+    "reviewScope": "Record structure, public-link reachability and explicitly noted content corrections. No purchase, installation, account entitlement or efficacy test.",
+    "sourceUrls": [],
+    "evidence": "Retained as a catalogue record, not counted as a confirmed distinct vendor or active product. No authoritative product URL established.",
+    "sourceAccess": []
+  }
+]

@@ -1,0 +1,2926 @@
+{
+  "protocol": "archive-search-census-2026-09-17",
+  "runtime": "v18.20.8",
+  "n": 45,
+  "editions": {
+    "before": {
+      "indexEntries": 409,
+      "aligned": 2,
+      "hit1": 42,
+      "hit5": 42,
+      "mrr": 0.9333333333333333,
+      "alignedHit5": 2,
+      "rows": [
+        {
+          "query": "OpenAI API",
+          "page": "tools.html",
+          "anchor": "tool-openai-api-gpt-4o-later",
+          "aligned": false,
+          "rank": 1,
+          "reciprocalRank": 1,
+          "top5": [
+            {
+              "page": "tools.html",
+              "anchor": "tool-openai-api-gpt-4o-later",
+              "score": 24
+            },
+            {
+              "page": "tools.html",
+              "anchor": "tool-quillbot",
+              "score": 2
+            },
+            {
+              "page": "tools.html",
+              "anchor": "tool-seo-content-machine",
+              "score": 2
+            }
+          ]
+        },
+        {
+          "query": "Anthropic Claude API",
+          "page": "tools.html",
+          "anchor": "tool-anthropic-claude-api",
+          "aligned": false,
+          "rank": 1,
+          "reciprocalRank": 1,
+          "top5": [
+            {
+              "page": "tools.html",
+              "anchor": "tool-anthropic-claude-api",
+              "score": 36
+            },
+            {
+              "page": "tools.html",
+              "anchor": "tool-trafficshield",
+              "score": 5
+            },
+            {
+              "page": "tools.html",
+              "anchor": "tool-jasper-ai",
+              "score": 4
+            }
+          ]
+        },
+        {
+          "query": "Ahrefs",
+          "page": "tools.html",
+          "anchor": "tool-ahrefs-semrush",
+          "aligned": false,
+          "rank": 1,
+          "reciprocalRank": 1,
+          "top5": [
+            {
+              "page": "tools.html",
+              "anchor": "tool-ahrefs-semrush",
+              "score": 12
+            },
+            {
+              "page": "private-blog-networks.html",
+              "anchor": "step-1-2-acquire-and-vet-a-domain",
+              "score": 3
+            },
+            {
+              "page": "tools.html",
+              "anchor": "tool-serpclix",
+              "score": 2
+            },
+            {
+              "page": "search-manipulation.html",
+              "anchor": "sm-negative",
+              "score": 1
+            },
+            {
+              "page": "private-blog-networks.html",
+              "anchor": "minimum-viable",
+              "score": 1
+            }
+          ]
+        },
+        {
+          "query": "Playwright",
+          "page": "tools.html",
+          "anchor": "tool-selenium-playwright",
+          "aligned": false,
+          "rank": 1,
+          "reciprocalRank": 1,
+          "top5": [
+            {
+              "page": "tools.html",
+              "anchor": "tool-selenium-playwright",
+              "score": 12
+            },
+            {
+              "page": "tools.html",
+              "anchor": "tool-content-at-scale",
+              "score": 1
+            },
+            {
+              "page": "tools.html",
+              "anchor": "tool-sape",
+              "score": 1
+            }
+          ]
+        },
+        {
+          "query": "Copyscape",
+          "page": "tools.html",
+          "anchor": "tool-copyscape",
+          "aligned": false,
+          "rank": 1,
+          "reciprocalRank": 1,
+          "top5": [
+            {
+              "page": "tools.html",
+              "anchor": "tool-copyscape",
+              "score": 12
+            },
+            {
+              "page": "search-manipulation.html",
+              "anchor": "sm-negative",
+              "score": 1
+            },
+            {
+              "page": "tools.html",
+              "anchor": "tool-content-at-scale",
+              "score": 1
+            },
+            {
+              "page": "tools.html",
+              "anchor": "tool-easy-blog-networks",
+              "score": 1
+            },
+            {
+              "page": "resources.html",
+              "anchor": "defensive-monitoring-toolkit",
+              "score": 1
+            }
+          ]
+        },
+        {
+          "query": "DeepL API",
+          "page": "tools.html",
+          "anchor": "tool-deepl-api",
+          "aligned": false,
+          "rank": 1,
+          "reciprocalRank": 1,
+          "top5": [
+            {
+              "page": "tools.html",
+              "anchor": "tool-deepl-api",
+              "score": 25
+            },
+            {
+              "page": "tools.html",
+              "anchor": "tool-bright-data-proxies",
+              "score": 4
+            },
+            {
+              "page": "tools.html",
+              "anchor": "tool-gmb-crush",
+              "score": 2
+            }
+          ]
+        },
+        {
+          "query": "QuillBot",
+          "page": "tools.html",
+          "anchor": "tool-quillbot",
+          "aligned": false,
+          "rank": 1,
+          "reciprocalRank": 1,
+          "top5": [
+            {
+              "page": "tools.html",
+              "anchor": "tool-quillbot",
+              "score": 12
+            },
+            {
+              "page": "tools.html",
+              "anchor": "tool-bright-data-proxies",
+              "score": 1
+            },
+            {
+              "page": "tools.html",
+              "anchor": "tool-falcon-guard",
+              "score": 1
+            }
+          ]
+        },
+        {
+          "query": "Jasper AI",
+          "page": "tools.html",
+          "anchor": "tool-jasper-ai",
+          "aligned": false,
+          "rank": 1,
+          "reciprocalRank": 1,
+          "top5": [
+            {
+              "page": "tools.html",
+              "anchor": "tool-jasper-ai",
+              "score": 24
+            },
+            {
+              "page": "tools.html",
+              "anchor": "tool-serebot",
+              "score": 4
+            },
+            {
+              "page": "tools.html",
+              "anchor": "tool-bright-data-proxies",
+              "score": 2
+            }
+          ]
+        },
+        {
+          "query": "BrandWell (formerly Content at Scale)",
+          "page": "tools.html",
+          "anchor": "tool-content-at-scale",
+          "aligned": false,
+          "rank": null,
+          "reciprocalRank": 0,
+          "top5": []
+        },
+        {
+          "query": "Bright Data (Proxies)",
+          "page": "tools.html",
+          "anchor": "tool-bright-data-proxies",
+          "aligned": false,
+          "rank": 1,
+          "reciprocalRank": 1,
+          "top5": [
+            {
+              "page": "tools.html",
+              "anchor": "tool-bright-data-proxies",
+              "score": 39
+            },
+            {
+              "page": "tools.html",
+              "anchor": "tool-2captcha-anti-captcha",
+              "score": 6
+            },
+            {
+              "page": "tools.html",
+              "anchor": "tool-cloakify",
+              "score": 6
+            }
+          ]
+        },
+        {
+          "query": "2Captcha",
+          "page": "tools.html",
+          "anchor": "tool-2captcha-anti-captcha",
+          "aligned": false,
+          "rank": 1,
+          "reciprocalRank": 1,
+          "top5": [
+            {
+              "page": "tools.html",
+              "anchor": "tool-2captcha-anti-captcha",
+              "score": 12
+            },
+            {
+              "page": "tools.html",
+              "anchor": "tool-indexnow-protocol",
+              "score": 1
+            },
+            {
+              "page": "tools.html",
+              "anchor": "tool-justcloakit",
+              "score": 1
+            }
+          ]
+        },
+        {
+          "query": "IndexNow Protocol",
+          "page": "tools.html",
+          "anchor": "tool-indexnow-protocol",
+          "aligned": true,
+          "rank": 1,
+          "reciprocalRank": 1,
+          "top5": [
+            {
+              "page": "tools.html",
+              "anchor": "tool-indexnow-protocol",
+              "score": 26
+            },
+            {
+              "page": "tools.html",
+              "anchor": "tool-kraken-viper-tools",
+              "score": 3
+            },
+            {
+              "page": "tools.html",
+              "anchor": "tool-noipfraud",
+              "score": 2
+            }
+          ]
+        },
+        {
+          "query": "ExpiredDomains.net",
+          "page": "tools.html",
+          "anchor": "tool-expireddomains-net",
+          "aligned": true,
+          "rank": 1,
+          "reciprocalRank": 1,
+          "top5": [
+            {
+              "page": "tools.html",
+              "anchor": "tool-expireddomains-net",
+              "score": 13
+            },
+            {
+              "page": "tools.html",
+              "anchor": "tool-kraken-automation-suite",
+              "score": 1
+            }
+          ]
+        },
+        {
+          "query": "SMS-Activate",
+          "page": "tools.html",
+          "anchor": "tool-sms-activate",
+          "aligned": false,
+          "rank": 1,
+          "reciprocalRank": 1,
+          "top5": [
+            {
+              "page": "tools.html",
+              "anchor": "tool-sms-activate",
+              "score": 12
+            },
+            {
+              "page": "tools.html",
+              "anchor": "tool-expireddomains-net",
+              "score": 1
+            },
+            {
+              "page": "tools.html",
+              "anchor": "tool-review-meta-marketplace",
+              "score": 1
+            }
+          ]
+        },
+        {
+          "query": "Microworkers",
+          "page": "tools.html",
+          "anchor": "tool-microworkers",
+          "aligned": false,
+          "rank": 1,
+          "reciprocalRank": 1,
+          "top5": [
+            {
+              "page": "tools.html",
+              "anchor": "tool-microworkers",
+              "score": 12
+            },
+            {
+              "page": "tools.html",
+              "anchor": "tool-sms-activate",
+              "score": 1
+            },
+            {
+              "page": "tools.html",
+              "anchor": "tool-telegram-review-channels",
+              "score": 1
+            }
+          ]
+        },
+        {
+          "query": "ZennoPoster (ZennoLab)",
+          "page": "tools.html",
+          "anchor": "tool-zennoposter-zennolab",
+          "aligned": false,
+          "rank": 1,
+          "reciprocalRank": 1,
+          "top5": [
+            {
+              "page": "tools.html",
+              "anchor": "tool-zennoposter-zennolab",
+              "score": 24
+            },
+            {
+              "page": "tools.html",
+              "anchor": "tool-sms-activate",
+              "score": 2
+            },
+            {
+              "page": "tools.html",
+              "anchor": "tool-telegram-review-channels",
+              "score": 2
+            }
+          ]
+        },
+        {
+          "query": "Browser Automation Studio",
+          "page": "tools.html",
+          "anchor": "tool-browser-automation-studio",
+          "aligned": false,
+          "rank": 1,
+          "reciprocalRank": 1,
+          "top5": [
+            {
+              "page": "tools.html",
+              "anchor": "tool-browser-automation-studio",
+              "score": 36
+            },
+            {
+              "page": "tools.html",
+              "anchor": "tool-telegram-review-channels",
+              "score": 11
+            },
+            {
+              "page": "tools.html",
+              "anchor": "tool-microworkers",
+              "score": 5
+            }
+          ]
+        },
+        {
+          "query": "Omega Indexer",
+          "page": "tools.html",
+          "anchor": "tool-omega-indexer",
+          "aligned": false,
+          "rank": 1,
+          "reciprocalRank": 1,
+          "top5": [
+            {
+              "page": "tools.html",
+              "anchor": "tool-omega-indexer",
+              "score": 24
+            },
+            {
+              "page": "tools.html",
+              "anchor": "tool-microworkers",
+              "score": 2
+            },
+            {
+              "page": "tools.html",
+              "anchor": "tool-telegram-review-channels",
+              "score": 2
+            }
+          ]
+        },
+        {
+          "query": "Keitaro Tracker",
+          "page": "tools.html",
+          "anchor": "tool-keitaro-tracker",
+          "aligned": false,
+          "rank": 1,
+          "reciprocalRank": 1,
+          "top5": [
+            {
+              "page": "tools.html",
+              "anchor": "tool-keitaro-tracker",
+              "score": 24
+            },
+            {
+              "page": "tools.html",
+              "anchor": "tool-telegram-review-channels",
+              "score": 4
+            },
+            {
+              "page": "tools.html",
+              "anchor": "tool-zennoposter-zennolab",
+              "score": 3
+            }
+          ]
+        },
+        {
+          "query": "GSA Search Engine Ranker",
+          "page": "tools.html",
+          "anchor": "tool-gsa-search-engine-ranker",
+          "aligned": false,
+          "rank": 1,
+          "reciprocalRank": 1,
+          "top5": [
+            {
+              "page": "tools.html",
+              "anchor": "tool-gsa-search-engine-ranker",
+              "score": 48
+            },
+            {
+              "page": "tools.html",
+              "anchor": "tool-telegram-review-channels",
+              "score": 5
+            },
+            {
+              "page": "tools.html",
+              "anchor": "tool-zennoposter-zennolab",
+              "score": 4
+            }
+          ]
+        },
+        {
+          "query": "ScrapeBox",
+          "page": "tools.html",
+          "anchor": "tool-scrapebox",
+          "aligned": false,
+          "rank": 1,
+          "reciprocalRank": 1,
+          "top5": [
+            {
+              "page": "tools.html",
+              "anchor": "tool-scrapebox",
+              "score": 12
+            },
+            {
+              "page": "tools.html",
+              "anchor": "tool-browser-automation-studio",
+              "score": 1
+            },
+            {
+              "page": "tools.html",
+              "anchor": "tool-telegram-review-channels",
+              "score": 1
+            }
+          ]
+        },
+        {
+          "query": "XRumer",
+          "page": "tools.html",
+          "anchor": "tool-xrumer",
+          "aligned": false,
+          "rank": 1,
+          "reciprocalRank": 1,
+          "top5": [
+            {
+              "page": "tools.html",
+              "anchor": "tool-xrumer",
+              "score": 12
+            },
+            {
+              "page": "tools.html",
+              "anchor": "tool-browser-automation-studio",
+              "score": 1
+            },
+            {
+              "page": "tools.html",
+              "anchor": "tool-telegram-review-channels",
+              "score": 1
+            }
+          ]
+        },
+        {
+          "query": "RankerX",
+          "page": "tools.html",
+          "anchor": "tool-rankerx",
+          "aligned": false,
+          "rank": 1,
+          "reciprocalRank": 1,
+          "top5": [
+            {
+              "page": "tools.html",
+              "anchor": "tool-rankerx",
+              "score": 12
+            },
+            {
+              "page": "tools.html",
+              "anchor": "tool-omega-indexer",
+              "score": 1
+            },
+            {
+              "page": "tools.html",
+              "anchor": "tool-telegram-review-channels",
+              "score": 1
+            }
+          ]
+        },
+        {
+          "query": "Money Robot",
+          "page": "tools.html",
+          "anchor": "tool-money-robot-submitter",
+          "aligned": false,
+          "rank": 1,
+          "reciprocalRank": 1,
+          "top5": [
+            {
+              "page": "tools.html",
+              "anchor": "tool-money-robot-submitter",
+              "score": 24
+            },
+            {
+              "page": "tools.html",
+              "anchor": "tool-omega-indexer",
+              "score": 2
+            },
+            {
+              "page": "tools.html",
+              "anchor": "tool-telegram-review-channels",
+              "score": 2
+            }
+          ]
+        },
+        {
+          "query": "SEO Autopilot",
+          "page": "tools.html",
+          "anchor": "tool-seo-autopilot",
+          "aligned": false,
+          "rank": 1,
+          "reciprocalRank": 1,
+          "top5": [
+            {
+              "page": "tools.html",
+              "anchor": "tool-seo-autopilot",
+              "score": 24
+            },
+            {
+              "page": "tools.html",
+              "anchor": "tool-telegram-review-channels",
+              "score": 3
+            },
+            {
+              "page": "tools.html",
+              "anchor": "tool-keitaro-tracker",
+              "score": 2
+            }
+          ]
+        },
+        {
+          "query": "WordAi",
+          "page": "tools.html",
+          "anchor": "tool-wordai",
+          "aligned": false,
+          "rank": 1,
+          "reciprocalRank": 1,
+          "top5": [
+            {
+              "page": "tools.html",
+              "anchor": "tool-wordai",
+              "score": 12
+            },
+            {
+              "page": "tools.html",
+              "anchor": "tool-keitaro-tracker",
+              "score": 1
+            },
+            {
+              "page": "tools.html",
+              "anchor": "tool-telegram-review-channels",
+              "score": 1
+            }
+          ]
+        },
+        {
+          "query": "Spin Rewriter AI (formerly Spin Rewriter)",
+          "page": "tools.html",
+          "anchor": "tool-spin-rewriter",
+          "aligned": false,
+          "rank": null,
+          "reciprocalRank": 0,
+          "top5": []
+        },
+        {
+          "query": "Article Forge",
+          "page": "tools.html",
+          "anchor": "tool-article-forge",
+          "aligned": false,
+          "rank": 1,
+          "reciprocalRank": 1,
+          "top5": [
+            {
+              "page": "tools.html",
+              "anchor": "tool-article-forge",
+              "score": 24
+            },
+            {
+              "page": "tools.html",
+              "anchor": "tool-gsa-search-engine-ranker",
+              "score": 2
+            },
+            {
+              "page": "tools.html",
+              "anchor": "tool-telegram-review-channels",
+              "score": 2
+            }
+          ]
+        },
+        {
+          "query": "KontentMachine",
+          "page": "tools.html",
+          "anchor": "tool-kontentmachine",
+          "aligned": false,
+          "rank": 1,
+          "reciprocalRank": 1,
+          "top5": [
+            {
+              "page": "tools.html",
+              "anchor": "tool-kontentmachine",
+              "score": 12
+            },
+            {
+              "page": "tools.html",
+              "anchor": "tool-scrapebox",
+              "score": 2
+            },
+            {
+              "page": "tools.html",
+              "anchor": "tool-telegram-review-channels",
+              "score": 1
+            }
+          ]
+        },
+        {
+          "query": "SEO Content Machine",
+          "page": "tools.html",
+          "anchor": "tool-seo-content-machine",
+          "aligned": false,
+          "rank": 1,
+          "reciprocalRank": 1,
+          "top5": [
+            {
+              "page": "tools.html",
+              "anchor": "tool-seo-content-machine",
+              "score": 36
+            },
+            {
+              "page": "appendix.html",
+              "anchor": "2013-2019-machine-learning-arrives",
+              "score": 20
+            },
+            {
+              "page": "tools.html",
+              "anchor": "tool-telegram-review-channels",
+              "score": 12
+            },
+            {
+              "page": "tools.html",
+              "anchor": "tool-scrapebox",
+              "score": 7
+            }
+          ]
+        },
+        {
+          "query": "Adspect",
+          "page": "tools.html",
+          "anchor": "tool-adspect",
+          "aligned": false,
+          "rank": 1,
+          "reciprocalRank": 1,
+          "top5": [
+            {
+              "page": "tools.html",
+              "anchor": "tool-adspect",
+              "score": 12
+            },
+            {
+              "page": "tools.html",
+              "anchor": "tool-xrumer",
+              "score": 1
+            },
+            {
+              "page": "tools.html",
+              "anchor": "tool-telegram-review-channels",
+              "score": 1
+            }
+          ]
+        },
+        {
+          "query": "TrafficShield",
+          "page": "tools.html",
+          "anchor": "tool-trafficshield",
+          "aligned": false,
+          "rank": 1,
+          "reciprocalRank": 1,
+          "top5": [
+            {
+              "page": "tools.html",
+              "anchor": "tool-trafficshield",
+              "score": 12
+            },
+            {
+              "page": "tools.html",
+              "anchor": "tool-xrumer",
+              "score": 1
+            }
+          ]
+        },
+        {
+          "query": "SerpClix",
+          "page": "tools.html",
+          "anchor": "tool-serpclix",
+          "aligned": false,
+          "rank": 1,
+          "reciprocalRank": 1,
+          "top5": [
+            {
+              "page": "tools.html",
+              "anchor": "tool-serpclix",
+              "score": 12
+            },
+            {
+              "page": "tools.html",
+              "anchor": "tool-rankerx",
+              "score": 2
+            },
+            {
+              "page": "ctr-navboost.html",
+              "anchor": "ctr-history",
+              "score": 1
+            }
+          ]
+        },
+        {
+          "query": "Sape",
+          "page": "tools.html",
+          "anchor": "tool-sape",
+          "aligned": false,
+          "rank": 1,
+          "reciprocalRank": 1,
+          "top5": [
+            {
+              "page": "tools.html",
+              "anchor": "tool-sape",
+              "score": 12
+            },
+            {
+              "page": "private-blog-networks.html",
+              "anchor": "pbn-history",
+              "score": 1
+            },
+            {
+              "page": "private-blog-networks.html",
+              "anchor": "pbn-case",
+              "score": 1
+            },
+            {
+              "page": "tools.html",
+              "anchor": "tool-rankerx",
+              "score": 1
+            }
+          ]
+        },
+        {
+          "query": "Easy Blog Networks",
+          "page": "tools.html",
+          "anchor": "tool-easy-blog-networks",
+          "aligned": false,
+          "rank": 1,
+          "reciprocalRank": 1,
+          "top5": [
+            {
+              "page": "tools.html",
+              "anchor": "tool-easy-blog-networks",
+              "score": 36
+            },
+            {
+              "page": "tools.html",
+              "anchor": "tool-money-robot-submitter",
+              "score": 6
+            }
+          ]
+        },
+        {
+          "query": "GMB Crush",
+          "page": "tools.html",
+          "anchor": "tool-gmb-crush",
+          "aligned": false,
+          "rank": 1,
+          "reciprocalRank": 1,
+          "top5": [
+            {
+              "page": "tools.html",
+              "anchor": "tool-gmb-crush",
+              "score": 24
+            },
+            {
+              "page": "tools.html",
+              "anchor": "tool-money-robot-submitter",
+              "score": 4
+            }
+          ]
+        },
+        {
+          "query": "Falcon Guard (Local Falcon feature)",
+          "page": "tools.html",
+          "anchor": "tool-falcon-guard",
+          "aligned": false,
+          "rank": null,
+          "reciprocalRank": 0,
+          "top5": []
+        },
+        {
+          "query": "LaunchCDN",
+          "page": "tools.html",
+          "anchor": "tool-launchcdn",
+          "aligned": false,
+          "rank": 1,
+          "reciprocalRank": 1,
+          "top5": [
+            {
+              "page": "tools.html",
+              "anchor": "tool-launchcdn",
+              "score": 12
+            },
+            {
+              "page": "tools.html",
+              "anchor": "tool-seo-autopilot",
+              "score": 1
+            }
+          ]
+        },
+        {
+          "query": "SEREBot",
+          "page": "tools.html",
+          "anchor": "tool-serebot",
+          "aligned": false,
+          "rank": 1,
+          "reciprocalRank": 1,
+          "top5": [
+            {
+              "page": "tools.html",
+              "anchor": "tool-serebot",
+              "score": 12
+            },
+            {
+              "page": "tools.html",
+              "anchor": "tool-wordai",
+              "score": 1
+            }
+          ]
+        },
+        {
+          "query": "CTR Booster",
+          "page": "tools.html",
+          "anchor": "tool-ctr-booster",
+          "aligned": false,
+          "rank": 1,
+          "reciprocalRank": 1,
+          "top5": [
+            {
+              "page": "tools.html",
+              "anchor": "tool-ctr-booster",
+              "score": 24
+            },
+            {
+              "page": "tools.html",
+              "anchor": "tool-wordai",
+              "score": 4
+            }
+          ]
+        },
+        {
+          "query": "Cloakify",
+          "page": "tools.html",
+          "anchor": "tool-cloakify",
+          "aligned": false,
+          "rank": 1,
+          "reciprocalRank": 1,
+          "top5": [
+            {
+              "page": "tools.html",
+              "anchor": "tool-cloakify",
+              "score": 12
+            }
+          ]
+        },
+        {
+          "query": "JustCloakit",
+          "page": "tools.html",
+          "anchor": "tool-justcloakit",
+          "aligned": false,
+          "rank": 1,
+          "reciprocalRank": 1,
+          "top5": [
+            {
+              "page": "tools.html",
+              "anchor": "tool-justcloakit",
+              "score": 12
+            },
+            {
+              "page": "tools.html",
+              "anchor": "tool-spin-rewriter",
+              "score": 1
+            }
+          ]
+        },
+        {
+          "query": "NoIPfraud",
+          "page": "tools.html",
+          "anchor": "tool-noipfraud",
+          "aligned": false,
+          "rank": 1,
+          "reciprocalRank": 1,
+          "top5": [
+            {
+              "page": "tools.html",
+              "anchor": "tool-noipfraud",
+              "score": 12
+            },
+            {
+              "page": "tools.html",
+              "anchor": "tool-spin-rewriter",
+              "score": 1
+            }
+          ]
+        },
+        {
+          "query": "Kraken (Viper Tools)",
+          "page": "tools.html",
+          "anchor": "tool-kraken-viper-tools",
+          "aligned": false,
+          "rank": 1,
+          "reciprocalRank": 1,
+          "top5": [
+            {
+              "page": "tools.html",
+              "anchor": "tool-kraken-viper-tools",
+              "score": 39
+            },
+            {
+              "page": "tools.html",
+              "anchor": "tool-article-forge",
+              "score": 7
+            }
+          ]
+        },
+        {
+          "query": "Kraken Automation Suite",
+          "page": "tools.html",
+          "anchor": "tool-kraken-automation-suite",
+          "aligned": false,
+          "rank": 1,
+          "reciprocalRank": 1,
+          "top5": [
+            {
+              "page": "tools.html",
+              "anchor": "tool-kraken-automation-suite",
+              "score": 36
+            },
+            {
+              "page": "tools.html",
+              "anchor": "tool-article-forge",
+              "score": 4
+            }
+          ]
+        }
+      ]
+    },
+    "after": {
+      "indexEntries": 460,
+      "aligned": 45,
+      "hit1": 45,
+      "hit5": 45,
+      "mrr": 1,
+      "alignedHit5": 45,
+      "rows": [
+        {
+          "query": "OpenAI API",
+          "page": "tools.html",
+          "anchor": "tool-openai-api-gpt-4o-later",
+          "aligned": true,
+          "rank": 1,
+          "reciprocalRank": 1,
+          "top5": [
+            {
+              "page": "tools.html",
+              "anchor": "tool-openai-api-gpt-4o-later",
+              "score": 29
+            },
+            {
+              "page": "tools.html",
+              "anchor": "tools-service-catalogue",
+              "score": 5
+            },
+            {
+              "page": "find.html",
+              "anchor": "find-anything",
+              "score": 4
+            },
+            {
+              "page": "ai-geo.html",
+              "anchor": "geo-products",
+              "score": 3
+            },
+            {
+              "page": "appendix.html",
+              "anchor": "tool-index-alphabetical",
+              "score": 3
+            }
+          ]
+        },
+        {
+          "query": "Anthropic Claude API",
+          "page": "tools.html",
+          "anchor": "tool-anthropic-claude-api",
+          "aligned": true,
+          "rank": 1,
+          "reciprocalRank": 1,
+          "top5": [
+            {
+              "page": "tools.html",
+              "anchor": "tool-anthropic-claude-api",
+              "score": 41
+            },
+            {
+              "page": "tools.html",
+              "anchor": "tools-service-catalogue",
+              "score": 6
+            },
+            {
+              "page": "find.html",
+              "anchor": "find-anything",
+              "score": 5
+            },
+            {
+              "page": "bibliography.html",
+              "anchor": "bib-catalogue",
+              "score": 5
+            },
+            {
+              "page": "appendix.html",
+              "anchor": "tool-index-alphabetical",
+              "score": 4
+            }
+          ]
+        },
+        {
+          "query": "Ahrefs",
+          "page": "tools.html",
+          "anchor": "tool-ahrefs-semrush",
+          "aligned": true,
+          "rank": 1,
+          "reciprocalRank": 1,
+          "top5": [
+            {
+              "page": "tools.html",
+              "anchor": "tool-ahrefs-semrush",
+              "score": 14
+            },
+            {
+              "page": "private-blog-networks.html",
+              "anchor": "step-1-2-acquire-and-vet-a-domain",
+              "score": 3
+            },
+            {
+              "page": "bibliography.html",
+              "anchor": "bib-catalogue",
+              "score": 3
+            },
+            {
+              "page": "find.html",
+              "anchor": "find-anything",
+              "score": 1
+            },
+            {
+              "page": "private-blog-networks.html",
+              "anchor": "minimum-viable",
+              "score": 1
+            }
+          ]
+        },
+        {
+          "query": "Playwright",
+          "page": "tools.html",
+          "anchor": "tool-selenium-playwright",
+          "aligned": true,
+          "rank": 1,
+          "reciprocalRank": 1,
+          "top5": [
+            {
+              "page": "tools.html",
+              "anchor": "tool-selenium-playwright",
+              "score": 14
+            },
+            {
+              "page": "bibliography.html",
+              "anchor": "bib-catalogue",
+              "score": 2
+            },
+            {
+              "page": "find.html",
+              "anchor": "find-anything",
+              "score": 1
+            },
+            {
+              "page": "tools.html",
+              "anchor": "tools-service-catalogue",
+              "score": 1
+            },
+            {
+              "page": "tools.html",
+              "anchor": "tool-selenium",
+              "score": 1
+            }
+          ]
+        },
+        {
+          "query": "Copyscape",
+          "page": "tools.html",
+          "anchor": "tool-copyscape",
+          "aligned": true,
+          "rank": 1,
+          "reciprocalRank": 1,
+          "top5": [
+            {
+              "page": "tools.html",
+              "anchor": "tool-copyscape",
+              "score": 13
+            },
+            {
+              "page": "bibliography.html",
+              "anchor": "bib-catalogue",
+              "score": 3
+            },
+            {
+              "page": "find.html",
+              "anchor": "find-anything",
+              "score": 1
+            },
+            {
+              "page": "tools.html",
+              "anchor": "tools-service-catalogue",
+              "score": 1
+            },
+            {
+              "page": "appendix.html",
+              "anchor": "tool-index-alphabetical",
+              "score": 1
+            }
+          ]
+        },
+        {
+          "query": "DeepL API",
+          "page": "tools.html",
+          "anchor": "tool-deepl-api",
+          "aligned": true,
+          "rank": 1,
+          "reciprocalRank": 1,
+          "top5": [
+            {
+              "page": "tools.html",
+              "anchor": "tool-deepl-api",
+              "score": 29
+            },
+            {
+              "page": "tools.html",
+              "anchor": "tools-service-catalogue",
+              "score": 5
+            },
+            {
+              "page": "find.html",
+              "anchor": "find-anything",
+              "score": 4
+            },
+            {
+              "page": "appendix.html",
+              "anchor": "tool-index-alphabetical",
+              "score": 3
+            }
+          ]
+        },
+        {
+          "query": "QuillBot",
+          "page": "tools.html",
+          "anchor": "tool-quillbot",
+          "aligned": true,
+          "rank": 1,
+          "reciprocalRank": 1,
+          "top5": [
+            {
+              "page": "tools.html",
+              "anchor": "tool-quillbot",
+              "score": 13
+            },
+            {
+              "page": "bibliography.html",
+              "anchor": "bib-catalogue",
+              "score": 3
+            },
+            {
+              "page": "find.html",
+              "anchor": "find-anything",
+              "score": 1
+            },
+            {
+              "page": "tools.html",
+              "anchor": "tools-service-catalogue",
+              "score": 1
+            },
+            {
+              "page": "appendix.html",
+              "anchor": "tool-index-alphabetical",
+              "score": 1
+            }
+          ]
+        },
+        {
+          "query": "Jasper AI",
+          "page": "tools.html",
+          "anchor": "tool-jasper-ai",
+          "aligned": true,
+          "rank": 1,
+          "reciprocalRank": 1,
+          "top5": [
+            {
+              "page": "tools.html",
+              "anchor": "tool-jasper-ai",
+              "score": 27
+            },
+            {
+              "page": "bibliography.html",
+              "anchor": "bib-catalogue",
+              "score": 10
+            },
+            {
+              "page": "tools.html",
+              "anchor": "tools-service-catalogue",
+              "score": 8
+            },
+            {
+              "page": "find.html",
+              "anchor": "find-anything",
+              "score": 6
+            },
+            {
+              "page": "appendix.html",
+              "anchor": "tool-index-alphabetical",
+              "score": 6
+            }
+          ]
+        },
+        {
+          "query": "BrandWell (formerly Content at Scale)",
+          "page": "tools.html",
+          "anchor": "tool-content-at-scale",
+          "aligned": true,
+          "rank": 1,
+          "reciprocalRank": 1,
+          "top5": [
+            {
+              "page": "tools.html",
+              "anchor": "tool-content-at-scale",
+              "score": 81
+            },
+            {
+              "page": "tools.html",
+              "anchor": "tools-service-catalogue",
+              "score": 34
+            },
+            {
+              "page": "find.html",
+              "anchor": "find-anything",
+              "score": 17
+            },
+            {
+              "page": "appendix.html",
+              "anchor": "tool-index-alphabetical",
+              "score": 15
+            },
+            {
+              "page": "bibliography.html",
+              "anchor": "bib-catalogue",
+              "score": 14
+            }
+          ]
+        },
+        {
+          "query": "Bright Data (Proxies)",
+          "page": "tools.html",
+          "anchor": "tool-bright-data-proxies",
+          "aligned": true,
+          "rank": 1,
+          "reciprocalRank": 1,
+          "top5": [
+            {
+              "page": "tools.html",
+              "anchor": "tool-bright-data-proxies",
+              "score": 45
+            },
+            {
+              "page": "tools.html",
+              "anchor": "tools-service-catalogue",
+              "score": 7
+            },
+            {
+              "page": "appendix.html",
+              "anchor": "tool-index-alphabetical",
+              "score": 5
+            },
+            {
+              "page": "find.html",
+              "anchor": "find-anything",
+              "score": 3
+            }
+          ]
+        },
+        {
+          "query": "2Captcha",
+          "page": "tools.html",
+          "anchor": "tool-2captcha-anti-captcha",
+          "aligned": true,
+          "rank": 1,
+          "reciprocalRank": 1,
+          "top5": [
+            {
+              "page": "tools.html",
+              "anchor": "tool-2captcha-anti-captcha",
+              "score": 13
+            },
+            {
+              "page": "bibliography.html",
+              "anchor": "bib-catalogue",
+              "score": 2
+            },
+            {
+              "page": "find.html",
+              "anchor": "find-anything",
+              "score": 1
+            },
+            {
+              "page": "tools.html",
+              "anchor": "tools-service-catalogue",
+              "score": 1
+            },
+            {
+              "page": "tools.html",
+              "anchor": "tool-anti-captcha",
+              "score": 1
+            }
+          ]
+        },
+        {
+          "query": "IndexNow Protocol",
+          "page": "tools.html",
+          "anchor": "tool-indexnow-protocol",
+          "aligned": true,
+          "rank": 1,
+          "reciprocalRank": 1,
+          "top5": [
+            {
+              "page": "tools.html",
+              "anchor": "tool-indexnow-protocol",
+              "score": 28
+            },
+            {
+              "page": "tools.html",
+              "anchor": "tools-service-catalogue",
+              "score": 3
+            },
+            {
+              "page": "appendix.html",
+              "anchor": "tool-index-alphabetical",
+              "score": 3
+            },
+            {
+              "page": "find.html",
+              "anchor": "find-anything",
+              "score": 2
+            },
+            {
+              "page": "appendix.html",
+              "anchor": "google-algorithm-enforcement-timeline-2003-2026",
+              "score": 2
+            }
+          ]
+        },
+        {
+          "query": "ExpiredDomains.net",
+          "page": "tools.html",
+          "anchor": "tool-expireddomains-net",
+          "aligned": true,
+          "rank": 1,
+          "reciprocalRank": 1,
+          "top5": [
+            {
+              "page": "tools.html",
+              "anchor": "tool-expireddomains-net",
+              "score": 13
+            },
+            {
+              "page": "bibliography.html",
+              "anchor": "bib-catalogue",
+              "score": 3
+            },
+            {
+              "page": "find.html",
+              "anchor": "find-anything",
+              "score": 1
+            },
+            {
+              "page": "tools.html",
+              "anchor": "tools-service-catalogue",
+              "score": 1
+            },
+            {
+              "page": "appendix.html",
+              "anchor": "tool-index-alphabetical",
+              "score": 1
+            }
+          ]
+        },
+        {
+          "query": "SMS-Activate",
+          "page": "tools.html",
+          "anchor": "tool-sms-activate",
+          "aligned": true,
+          "rank": 1,
+          "reciprocalRank": 1,
+          "top5": [
+            {
+              "page": "tools.html",
+              "anchor": "tool-sms-activate",
+              "score": 13
+            },
+            {
+              "page": "bibliography.html",
+              "anchor": "bib-catalogue",
+              "score": 3
+            },
+            {
+              "page": "find.html",
+              "anchor": "find-anything",
+              "score": 1
+            },
+            {
+              "page": "tools.html",
+              "anchor": "tools-service-catalogue",
+              "score": 1
+            },
+            {
+              "page": "appendix.html",
+              "anchor": "tool-index-alphabetical",
+              "score": 1
+            }
+          ]
+        },
+        {
+          "query": "Microworkers",
+          "page": "tools.html",
+          "anchor": "tool-microworkers",
+          "aligned": true,
+          "rank": 1,
+          "reciprocalRank": 1,
+          "top5": [
+            {
+              "page": "tools.html",
+              "anchor": "tool-microworkers",
+              "score": 13
+            },
+            {
+              "page": "bibliography.html",
+              "anchor": "bib-catalogue",
+              "score": 2
+            },
+            {
+              "page": "find.html",
+              "anchor": "find-anything",
+              "score": 1
+            },
+            {
+              "page": "tools.html",
+              "anchor": "tools-service-catalogue",
+              "score": 1
+            },
+            {
+              "page": "appendix.html",
+              "anchor": "tool-index-alphabetical",
+              "score": 1
+            }
+          ]
+        },
+        {
+          "query": "ZennoPoster (ZennoLab)",
+          "page": "tools.html",
+          "anchor": "tool-zennoposter-zennolab",
+          "aligned": true,
+          "rank": 1,
+          "reciprocalRank": 1,
+          "top5": [
+            {
+              "page": "tools.html",
+              "anchor": "tool-zennoposter-zennolab",
+              "score": 27
+            },
+            {
+              "page": "bibliography.html",
+              "anchor": "bib-catalogue",
+              "score": 4
+            },
+            {
+              "page": "find.html",
+              "anchor": "find-anything",
+              "score": 2
+            },
+            {
+              "page": "tools.html",
+              "anchor": "tools-service-catalogue",
+              "score": 2
+            },
+            {
+              "page": "appendix.html",
+              "anchor": "tool-index-alphabetical",
+              "score": 2
+            }
+          ]
+        },
+        {
+          "query": "Browser Automation Studio",
+          "page": "tools.html",
+          "anchor": "tool-browser-automation-studio",
+          "aligned": true,
+          "rank": 1,
+          "reciprocalRank": 1,
+          "top5": [
+            {
+              "page": "tools.html",
+              "anchor": "tool-browser-automation-studio",
+              "score": 44
+            },
+            {
+              "page": "find.html",
+              "anchor": "find-anything",
+              "score": 9
+            },
+            {
+              "page": "tools.html",
+              "anchor": "tools-service-catalogue",
+              "score": 7
+            },
+            {
+              "page": "appendix.html",
+              "anchor": "tool-index-alphabetical",
+              "score": 5
+            },
+            {
+              "page": "bibliography.html",
+              "anchor": "bib-catalogue",
+              "score": 3
+            }
+          ]
+        },
+        {
+          "query": "Omega Indexer",
+          "page": "tools.html",
+          "anchor": "tool-omega-indexer",
+          "aligned": true,
+          "rank": 1,
+          "reciprocalRank": 1,
+          "top5": [
+            {
+              "page": "tools.html",
+              "anchor": "tool-omega-indexer",
+              "score": 26
+            },
+            {
+              "page": "bibliography.html",
+              "anchor": "bib-catalogue",
+              "score": 6
+            },
+            {
+              "page": "find.html",
+              "anchor": "find-anything",
+              "score": 2
+            },
+            {
+              "page": "tools.html",
+              "anchor": "tools-service-catalogue",
+              "score": 2
+            },
+            {
+              "page": "appendix.html",
+              "anchor": "tool-index-alphabetical",
+              "score": 2
+            }
+          ]
+        },
+        {
+          "query": "Keitaro Tracker",
+          "page": "tools.html",
+          "anchor": "tool-keitaro-tracker",
+          "aligned": true,
+          "rank": 1,
+          "reciprocalRank": 1,
+          "top5": [
+            {
+              "page": "tools.html",
+              "anchor": "tool-keitaro-tracker",
+              "score": 27
+            },
+            {
+              "page": "find.html",
+              "anchor": "find-anything",
+              "score": 4
+            },
+            {
+              "page": "tools.html",
+              "anchor": "tools-service-catalogue",
+              "score": 3
+            },
+            {
+              "page": "appendix.html",
+              "anchor": "tool-index-alphabetical",
+              "score": 3
+            }
+          ]
+        },
+        {
+          "query": "GSA Search Engine Ranker",
+          "page": "tools.html",
+          "anchor": "tool-gsa-search-engine-ranker",
+          "aligned": true,
+          "rank": 1,
+          "reciprocalRank": 1,
+          "top5": [
+            {
+              "page": "tools.html",
+              "anchor": "tool-gsa-search-engine-ranker",
+              "score": 53
+            },
+            {
+              "page": "bibliography.html",
+              "anchor": "bib-catalogue",
+              "score": 6
+            },
+            {
+              "page": "find.html",
+              "anchor": "find-anything",
+              "score": 5
+            },
+            {
+              "page": "tools.html",
+              "anchor": "tools-service-catalogue",
+              "score": 5
+            },
+            {
+              "page": "appendix.html",
+              "anchor": "tool-index-alphabetical",
+              "score": 4
+            }
+          ]
+        },
+        {
+          "query": "ScrapeBox",
+          "page": "tools.html",
+          "anchor": "tool-scrapebox",
+          "aligned": true,
+          "rank": 1,
+          "reciprocalRank": 1,
+          "top5": [
+            {
+              "page": "tools.html",
+              "anchor": "tool-scrapebox",
+              "score": 13
+            },
+            {
+              "page": "bibliography.html",
+              "anchor": "bib-catalogue",
+              "score": 3
+            },
+            {
+              "page": "find.html",
+              "anchor": "find-anything",
+              "score": 1
+            },
+            {
+              "page": "tools.html",
+              "anchor": "tools-service-catalogue",
+              "score": 1
+            },
+            {
+              "page": "appendix.html",
+              "anchor": "tool-index-alphabetical",
+              "score": 1
+            }
+          ]
+        },
+        {
+          "query": "XRumer",
+          "page": "tools.html",
+          "anchor": "tool-xrumer",
+          "aligned": true,
+          "rank": 1,
+          "reciprocalRank": 1,
+          "top5": [
+            {
+              "page": "tools.html",
+              "anchor": "tool-xrumer",
+              "score": 13
+            },
+            {
+              "page": "find.html",
+              "anchor": "find-anything",
+              "score": 1
+            },
+            {
+              "page": "tools.html",
+              "anchor": "tools-service-catalogue",
+              "score": 1
+            },
+            {
+              "page": "appendix.html",
+              "anchor": "tool-index-alphabetical",
+              "score": 1
+            }
+          ]
+        },
+        {
+          "query": "RankerX",
+          "page": "tools.html",
+          "anchor": "tool-rankerx",
+          "aligned": true,
+          "rank": 1,
+          "reciprocalRank": 1,
+          "top5": [
+            {
+              "page": "tools.html",
+              "anchor": "tool-rankerx",
+              "score": 13
+            },
+            {
+              "page": "bibliography.html",
+              "anchor": "bib-catalogue",
+              "score": 2
+            },
+            {
+              "page": "find.html",
+              "anchor": "find-anything",
+              "score": 1
+            },
+            {
+              "page": "tools.html",
+              "anchor": "tools-service-catalogue",
+              "score": 1
+            },
+            {
+              "page": "appendix.html",
+              "anchor": "tool-index-alphabetical",
+              "score": 1
+            }
+          ]
+        },
+        {
+          "query": "Money Robot",
+          "page": "tools.html",
+          "anchor": "tool-money-robot-submitter",
+          "aligned": true,
+          "rank": 1,
+          "reciprocalRank": 1,
+          "top5": [
+            {
+              "page": "tools.html",
+              "anchor": "tool-money-robot-submitter",
+              "score": 26
+            },
+            {
+              "page": "bibliography.html",
+              "anchor": "bib-catalogue",
+              "score": 6
+            },
+            {
+              "page": "find.html",
+              "anchor": "find-anything",
+              "score": 2
+            },
+            {
+              "page": "tools.html",
+              "anchor": "tools-service-catalogue",
+              "score": 2
+            },
+            {
+              "page": "appendix.html",
+              "anchor": "tool-index-alphabetical",
+              "score": 2
+            }
+          ]
+        },
+        {
+          "query": "SEO Autopilot",
+          "page": "tools.html",
+          "anchor": "tool-seo-autopilot",
+          "aligned": true,
+          "rank": 1,
+          "reciprocalRank": 1,
+          "top5": [
+            {
+              "page": "tools.html",
+              "anchor": "tool-seo-autopilot",
+              "score": 27
+            },
+            {
+              "page": "bibliography.html",
+              "anchor": "bib-catalogue",
+              "score": 11
+            },
+            {
+              "page": "appendix.html",
+              "anchor": "tool-index-alphabetical",
+              "score": 4
+            },
+            {
+              "page": "find.html",
+              "anchor": "find-anything",
+              "score": 3
+            },
+            {
+              "page": "tools.html",
+              "anchor": "tools-service-catalogue",
+              "score": 3
+            }
+          ]
+        },
+        {
+          "query": "WordAi",
+          "page": "tools.html",
+          "anchor": "tool-wordai",
+          "aligned": true,
+          "rank": 1,
+          "reciprocalRank": 1,
+          "top5": [
+            {
+              "page": "tools.html",
+              "anchor": "tool-wordai",
+              "score": 13
+            },
+            {
+              "page": "bibliography.html",
+              "anchor": "bib-catalogue",
+              "score": 2
+            },
+            {
+              "page": "find.html",
+              "anchor": "find-anything",
+              "score": 1
+            },
+            {
+              "page": "tools.html",
+              "anchor": "tools-service-catalogue",
+              "score": 1
+            },
+            {
+              "page": "appendix.html",
+              "anchor": "tool-index-alphabetical",
+              "score": 1
+            }
+          ]
+        },
+        {
+          "query": "Spin Rewriter AI (formerly Spin Rewriter)",
+          "page": "tools.html",
+          "anchor": "tool-spin-rewriter",
+          "aligned": true,
+          "rank": 1,
+          "reciprocalRank": 1,
+          "top5": [
+            {
+              "page": "tools.html",
+              "anchor": "tool-spin-rewriter",
+              "score": 88
+            },
+            {
+              "page": "tools.html",
+              "anchor": "tools-service-catalogue",
+              "score": 23
+            },
+            {
+              "page": "appendix.html",
+              "anchor": "tool-index-alphabetical",
+              "score": 19
+            },
+            {
+              "page": "find.html",
+              "anchor": "find-anything",
+              "score": 16
+            }
+          ]
+        },
+        {
+          "query": "Article Forge",
+          "page": "tools.html",
+          "anchor": "tool-article-forge",
+          "aligned": true,
+          "rank": 1,
+          "reciprocalRank": 1,
+          "top5": [
+            {
+              "page": "tools.html",
+              "anchor": "tool-article-forge",
+              "score": 27
+            },
+            {
+              "page": "bibliography.html",
+              "anchor": "bib-catalogue",
+              "score": 6
+            },
+            {
+              "page": "find.html",
+              "anchor": "find-anything",
+              "score": 2
+            },
+            {
+              "page": "tools.html",
+              "anchor": "tools-service-catalogue",
+              "score": 2
+            },
+            {
+              "page": "appendix.html",
+              "anchor": "tool-index-alphabetical",
+              "score": 2
+            }
+          ]
+        },
+        {
+          "query": "KontentMachine",
+          "page": "tools.html",
+          "anchor": "tool-kontentmachine",
+          "aligned": true,
+          "rank": 1,
+          "reciprocalRank": 1,
+          "top5": [
+            {
+              "page": "tools.html",
+              "anchor": "tool-kontentmachine",
+              "score": 13
+            },
+            {
+              "page": "bibliography.html",
+              "anchor": "bib-catalogue",
+              "score": 3
+            },
+            {
+              "page": "find.html",
+              "anchor": "find-anything",
+              "score": 1
+            },
+            {
+              "page": "tools.html",
+              "anchor": "tools-service-catalogue",
+              "score": 1
+            },
+            {
+              "page": "appendix.html",
+              "anchor": "tool-index-alphabetical",
+              "score": 1
+            }
+          ]
+        },
+        {
+          "query": "SEO Content Machine",
+          "page": "tools.html",
+          "anchor": "tool-seo-content-machine",
+          "aligned": true,
+          "rank": 1,
+          "reciprocalRank": 1,
+          "top5": [
+            {
+              "page": "tools.html",
+              "anchor": "tool-seo-content-machine",
+              "score": 41
+            },
+            {
+              "page": "bibliography.html",
+              "anchor": "bib-catalogue",
+              "score": 14
+            },
+            {
+              "page": "tools.html",
+              "anchor": "tools-service-catalogue",
+              "score": 11
+            },
+            {
+              "page": "appendix.html",
+              "anchor": "tool-index-alphabetical",
+              "score": 10
+            },
+            {
+              "page": "find.html",
+              "anchor": "find-anything",
+              "score": 8
+            }
+          ]
+        },
+        {
+          "query": "Adspect",
+          "page": "tools.html",
+          "anchor": "tool-adspect",
+          "aligned": true,
+          "rank": 1,
+          "reciprocalRank": 1,
+          "top5": [
+            {
+              "page": "tools.html",
+              "anchor": "tool-adspect",
+              "score": 13
+            },
+            {
+              "page": "bibliography.html",
+              "anchor": "bib-catalogue",
+              "score": 3
+            },
+            {
+              "page": "find.html",
+              "anchor": "find-anything",
+              "score": 1
+            },
+            {
+              "page": "tools.html",
+              "anchor": "tools-service-catalogue",
+              "score": 1
+            },
+            {
+              "page": "appendix.html",
+              "anchor": "tool-index-alphabetical",
+              "score": 1
+            }
+          ]
+        },
+        {
+          "query": "TrafficShield",
+          "page": "tools.html",
+          "anchor": "tool-trafficshield",
+          "aligned": true,
+          "rank": 1,
+          "reciprocalRank": 1,
+          "top5": [
+            {
+              "page": "tools.html",
+              "anchor": "tool-trafficshield",
+              "score": 13
+            },
+            {
+              "page": "bibliography.html",
+              "anchor": "bib-catalogue",
+              "score": 3
+            },
+            {
+              "page": "find.html",
+              "anchor": "find-anything",
+              "score": 1
+            },
+            {
+              "page": "tools.html",
+              "anchor": "tools-service-catalogue",
+              "score": 1
+            },
+            {
+              "page": "appendix.html",
+              "anchor": "tool-index-alphabetical",
+              "score": 1
+            }
+          ]
+        },
+        {
+          "query": "SerpClix",
+          "page": "tools.html",
+          "anchor": "tool-serpclix",
+          "aligned": true,
+          "rank": 1,
+          "reciprocalRank": 1,
+          "top5": [
+            {
+              "page": "tools.html",
+              "anchor": "tool-serpclix",
+              "score": 13
+            },
+            {
+              "page": "bibliography.html",
+              "anchor": "bib-catalogue",
+              "score": 3
+            },
+            {
+              "page": "find.html",
+              "anchor": "find-anything",
+              "score": 1
+            },
+            {
+              "page": "ctr-navboost.html",
+              "anchor": "ctr-history",
+              "score": 1
+            },
+            {
+              "page": "tools.html",
+              "anchor": "tools-service-catalogue",
+              "score": 1
+            }
+          ]
+        },
+        {
+          "query": "Sape",
+          "page": "tools.html",
+          "anchor": "tool-sape",
+          "aligned": true,
+          "rank": 1,
+          "reciprocalRank": 1,
+          "top5": [
+            {
+              "page": "tools.html",
+              "anchor": "tool-sape",
+              "score": 13
+            },
+            {
+              "page": "bibliography.html",
+              "anchor": "bib-catalogue",
+              "score": 3
+            },
+            {
+              "page": "find.html",
+              "anchor": "find-anything",
+              "score": 1
+            },
+            {
+              "page": "private-blog-networks.html",
+              "anchor": "pbn-case",
+              "score": 1
+            },
+            {
+              "page": "tools.html",
+              "anchor": "tools-service-catalogue",
+              "score": 1
+            }
+          ]
+        },
+        {
+          "query": "Easy Blog Networks",
+          "page": "tools.html",
+          "anchor": "tool-easy-blog-networks",
+          "aligned": true,
+          "rank": 1,
+          "reciprocalRank": 1,
+          "top5": [
+            {
+              "page": "tools.html",
+              "anchor": "tool-easy-blog-networks",
+              "score": 39
+            },
+            {
+              "page": "bibliography.html",
+              "anchor": "bib-catalogue",
+              "score": 9
+            },
+            {
+              "page": "find.html",
+              "anchor": "find-anything",
+              "score": 3
+            },
+            {
+              "page": "tools.html",
+              "anchor": "tools-service-catalogue",
+              "score": 3
+            },
+            {
+              "page": "appendix.html",
+              "anchor": "tool-index-alphabetical",
+              "score": 3
+            }
+          ]
+        },
+        {
+          "query": "GMB Crush",
+          "page": "tools.html",
+          "anchor": "tool-gmb-crush",
+          "aligned": true,
+          "rank": 1,
+          "reciprocalRank": 1,
+          "top5": [
+            {
+              "page": "tools.html",
+              "anchor": "tool-gmb-crush",
+              "score": 27
+            },
+            {
+              "page": "bibliography.html",
+              "anchor": "bib-catalogue",
+              "score": 6
+            },
+            {
+              "page": "find.html",
+              "anchor": "find-anything",
+              "score": 4
+            },
+            {
+              "page": "tools.html",
+              "anchor": "tools-service-catalogue",
+              "score": 4
+            },
+            {
+              "page": "appendix.html",
+              "anchor": "tool-index-alphabetical",
+              "score": 4
+            }
+          ]
+        },
+        {
+          "query": "Falcon Guard (Local Falcon feature)",
+          "page": "tools.html",
+          "anchor": "tool-falcon-guard",
+          "aligned": true,
+          "rank": 1,
+          "reciprocalRank": 1,
+          "top5": [
+            {
+              "page": "tools.html",
+              "anchor": "tool-falcon-guard",
+              "score": 79
+            },
+            {
+              "page": "bibliography.html",
+              "anchor": "bib-catalogue",
+              "score": 13
+            },
+            {
+              "page": "find.html",
+              "anchor": "find-anything",
+              "score": 8
+            },
+            {
+              "page": "tools.html",
+              "anchor": "tools-service-catalogue",
+              "score": 8
+            },
+            {
+              "page": "appendix.html",
+              "anchor": "tool-index-alphabetical",
+              "score": 7
+            }
+          ]
+        },
+        {
+          "query": "LaunchCDN",
+          "page": "tools.html",
+          "anchor": "tool-launchcdn",
+          "aligned": true,
+          "rank": 1,
+          "reciprocalRank": 1,
+          "top5": [
+            {
+              "page": "tools.html",
+              "anchor": "tool-launchcdn",
+              "score": 13
+            },
+            {
+              "page": "bibliography.html",
+              "anchor": "bib-catalogue",
+              "score": 3
+            },
+            {
+              "page": "find.html",
+              "anchor": "find-anything",
+              "score": 1
+            },
+            {
+              "page": "tools.html",
+              "anchor": "tools-service-catalogue",
+              "score": 1
+            },
+            {
+              "page": "appendix.html",
+              "anchor": "tool-index-alphabetical",
+              "score": 1
+            }
+          ]
+        },
+        {
+          "query": "SEREBot",
+          "page": "tools.html",
+          "anchor": "tool-serebot",
+          "aligned": true,
+          "rank": 1,
+          "reciprocalRank": 1,
+          "top5": [
+            {
+              "page": "tools.html",
+              "anchor": "tool-serebot",
+              "score": 13
+            },
+            {
+              "page": "find.html",
+              "anchor": "find-anything",
+              "score": 1
+            },
+            {
+              "page": "tools.html",
+              "anchor": "tools-service-catalogue",
+              "score": 1
+            },
+            {
+              "page": "appendix.html",
+              "anchor": "tool-index-alphabetical",
+              "score": 1
+            }
+          ]
+        },
+        {
+          "query": "CTR Booster",
+          "page": "tools.html",
+          "anchor": "tool-ctr-booster",
+          "aligned": true,
+          "rank": 1,
+          "reciprocalRank": 1,
+          "top5": [
+            {
+              "page": "tools.html",
+              "anchor": "tool-ctr-booster",
+              "score": 28
+            },
+            {
+              "page": "tools.html",
+              "anchor": "tools-service-catalogue",
+              "score": 6
+            },
+            {
+              "page": "bibliography.html",
+              "anchor": "bib-catalogue",
+              "score": 6
+            },
+            {
+              "page": "find.html",
+              "anchor": "find-anything",
+              "score": 4
+            },
+            {
+              "page": "appendix.html",
+              "anchor": "tool-index-alphabetical",
+              "score": 3
+            }
+          ]
+        },
+        {
+          "query": "Cloakify",
+          "page": "tools.html",
+          "anchor": "tool-cloakify",
+          "aligned": true,
+          "rank": 1,
+          "reciprocalRank": 1,
+          "top5": [
+            {
+              "page": "tools.html",
+              "anchor": "tool-cloakify",
+              "score": 13
+            },
+            {
+              "page": "find.html",
+              "anchor": "find-anything",
+              "score": 1
+            },
+            {
+              "page": "tools.html",
+              "anchor": "tools-service-catalogue",
+              "score": 1
+            },
+            {
+              "page": "appendix.html",
+              "anchor": "tool-index-alphabetical",
+              "score": 1
+            }
+          ]
+        },
+        {
+          "query": "JustCloakit",
+          "page": "tools.html",
+          "anchor": "tool-justcloakit",
+          "aligned": true,
+          "rank": 1,
+          "reciprocalRank": 1,
+          "top5": [
+            {
+              "page": "tools.html",
+              "anchor": "tool-justcloakit",
+              "score": 13
+            },
+            {
+              "page": "bibliography.html",
+              "anchor": "bib-catalogue",
+              "score": 3
+            },
+            {
+              "page": "find.html",
+              "anchor": "find-anything",
+              "score": 1
+            },
+            {
+              "page": "tools.html",
+              "anchor": "tools-service-catalogue",
+              "score": 1
+            },
+            {
+              "page": "appendix.html",
+              "anchor": "tool-index-alphabetical",
+              "score": 1
+            }
+          ]
+        },
+        {
+          "query": "NoIPfraud",
+          "page": "tools.html",
+          "anchor": "tool-noipfraud",
+          "aligned": true,
+          "rank": 1,
+          "reciprocalRank": 1,
+          "top5": [
+            {
+              "page": "tools.html",
+              "anchor": "tool-noipfraud",
+              "score": 13
+            },
+            {
+              "page": "bibliography.html",
+              "anchor": "bib-catalogue",
+              "score": 3
+            },
+            {
+              "page": "find.html",
+              "anchor": "find-anything",
+              "score": 1
+            },
+            {
+              "page": "tools.html",
+              "anchor": "tools-service-catalogue",
+              "score": 1
+            },
+            {
+              "page": "appendix.html",
+              "anchor": "tool-index-alphabetical",
+              "score": 1
+            }
+          ]
+        },
+        {
+          "query": "Kraken (Viper Tools)",
+          "page": "tools.html",
+          "anchor": "tool-kraken-viper-tools",
+          "aligned": true,
+          "rank": 1,
+          "reciprocalRank": 1,
+          "top5": [
+            {
+              "page": "tools.html",
+              "anchor": "tool-kraken-viper-tools",
+              "score": 44
+            },
+            {
+              "page": "tools.html",
+              "anchor": "tools-service-catalogue",
+              "score": 19
+            },
+            {
+              "page": "tools.html",
+              "anchor": "tool-kraken-automation-suite",
+              "score": 18
+            },
+            {
+              "page": "bibliography.html",
+              "anchor": "bib-catalogue",
+              "score": 12
+            },
+            {
+              "page": "find.html",
+              "anchor": "find-anything",
+              "score": 4
+            }
+          ]
+        },
+        {
+          "query": "Kraken Automation Suite",
+          "page": "tools.html",
+          "anchor": "tool-kraken-automation-suite",
+          "aligned": true,
+          "rank": 1,
+          "reciprocalRank": 1,
+          "top5": [
+            {
+              "page": "tools.html",
+              "anchor": "tool-kraken-automation-suite",
+              "score": 43
+            },
+            {
+              "page": "tools.html",
+              "anchor": "tool-kraken-viper-tools",
+              "score": 17
+            },
+            {
+              "page": "find.html",
+              "anchor": "find-anything",
+              "score": 9
+            },
+            {
+              "page": "appendix.html",
+              "anchor": "tool-index-alphabetical",
+              "score": 9
+            },
+            {
+              "page": "tools.html",
+              "anchor": "tools-service-catalogue",
+              "score": 6
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "pairs": [
+    {
+      "query": "OpenAI API",
+      "beforeAligned": false,
+      "afterAligned": true,
+      "beforeRank": 1,
+      "afterRank": 1
+    },
+    {
+      "query": "Anthropic Claude API",
+      "beforeAligned": false,
+      "afterAligned": true,
+      "beforeRank": 1,
+      "afterRank": 1
+    },
+    {
+      "query": "Ahrefs",
+      "beforeAligned": false,
+      "afterAligned": true,
+      "beforeRank": 1,
+      "afterRank": 1
+    },
+    {
+      "query": "Playwright",
+      "beforeAligned": false,
+      "afterAligned": true,
+      "beforeRank": 1,
+      "afterRank": 1
+    },
+    {
+      "query": "Copyscape",
+      "beforeAligned": false,
+      "afterAligned": true,
+      "beforeRank": 1,
+      "afterRank": 1
+    },
+    {
+      "query": "DeepL API",
+      "beforeAligned": false,
+      "afterAligned": true,
+      "beforeRank": 1,
+      "afterRank": 1
+    },
+    {
+      "query": "QuillBot",
+      "beforeAligned": false,
+      "afterAligned": true,
+      "beforeRank": 1,
+      "afterRank": 1
+    },
+    {
+      "query": "Jasper AI",
+      "beforeAligned": false,
+      "afterAligned": true,
+      "beforeRank": 1,
+      "afterRank": 1
+    },
+    {
+      "query": "BrandWell (formerly Content at Scale)",
+      "beforeAligned": false,
+      "afterAligned": true,
+      "beforeRank": null,
+      "afterRank": 1
+    },
+    {
+      "query": "Bright Data (Proxies)",
+      "beforeAligned": false,
+      "afterAligned": true,
+      "beforeRank": 1,
+      "afterRank": 1
+    },
+    {
+      "query": "2Captcha",
+      "beforeAligned": false,
+      "afterAligned": true,
+      "beforeRank": 1,
+      "afterRank": 1
+    },
+    {
+      "query": "IndexNow Protocol",
+      "beforeAligned": true,
+      "afterAligned": true,
+      "beforeRank": 1,
+      "afterRank": 1
+    },
+    {
+      "query": "ExpiredDomains.net",
+      "beforeAligned": true,
+      "afterAligned": true,
+      "beforeRank": 1,
+      "afterRank": 1
+    },
+    {
+      "query": "SMS-Activate",
+      "beforeAligned": false,
+      "afterAligned": true,
+      "beforeRank": 1,
+      "afterRank": 1
+    },
+    {
+      "query": "Microworkers",
+      "beforeAligned": false,
+      "afterAligned": true,
+      "beforeRank": 1,
+      "afterRank": 1
+    },
+    {
+      "query": "ZennoPoster (ZennoLab)",
+      "beforeAligned": false,
+      "afterAligned": true,
+      "beforeRank": 1,
+      "afterRank": 1
+    },
+    {
+      "query": "Browser Automation Studio",
+      "beforeAligned": false,
+      "afterAligned": true,
+      "beforeRank": 1,
+      "afterRank": 1
+    },
+    {
+      "query": "Omega Indexer",
+      "beforeAligned": false,
+      "afterAligned": true,
+      "beforeRank": 1,
+      "afterRank": 1
+    },
+    {
+      "query": "Keitaro Tracker",
+      "beforeAligned": false,
+      "afterAligned": true,
+      "beforeRank": 1,
+      "afterRank": 1
+    },
+    {
+      "query": "GSA Search Engine Ranker",
+      "beforeAligned": false,
+      "afterAligned": true,
+      "beforeRank": 1,
+      "afterRank": 1
+    },
+    {
+      "query": "ScrapeBox",
+      "beforeAligned": false,
+      "afterAligned": true,
+      "beforeRank": 1,
+      "afterRank": 1
+    },
+    {
+      "query": "XRumer",
+      "beforeAligned": false,
+      "afterAligned": true,
+      "beforeRank": 1,
+      "afterRank": 1
+    },
+    {
+      "query": "RankerX",
+      "beforeAligned": false,
+      "afterAligned": true,
+      "beforeRank": 1,
+      "afterRank": 1
+    },
+    {
+      "query": "Money Robot",
+      "beforeAligned": false,
+      "afterAligned": true,
+      "beforeRank": 1,
+      "afterRank": 1
+    },
+    {
+      "query": "SEO Autopilot",
+      "beforeAligned": false,
+      "afterAligned": true,
+      "beforeRank": 1,
+      "afterRank": 1
+    },
+    {
+      "query": "WordAi",
+      "beforeAligned": false,
+      "afterAligned": true,
+      "beforeRank": 1,
+      "afterRank": 1
+    },
+    {
+      "query": "Spin Rewriter AI (formerly Spin Rewriter)",
+      "beforeAligned": false,
+      "afterAligned": true,
+      "beforeRank": null,
+      "afterRank": 1
+    },
+    {
+      "query": "Article Forge",
+      "beforeAligned": false,
+      "afterAligned": true,
+      "beforeRank": 1,
+      "afterRank": 1
+    },
+    {
+      "query": "KontentMachine",
+      "beforeAligned": false,
+      "afterAligned": true,
+      "beforeRank": 1,
+      "afterRank": 1
+    },
+    {
+      "query": "SEO Content Machine",
+      "beforeAligned": false,
+      "afterAligned": true,
+      "beforeRank": 1,
+      "afterRank": 1
+    },
+    {
+      "query": "Adspect",
+      "beforeAligned": false,
+      "afterAligned": true,
+      "beforeRank": 1,
+      "afterRank": 1
+    },
+    {
+      "query": "TrafficShield",
+      "beforeAligned": false,
+      "afterAligned": true,
+      "beforeRank": 1,
+      "afterRank": 1
+    },
+    {
+      "query": "SerpClix",
+      "beforeAligned": false,
+      "afterAligned": true,
+      "beforeRank": 1,
+      "afterRank": 1
+    },
+    {
+      "query": "Sape",
+      "beforeAligned": false,
+      "afterAligned": true,
+      "beforeRank": 1,
+      "afterRank": 1
+    },
+    {
+      "query": "Easy Blog Networks",
+      "beforeAligned": false,
+      "afterAligned": true,
+      "beforeRank": 1,
+      "afterRank": 1
+    },
+    {
+      "query": "GMB Crush",
+      "beforeAligned": false,
+      "afterAligned": true,
+      "beforeRank": 1,
+      "afterRank": 1
+    },
+    {
+      "query": "Falcon Guard (Local Falcon feature)",
+      "beforeAligned": false,
+      "afterAligned": true,
+      "beforeRank": null,
+      "afterRank": 1
+    },
+    {
+      "query": "LaunchCDN",
+      "beforeAligned": false,
+      "afterAligned": true,
+      "beforeRank": 1,
+      "afterRank": 1
+    },
+    {
+      "query": "SEREBot",
+      "beforeAligned": false,
+      "afterAligned": true,
+      "beforeRank": 1,
+      "afterRank": 1
+    },
+    {
+      "query": "CTR Booster",
+      "beforeAligned": false,
+      "afterAligned": true,
+      "beforeRank": 1,
+      "afterRank": 1
+    },
+    {
+      "query": "Cloakify",
+      "beforeAligned": false,
+      "afterAligned": true,
+      "beforeRank": 1,
+      "afterRank": 1
+    },
+    {
+      "query": "JustCloakit",
+      "beforeAligned": false,
+      "afterAligned": true,
+      "beforeRank": 1,
+      "afterRank": 1
+    },
+    {
+      "query": "NoIPfraud",
+      "beforeAligned": false,
+      "afterAligned": true,
+      "beforeRank": 1,
+      "afterRank": 1
+    },
+    {
+      "query": "Kraken (Viper Tools)",
+      "beforeAligned": false,
+      "afterAligned": true,
+      "beforeRank": 1,
+      "afterRank": 1
+    },
+    {
+      "query": "Kraken Automation Suite",
+      "beforeAligned": false,
+      "afterAligned": true,
+      "beforeRank": 1,
+      "afterRank": 1
+    }
+  ]
+}

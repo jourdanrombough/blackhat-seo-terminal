@@ -1,0 +1,85 @@
+{
+  "package": "google_api_content_warehouse",
+  "version": "0.4.0",
+  "releaseInsertedAt": "2024-03-28T07:57:47.379472Z",
+  "reviewedAt": "2026-09-17",
+  "packageUrl": "https://repo.hex.pm/tarballs/google_api_content_warehouse-0.4.0.tar",
+  "releaseApi": "https://hex.pm/api/packages/google_api_content_warehouse/releases/0.4.0",
+  "packageSha256": "c091e5e2a315a163295a9b1de95619d4bc254f8c57f094fa86dd72975391e0be",
+  "verification": "Local package SHA-256 matches the release API checksum. This verifies artifact identity against that registry record, not an independent signature or current ranking implementation.",
+  "fields": [
+    {
+      "file": "quality_navboost_craps_craps_data.ex",
+      "originalPath": "lib/google_api/content_warehouse/v1/model/quality_navboost_craps_craps_data.ex",
+      "module": "GoogleApi.ContentWarehouse.V1.Model.QualityNavboostCrapsCrapsData",
+      "sha256": "5663f40afa84a8d616cfde20f0c7d4febfc4207fd7e55c8570f041bee2d706ec",
+      "attributesOrStrings": [
+        {
+          "name": "goodClicks",
+          "line": 29
+        },
+        {
+          "name": "badClicks",
+          "line": 24
+        },
+        {
+          "name": "lastLongestClicks",
+          "line": 32
+        }
+      ],
+      "interpretationLimit": "Names and documented types are present. This does not identify a current click classifier or purchasable ranking effect."
+    },
+    {
+      "file": "compressed_quality_signals.ex",
+      "originalPath": "lib/google_api/content_warehouse/v1/model/compressed_quality_signals.ex",
+      "module": "GoogleApi.ContentWarehouse.V1.Model.CompressedQualitySignals",
+      "sha256": "c3c9920e1ada9f1820dd131fb81afff351afd6be2ce224373f1e2d85615432c4",
+      "attributesOrStrings": [
+        {
+          "name": "siteAuthority",
+          "line": 35
+        }
+      ],
+      "interpretationLimit": "The comment mentions conversion from SiteAuthority and Qstar. It does not define third-party domain-authority scores or supply current weights."
+    },
+    {
+      "file": "anchors_anchor.ex",
+      "originalPath": "lib/google_api/content_warehouse/v1/model/anchors_anchor.ex",
+      "module": "GoogleApi.ContentWarehouse.V1.Model.AnchorsAnchor",
+      "sha256": "b3fd2ec3a723e4a7b7e72771fee3ffebbb30e5e7a3d5ed6686aeaf7a461e5203",
+      "attributesOrStrings": [
+        {
+          "name": "sourceType",
+          "line": 30
+        }
+      ],
+      "interpretationLimit": "The comment distinguishes source quality tiers and says the relationship with index tier is not identical. It does not establish a universal traffic threshold."
+    },
+    {
+      "file": "per_doc_data.ex",
+      "originalPath": "lib/google_api/content_warehouse/v1/model/per_doc_data.ex",
+      "module": "GoogleApi.ContentWarehouse.V1.Model.PerDocData",
+      "sha256": "fc2816c6adc071e3459ed0631f7b66db306ea4aefa4810d4c26696f34c7986c6",
+      "attributesOrStrings": [
+        {
+          "name": "hostAge",
+          "line": 113
+        }
+      ],
+      "interpretationLimit": "The comment refers to earliest first-seen dates and fresh spam. It is not a universal new-site waiting-period specification."
+    },
+    {
+      "file": "quality_sitemap_target_group.ex",
+      "originalPath": "lib/google_api/content_warehouse/v1/model/quality_sitemap_target_group.ex",
+      "module": "GoogleApi.ContentWarehouse.V1.Model.QualitySitemapTargetGroup",
+      "sha256": "ac7253ebb67e5bc54fee07011b9beb9c157d689f4c06a70b731751e9aabe1414",
+      "attributesOrStrings": [
+        {
+          "name": "chrome_trans_clicks",
+          "line": 35
+        }
+      ],
+      "interpretationLimit": "The string appears in the topUrl description, not as a field declared chrome_trans_clicks in this module. Its collection and present ranking use are not established."
+    }
+  ]
+}

@@ -1,0 +1,1980 @@
+[
+  {
+    "url": "https://2captcha.com/",
+    "attemptedAt": "2026-09-17T14:09:59.420907+00:00",
+    "scope": "Reachability and published metadata only; not claim validation, product testing or price verification.",
+    "status": 200,
+    "finalUrl": "https://2captcha.com/",
+    "contentType": "text/html; charset=utf-8",
+    "truncated": false,
+    "artifact": "00468b620090a476.html",
+    "sha256": "db96bbb4ded426edbd5fb52962d4f39834041498ab7f384fc09a54e2a17cff96",
+    "bytes": 302558,
+    "title": "AI captcha solver: Bypass reCAPTCHA and any captchas using best auto captcha solving service API",
+    "metadata": {}
+  },
+  {
+    "url": "https://2captcha.com/pricing",
+    "attemptedAt": "2026-09-17T14:18:35.966763+00:00",
+    "scope": "Reachability and published metadata only; not claim validation, product testing or price verification.",
+    "status": 200,
+    "finalUrl": "https://2captcha.com/pricing",
+    "contentType": "text/html; charset=utf-8",
+    "truncated": false,
+    "artifact": "9583fd71dcb2ef54.html",
+    "sha256": "4bca5242f1118ab4313f92df0e820b9c315b2068007fe074544290686ac412c1",
+    "bytes": 329278,
+    "title": "Captcha prices",
+    "metadata": {}
+  },
+  {
+    "url": "https://ahrefs.com/",
+    "attemptedAt": "2026-09-17T14:09:59.421236+00:00",
+    "scope": "Reachability and published metadata only; not claim validation, product testing or price verification.",
+    "status": 200,
+    "finalUrl": "https://ahrefs.com/",
+    "contentType": "text/html; charset=UTF-8",
+    "truncated": false,
+    "artifact": "a3ba1a97f24044f2.html",
+    "sha256": "8e0d038648883ee31915ed6c6620b7940f001f9db100dd7f1bf833db89c9d1b3",
+    "bytes": 1328803,
+    "title": "Ahrefs—AI Marketing Platform Powered by Big Data",
+    "metadata": {
+      "og:title": "Ahrefs—AI Marketing Platform Powered by Big Data"
+    }
+  },
+  {
+    "url": "https://aisearch.similarweb.com/blog/black-hat-geo/",
+    "attemptedAt": "2026-09-17T14:09:59.421314+00:00",
+    "scope": "Reachability and published metadata only; not claim validation, product testing or price verification.",
+    "status": 200,
+    "finalUrl": "https://aisearch.similarweb.com/blog/black-hat-geo/",
+    "contentType": "text/html; charset=utf-8",
+    "truncated": false,
+    "artifact": "87f8dc836fadad6f.html",
+    "sha256": "c290f2929c5e4455ac06189df7f2bc81a610860c281df2dfe148ec9f0d6ca3dd",
+    "bytes": 558876,
+    "title": "Black Hat GEO: Tactics & Risks Explained | Similarweb",
+    "metadata": {
+      "og:title": "Black Hat GEO: Tactics & Risks Explained | Similarweb",
+      "article:published_time": "2026-02-26T09:20:30+00:00",
+      "article:modified_time": "2026-05-20T11:31:11+00:00"
+    }
+  },
+  {
+    "url": "https://anti-captcha.com/",
+    "attemptedAt": "2026-09-17T14:09:59.421383+00:00",
+    "scope": "Reachability and published metadata only; not claim validation, product testing or price verification.",
+    "status": 200,
+    "finalUrl": "https://anti-captcha.com/",
+    "contentType": "text/html; charset=utf-8",
+    "truncated": false,
+    "artifact": "9665c56af4b80ff0.html",
+    "sha256": "fc5b4e32d7cbd8bfe351b135f145f68d9281fe916805af2659712a61469b8d37",
+    "bytes": 75714,
+    "title": "Anti Captcha: Captcha Solving Service since 2007. Solve Recaptcha, image captchas, FunCaptcha, GeeTest, Turnstile, Amazon, and many more.",
+    "metadata": {}
+  },
+  {
+    "url": "https://arxiv.org/abs/2603.25500",
+    "attemptedAt": "2026-09-17T14:09:59.422240+00:00",
+    "scope": "Reachability and published metadata only; not claim validation, product testing or price verification.",
+    "status": 406,
+    "error": "HTTP Error 406: Not Acceptable"
+  },
+  {
+    "url": "https://arxiv.org/abs/2604.27202",
+    "attemptedAt": "2026-09-17T14:09:59.422311+00:00",
+    "scope": "Reachability and published metadata only; not claim validation, product testing or price verification.",
+    "status": 200,
+    "finalUrl": "https://arxiv.org/abs/2604.27202",
+    "contentType": "text/html; charset=utf-8",
+    "truncated": false,
+    "artifact": "4c2c0a4c1d00dcd1.html",
+    "sha256": "0b1259f8f26fce3863cf579f683fde9e50f307674db60e5a55aa35fc00358a12",
+    "bytes": 43402,
+    "title": "[2604.27202] Indirect Prompt Injection in the Wild: An Empirical Study of Prevalence, Techniques, and Objectives",
+    "metadata": {
+      "og:title": "Indirect Prompt Injection in the Wild: An Empirical Study of Prevalence, Techniques, and Objectives"
+    }
+  },
+  {
+    "url": "https://bablosoft.com/",
+    "attemptedAt": "2026-09-17T14:09:59.569835+00:00",
+    "scope": "Reachability and published metadata only; not claim validation, product testing or price verification.",
+    "status": 200,
+    "finalUrl": "https://bablosoft.com/",
+    "contentType": "text/html;charset=utf-8",
+    "truncated": false,
+    "artifact": "618a357cc263b484.html",
+    "sha256": "3297f0b98cdf5c1ce950aad3d9b2f1229bbf66f1d9e23fb2ad142301f51ed646",
+    "bytes": 21301,
+    "title": "",
+    "metadata": {}
+  },
+  {
+    "url": "https://blog.google/company-news/outreach-and-initiatives/public-policy/legal-action-stop-fake-review-scams/",
+    "attemptedAt": "2026-09-17T14:18:35.967300+00:00",
+    "scope": "Reachability and published metadata only; not claim validation, product testing or price verification.",
+    "status": 200,
+    "finalUrl": "https://blog.google/company-news/outreach-and-initiatives/public-policy/legal-action-stop-fake-review-scams/",
+    "contentType": "text/html; charset=utf-8",
+    "truncated": false,
+    "artifact": "cc372c3385cc7bdf.html",
+    "sha256": "5260cb0127670e7db9cf0c3188ea2ae3385f959598b5e8e354644554abcc7df4",
+    "bytes": 351604,
+    "title": "Google takes legal action to stop fake review scams",
+    "metadata": {
+      "og:title": "We're taking legal action to stop fake review scams",
+      "article:published_time": "2023-06-16"
+    }
+  },
+  {
+    "url": "https://blogs.bing.com/webmaster/February-2026/Introducing-AI-Performance-in-Bing-Webmaster-Tools-Public-Preview",
+    "attemptedAt": "2026-09-17T14:09:59.581916+00:00",
+    "scope": "Reachability and published metadata only; not claim validation, product testing or price verification.",
+    "status": 200,
+    "finalUrl": "https://blogs.bing.com/webmaster/February-2026/Introducing-AI-Performance-in-Bing-Webmaster-Tools-Public-Preview",
+    "contentType": "text/html; charset=utf-8",
+    "truncated": false,
+    "artifact": "62c826e4456428fa.html",
+    "sha256": "ce86e23d33792cf1ecb01a483090dec46b0b6a77d8346aa05dc55e682bf03f0c",
+    "bytes": 37499,
+    "title": "Introducing AI Performance in Bing Webmaster Tools Public Preview ...",
+    "metadata": {
+      "og:title": "Introducing AI Performance in Bing Webmaster Tools Public Preview "
+    }
+  },
+  {
+    "url": "https://blogs.bing.com/webmaster/October-2025/Bing-Introduces-Support-for-the-data-nosnippet-HTML-Attribute",
+    "attemptedAt": "2026-09-17T14:09:59.766847+00:00",
+    "scope": "Reachability and published metadata only; not claim validation, product testing or price verification.",
+    "status": 200,
+    "finalUrl": "https://blogs.bing.com/webmaster/October-2025/Bing-Introduces-Support-for-the-data-nosnippet-HTML-Attribute",
+    "contentType": "text/html; charset=utf-8",
+    "truncated": false,
+    "artifact": "17828edc82c2bda6.html",
+    "sha256": "368cae15fd9b0acd377eb976d6cc59ac5e1d35901f3912763488f5318ff19254",
+    "bytes": 35331,
+    "title": "Bing Introduces Support for the data-nosnippet HTML Attribute...",
+    "metadata": {
+      "og:title": "Bing Introduces Support for the data-nosnippet HTML Attribute"
+    }
+  },
+  {
+    "url": "https://brandwell.ai/",
+    "attemptedAt": "2026-09-17T14:18:35.967393+00:00",
+    "scope": "Reachability and published metadata only; not claim validation, product testing or price verification.",
+    "status": 200,
+    "finalUrl": "https://brandwell.ai/",
+    "contentType": "text/html; charset=UTF-8",
+    "truncated": false,
+    "artifact": "02a3a57441c1ca9b.html",
+    "sha256": "23a82bc4411b9e292e1d3638bc2de77269a61a27ca82300ca2de7276c5cf74ef",
+    "bytes": 155850,
+    "title": "BrandWell | We Reveal Every Active Buyer in Your Market",
+    "metadata": {
+      "og:title": "BrandWell | We Reveal Every Active Buyer in Your Market",
+      "article:published_time": "2023-10-24T15:51:29+00:00",
+      "article:modified_time": "2026-08-11T14:50:16+00:00"
+    }
+  },
+  {
+    "url": "https://brandwell.ai/blog/launch-story/",
+    "attemptedAt": "2026-09-17T14:09:59.903568+00:00",
+    "scope": "Reachability and published metadata only; not claim validation, product testing or price verification.",
+    "status": 200,
+    "finalUrl": "https://brandwell.ai/blog/launch-story/",
+    "contentType": "text/html; charset=UTF-8",
+    "truncated": false,
+    "artifact": "1760a38e3c58d272.html",
+    "sha256": "330373a77f7b13a60cb641d29ecf0038348414c50531c834ba9ba55724783341",
+    "bytes": 134894,
+    "title": "The Launch Story: Why Content at Scale is Becoming BrandWell",
+    "metadata": {
+      "og:title": "The Launch Story: Why Content at Scale is Becoming BrandWell",
+      "article:published_time": "2024-08-26T00:00:57+00:00",
+      "article:modified_time": "2026-08-11T14:50:16+00:00"
+    }
+  },
+  {
+    "url": "https://brightdata.com/",
+    "attemptedAt": "2026-09-17T14:09:59.997691+00:00",
+    "scope": "Reachability and published metadata only; not claim validation, product testing or price verification.",
+    "status": 200,
+    "finalUrl": "https://brightdata.com/",
+    "contentType": "text/html; charset=UTF-8",
+    "truncated": false,
+    "artifact": "0b770999a184d5d0.html",
+    "sha256": "29f16a255bd4ce43d4bf151e2df95e212014c431ea689c5ccc6b0e53a9dfe250",
+    "bytes": 283845,
+    "title": "Bright Data: Web Data Infrastructure for Humans & Agents",
+    "metadata": {
+      "og:title": "Bright Data - All in One Platform for Proxies and Web Scraping",
+      "article:modified_time": "2026-09-02T10:56:03+00:00"
+    }
+  },
+  {
+    "url": "https://cdn.vox-cdn.com/uploads/chorus_asset/file/24731137/GMBEye___Complaint___DRAFT__1_.pdf",
+    "attemptedAt": "2026-09-17T14:18:35.967458+00:00",
+    "scope": "Reachability and published metadata only; not claim validation, product testing or price verification.",
+    "status": 200,
+    "finalUrl": "https://cdn.vox-cdn.com/uploads/chorus_asset/file/24731137/GMBEye___Complaint___DRAFT__1_.pdf",
+    "contentType": "application/pdf",
+    "truncated": true,
+    "artifact": "4770405ff908ba77.bin",
+    "sha256": "a5be5bde13f3e2ea207faf3b293b0dfcdfaca02fbf03c161045570f6a18a3465",
+    "bytes": 1500000
+  },
+  {
+    "url": "https://claude.com/platform/api",
+    "attemptedAt": "2026-09-17T14:10:00.016733+00:00",
+    "scope": "Reachability and published metadata only; not claim validation, product testing or price verification.",
+    "status": 200,
+    "finalUrl": "https://claude.com/platform/api",
+    "contentType": "text/html; charset=utf-8",
+    "truncated": false,
+    "artifact": "d35aa40ef129007e.html",
+    "sha256": "f9b0f18803dedb1e744fea050d481c8dbdbd078b1c19d224d2544885d4d7baea",
+    "bytes": 1095536,
+    "title": "Claude Platform | Claude by Anthropic",
+    "metadata": {
+      "og:title": "Claude Platform | Claude by Anthropic"
+    }
+  },
+  {
+    "url": "https://ctrbooster.com/",
+    "attemptedAt": "2026-09-17T14:18:35.967547+00:00",
+    "scope": "Reachability and published metadata only; not claim validation, product testing or price verification.",
+    "status": 200,
+    "finalUrl": "https://ctrbooster.com/",
+    "contentType": "text/html; charset=UTF-8",
+    "truncated": false,
+    "artifact": "f786576cb4ff7f88.html",
+    "sha256": "7d02067ad9a18be2e8c6b518d39b318ba67fba0f225de2078a805022333780cb",
+    "bytes": 474632,
+    "title": "Boost CTR with the Leading Manipulation Tool for Traffic.Facebook Group Email",
+    "metadata": {
+      "og:title": "Boost CTR with the Leading Manipulation Tool for Traffic.",
+      "article:published_time": "2022-08-09T15:58:21-06:00",
+      "article:modified_time": "2024-01-24T18:24:05-06:00"
+    }
+  },
+  {
+    "url": "https://developers.deepl.com/docs/getting-started/quickstart",
+    "attemptedAt": "2026-09-17T14:18:35.967617+00:00",
+    "scope": "Reachability and published metadata only; not claim validation, product testing or price verification.",
+    "status": 200,
+    "finalUrl": "https://developers.deepl.com/docs/getting-started/quickstart",
+    "contentType": "text/html; charset=utf-8",
+    "truncated": false,
+    "artifact": "4c4ec5ac9e66c9ed.html",
+    "sha256": "5182a8dbac3166290bdba3a6d7ed92cd4538667fefc0a81bc0b94c5f8ef268a1",
+    "bytes": 506057,
+    "title": "Quickstart - DeepL Documentation",
+    "metadata": {
+      "og:title": "Quickstart - DeepL Documentation"
+    }
+  },
+  {
+    "url": "https://developers.google.com/crawling/docs/crawlers-fetchers/google-common-crawlers",
+    "attemptedAt": "2026-09-17T14:10:00.231016+00:00",
+    "scope": "Reachability and published metadata only; not claim validation, product testing or price verification.",
+    "status": 200,
+    "finalUrl": "https://developers.google.com/crawling/docs/crawlers-fetchers/google-common-crawlers",
+    "contentType": "text/html; charset=utf-8",
+    "truncated": false,
+    "artifact": "aa7b38d3a4f549ab.html",
+    "sha256": "9667fee3f494a0b363409a854017d95232435498f00dd072daa92de2bfc574a6",
+    "bytes": 88967,
+    "title": "Google's common crawlers | Google Crawling Infrastructure | Crawling infrastructure | Google for Developers",
+    "metadata": {
+      "og:title": "Google's common crawlers | Google Crawling Infrastructure  |  Crawling infrastructure  |  Google for Developers"
+    }
+  },
+  {
+    "url": "https://developers.google.com/crawling/docs/crawlers-fetchers/verify-google-requests",
+    "attemptedAt": "2026-09-17T14:10:00.280047+00:00",
+    "scope": "Reachability and published metadata only; not claim validation, product testing or price verification.",
+    "status": 200,
+    "finalUrl": "https://developers.google.com/crawling/docs/crawlers-fetchers/verify-google-requests",
+    "contentType": "text/html; charset=utf-8",
+    "truncated": false,
+    "artifact": "47dda7caeaa8bf4e.html",
+    "sha256": "77cafb780060791dff438a9859c7b9e44a7e61ae479436aa8cdfdc1023116495",
+    "bytes": 69778,
+    "title": "Verify Requests from Google Crawlers and Fetchers | Google Crawling Infrastructure | Crawling infrastructure | Google for Developers",
+    "metadata": {
+      "og:title": "Verify Requests from Google Crawlers and Fetchers | Google Crawling Infrastructure  |  Crawling infrastructure  |  Google for Developers"
+    }
+  },
+  {
+    "url": "https://developers.google.com/search/blog/2012/04/another-step-to-reward-high-quality",
+    "attemptedAt": "2026-09-17T14:10:00.316811+00:00",
+    "scope": "Reachability and published metadata only; not claim validation, product testing or price verification.",
+    "status": 200,
+    "finalUrl": "https://developers.google.com/search/blog/2012/04/another-step-to-reward-high-quality",
+    "contentType": "text/html; charset=utf-8",
+    "truncated": false,
+    "artifact": "2374a9ea44d2f405.html",
+    "sha256": "a014a8a6e0ea785ebd73c9c8a9fe75a63f3c8007d0a7984dcd7154415c9ab995",
+    "bytes": 618962,
+    "title": "Another step to reward high-quality sites | Google Search Central Blog | Google for DevelopersGoogleGoogle",
+    "metadata": {
+      "og:title": "Another step to reward high-quality sites  |  Google Search Central Blog  |  Google for Developers"
+    }
+  },
+  {
+    "url": "https://developers.google.com/search/blog/2016/09/penguin-is-now-part-of-our-core",
+    "attemptedAt": "2026-09-17T14:10:00.348403+00:00",
+    "scope": "Reachability and published metadata only; not claim validation, product testing or price verification.",
+    "status": 200,
+    "finalUrl": "https://developers.google.com/search/blog/2016/09/penguin-is-now-part-of-our-core",
+    "contentType": "text/html; charset=utf-8",
+    "truncated": false,
+    "artifact": "1f3695b67febb1b1.html",
+    "sha256": "af8512f37fb2944ed9381ac0ed7834e51323729cd5fe5fd95aeef249981d74e8",
+    "bytes": 619384,
+    "title": "Penguin is now part of our core algorithm | Google Search Central Blog | Google for DevelopersGoogleGoogle",
+    "metadata": {
+      "og:title": "Penguin is now part of our core algorithm  |  Google Search Central Blog  |  Google for Developers"
+    }
+  },
+  {
+    "url": "https://developers.google.com/search/blog/2019/09/evolving-nofollow-new-ways-to-identify",
+    "attemptedAt": "2026-09-17T14:10:00.688660+00:00",
+    "scope": "Reachability and published metadata only; not claim validation, product testing or price verification.",
+    "status": 200,
+    "finalUrl": "https://developers.google.com/search/blog/2019/09/evolving-nofollow-new-ways-to-identify",
+    "contentType": "text/html; charset=utf-8",
+    "truncated": false,
+    "artifact": "870b5723d40b93f3.html",
+    "sha256": "4f397944b1132711d82668983ae4dfc5311ff3c02d5a16811a1e2d6cb66e7141",
+    "bytes": 626698,
+    "title": "Evolving \"nofollow\" – new ways to identify the nature of links | Google Search Central Blog | Google for DevelopersGoogleGoogle",
+    "metadata": {
+      "og:title": "Evolving \"nofollow\" – new ways to identify the nature of links  |  Google Search Central Blog  |  Google for Developers"
+    }
+  },
+  {
+    "url": "https://developers.google.com/search/blog/2022/08/helpful-content-update",
+    "attemptedAt": "2026-09-17T14:10:00.695894+00:00",
+    "scope": "Reachability and published metadata only; not claim validation, product testing or price verification.",
+    "status": 200,
+    "finalUrl": "https://developers.google.com/search/blog/2022/08/helpful-content-update",
+    "contentType": "text/html; charset=utf-8",
+    "truncated": false,
+    "artifact": "6bd9f9ec51d7c044.html",
+    "sha256": "a97fcad25399bda124f3e76591b019f11873e753ee3c287136971ff7227cc13b",
+    "bytes": 625578,
+    "title": "What creators should know about Google's August 2022 helpful content update | Google Search Central Blog | Google for DevelopersGoogleGoogle",
+    "metadata": {
+      "og:title": "What creators should know about Google's August 2022 helpful content update  |  Google Search Central Blog  |  Google for Developers"
+    }
+  },
+  {
+    "url": "https://developers.google.com/search/blog/2023/08/howto-faq-changes",
+    "attemptedAt": "2026-09-17T14:10:00.779654+00:00",
+    "scope": "Reachability and published metadata only; not claim validation, product testing or price verification.",
+    "status": 200,
+    "finalUrl": "https://developers.google.com/search/blog/2023/08/howto-faq-changes",
+    "contentType": "text/html; charset=utf-8",
+    "truncated": false,
+    "artifact": "ed54af026ee71750.html",
+    "sha256": "6299a05611d3a9aab75d2eae383750f2acd76e1aa7897d9fa12e6b8d4bca23e5",
+    "bytes": 621288,
+    "title": "Changes to HowTo and FAQ rich results | Google Search Central Blog | Google for DevelopersGoogleGoogle",
+    "metadata": {
+      "og:title": "Changes to HowTo and FAQ rich results  |  Google Search Central Blog  |  Google for Developers"
+    }
+  },
+  {
+    "url": "https://developers.google.com/search/blog/2024/03/core-update-spam-policies",
+    "attemptedAt": "2026-09-17T14:10:00.880833+00:00",
+    "scope": "Reachability and published metadata only; not claim validation, product testing or price verification.",
+    "status": 200,
+    "finalUrl": "https://developers.google.com/search/blog/2024/03/core-update-spam-policies",
+    "contentType": "text/html; charset=utf-8",
+    "truncated": false,
+    "artifact": "7009b4356a2845bc.html",
+    "sha256": "1d0943a9d00da659a202d36f57387d76825d8f1c231b8fe8d4f1eb7fdcd478c4",
+    "bytes": 629549,
+    "title": "What web creators should know about our March 2024 core update and new spam policies | Google Search Central Blog | Google for DevelopersGoogleGoogle",
+    "metadata": {
+      "og:title": "What web creators should know about our March 2024 core update and new spam policies  |  Google Search Central Blog  |  Google for Developers"
+    }
+  },
+  {
+    "url": "https://developers.google.com/search/blog/2024/11/site-reputation-abuse",
+    "attemptedAt": "2026-09-17T14:10:00.920502+00:00",
+    "scope": "Reachability and published metadata only; not claim validation, product testing or price verification.",
+    "status": 200,
+    "finalUrl": "https://developers.google.com/search/blog/2024/11/site-reputation-abuse",
+    "contentType": "text/html; charset=utf-8",
+    "truncated": false,
+    "artifact": "d8f21160e473739a.html",
+    "sha256": "fd78d46da58a98f01c42ec50d0ce89b0bbff8985408cf5a80cab149a56b23b0a",
+    "bytes": 627886,
+    "title": "Updating our site reputation abuse policy | Google Search Central Blog | Google for DevelopersGoogleGoogle",
+    "metadata": {
+      "og:title": "Updating our site reputation abuse policy  |  Google Search Central Blog  |  Google for Developers"
+    }
+  },
+  {
+    "url": "https://developers.google.com/search/blog/2026/08/update-site-reputation-policy",
+    "attemptedAt": "2026-09-17T14:10:01.397319+00:00",
+    "scope": "Reachability and published metadata only; not claim validation, product testing or price verification.",
+    "status": 200,
+    "finalUrl": "https://developers.google.com/search/blog/2026/08/update-site-reputation-policy",
+    "contentType": "text/html; charset=utf-8",
+    "truncated": false,
+    "artifact": "ae93fb765ce454ff.html",
+    "sha256": "dd52ac9abece31169e261a758633d73b96e818733b3f4fe549ae441f85143fd5",
+    "bytes": 619652,
+    "title": "Update to the Site Reputation Policy | Google Search Central Blog | Google for DevelopersGoogleGoogle",
+    "metadata": {
+      "og:title": "Update to the Site Reputation Policy  |  Google Search Central Blog  |  Google for Developers"
+    }
+  },
+  {
+    "url": "https://developers.google.com/search/docs/appearance/ai-features",
+    "attemptedAt": "2026-09-17T14:10:01.502098+00:00",
+    "scope": "Reachability and published metadata only; not claim validation, product testing or price verification.",
+    "status": 200,
+    "finalUrl": "https://developers.google.com/search/docs/appearance/ai-features",
+    "contentType": "text/html; charset=utf-8",
+    "truncated": false,
+    "artifact": "455005f14f8c6bbe.html",
+    "sha256": "eadd7ae0fd7f0bf16ecbb8768c2ec4c93edb46cb93d3dd14f0a366dee14f7320",
+    "bytes": 179609,
+    "title": "AI Features and Your Website | Google Search Central | Documentation | Google for DevelopersGoogleGoogle",
+    "metadata": {
+      "og:title": "AI Features and Your Website | Google Search Central  |  Documentation  |  Google for Developers"
+    }
+  },
+  {
+    "url": "https://developers.google.com/search/docs/appearance/ranking-systems-guide",
+    "attemptedAt": "2026-09-17T14:10:01.594439+00:00",
+    "scope": "Reachability and published metadata only; not claim validation, product testing or price verification.",
+    "status": 200,
+    "finalUrl": "https://developers.google.com/search/docs/appearance/ranking-systems-guide",
+    "contentType": "text/html; charset=utf-8",
+    "truncated": false,
+    "artifact": "9876ca4c6cc696f0.html",
+    "sha256": "1199f8638813ee49c9e89162f39dadb625ec1411dd1f0367092a69312c537eef",
+    "bytes": 187777,
+    "title": "A Guide to Google Search Ranking Systems | Google Search Central | Documentation | Google for DevelopersGoogleGoogle",
+    "metadata": {
+      "og:title": "A Guide to Google Search Ranking Systems | Google Search Central  |  Documentation  |  Google for Developers"
+    }
+  },
+  {
+    "url": "https://developers.google.com/search/docs/appearance/structured-data/sd-policies",
+    "attemptedAt": "2026-09-17T14:10:01.607120+00:00",
+    "scope": "Reachability and published metadata only; not claim validation, product testing or price verification.",
+    "status": 200,
+    "finalUrl": "https://developers.google.com/search/docs/appearance/structured-data/sd-policies",
+    "contentType": "text/html; charset=utf-8",
+    "truncated": false,
+    "artifact": "d76e3db85ca0e85e.html",
+    "sha256": "c236831824857c3a968d8875fd88b90c11bd3068a0437562137cf242743f3743",
+    "bytes": 196835,
+    "title": "General Structured Data Guidelines | Google Search Central | Documentation | Google for DevelopersGoogleGoogle",
+    "metadata": {
+      "og:title": "General Structured Data Guidelines | Google Search Central  |  Documentation  |  Google for Developers"
+    }
+  },
+  {
+    "url": "https://developers.google.com/search/docs/crawling-indexing/site-move-with-url-changes",
+    "attemptedAt": "2026-09-17T14:10:01.611099+00:00",
+    "scope": "Reachability and published metadata only; not claim validation, product testing or price verification.",
+    "status": 200,
+    "finalUrl": "https://developers.google.com/search/docs/crawling-indexing/site-move-with-url-changes",
+    "contentType": "text/html; charset=utf-8",
+    "truncated": false,
+    "artifact": "fcd0163376e7e6be.html",
+    "sha256": "f4adeddd4cf7fa85d2bed6afd9c75fd9a310dbf9f256b393ea179531bdc64f18",
+    "bytes": 203153,
+    "title": "Site Moves and Migrations | Google Search Central | Documentation | Google for DevelopersGoogleGoogle",
+    "metadata": {
+      "og:title": "Site Moves and Migrations | Google Search Central  |  Documentation  |  Google for Developers"
+    }
+  },
+  {
+    "url": "https://developers.google.com/search/docs/essentials",
+    "attemptedAt": "2026-09-17T14:10:01.682095+00:00",
+    "scope": "Reachability and published metadata only; not claim validation, product testing or price verification.",
+    "status": 200,
+    "finalUrl": "https://developers.google.com/search/docs/essentials",
+    "contentType": "text/html; charset=utf-8",
+    "truncated": false,
+    "artifact": "cc224bed75fe5151.html",
+    "sha256": "a435de3d6b21f43981b826ade4fd13b23ec672b19b534fbb54c98b56be579480",
+    "bytes": 173948,
+    "title": "Google Search Essentials (formerly Webmaster Guidelines) | Google Search Central | Documentation | Google for DevelopersGoogleGoogle",
+    "metadata": {
+      "og:title": "Google Search Essentials (formerly Webmaster Guidelines) | Google Search Central  |  Documentation  |  Google for Developers"
+    }
+  },
+  {
+    "url": "https://developers.google.com/search/docs/essentials/spam-policies",
+    "attemptedAt": "2026-09-17T14:10:02.041181+00:00",
+    "scope": "Reachability and published metadata only; not claim validation, product testing or price verification.",
+    "status": 200,
+    "finalUrl": "https://developers.google.com/search/docs/essentials/spam-policies",
+    "contentType": "text/html; charset=utf-8",
+    "truncated": false,
+    "artifact": "0a1c82c044ac2ebf.html",
+    "sha256": "aadea15844e9bb04df1fdfeead9433d2d38ca565e615e6096c6b83b761f38222",
+    "bytes": 211007,
+    "title": "Spam Policies for Google Web Search | Google Search Central | Documentation | Google for DevelopersGoogleGoogle",
+    "metadata": {
+      "og:title": "Spam Policies for Google Web Search | Google Search Central  |  Documentation  |  Google for Developers"
+    }
+  },
+  {
+    "url": "https://developers.google.com/search/docs/fundamentals/creating-helpful-content",
+    "attemptedAt": "2026-09-17T14:10:02.051383+00:00",
+    "scope": "Reachability and published metadata only; not claim validation, product testing or price verification.",
+    "status": 200,
+    "finalUrl": "https://developers.google.com/search/docs/fundamentals/creating-helpful-content",
+    "contentType": "text/html; charset=utf-8",
+    "truncated": false,
+    "artifact": "8d7d5b412c8148a2.html",
+    "sha256": "6fb5a95915e8dadada86b9699eb6349bf2e479d1f77551880ce1eff4e64c2715",
+    "bytes": 185406,
+    "title": "Creating Helpful, Reliable, People-First Content | Google Search Central | Documentation | Google for DevelopersGoogleGoogle",
+    "metadata": {
+      "og:title": "Creating Helpful, Reliable, People-First Content | Google Search Central  |  Documentation  |  Google for Developers"
+    }
+  },
+  {
+    "url": "https://developers.google.com/search/docs/monitor-debug/debugging-search-traffic-drops",
+    "attemptedAt": "2026-09-17T14:10:02.115609+00:00",
+    "scope": "Reachability and published metadata only; not claim validation, product testing or price verification.",
+    "status": 200,
+    "finalUrl": "https://developers.google.com/search/docs/monitor-debug/debugging-search-traffic-drops",
+    "contentType": "text/html; charset=utf-8",
+    "truncated": false,
+    "artifact": "4b57caaedb794659.html",
+    "sha256": "41fd5b900ecbdb274a033c2de667f2d1e0315bdb2a69a3d334b560283de9a9ca",
+    "bytes": 189324,
+    "title": "Debug Google Search Traffic Drops | Google Search Central | Documentation | Google for DevelopersGoogleGoogleSketches showing traffic drop graphs and their potential causes",
+    "metadata": {
+      "og:title": "Debug Google Search Traffic Drops | Google Search Central  |  Documentation  |  Google for Developers"
+    }
+  },
+  {
+    "url": "https://developers.google.com/search/updates",
+    "attemptedAt": "2026-09-17T14:10:02.127925+00:00",
+    "scope": "Reachability and published metadata only; not claim validation, product testing or price verification.",
+    "status": 200,
+    "finalUrl": "https://developers.google.com/search/updates",
+    "contentType": "text/html; charset=utf-8",
+    "truncated": false,
+    "artifact": "758f52008b4fea50.html",
+    "sha256": "e76068c2650e644e5cf2f28b0b9fcab9b0876761de3bff06a345752f758752ad",
+    "bytes": 382955,
+    "title": "Latest Google Search Documentation Updates | Google Search Central | What's new | Google for DevelopersGoogleGoogle",
+    "metadata": {
+      "og:title": "Latest Google Search Documentation Updates | Google Search Central  |  What's new  |  Google for Developers"
+    }
+  },
+  {
+    "url": "https://developers.openai.com/api/docs/bots",
+    "attemptedAt": "2026-09-17T14:10:02.312825+00:00",
+    "scope": "Reachability and published metadata only; not claim validation, product testing or price verification.",
+    "status": 200,
+    "finalUrl": "https://developers.openai.com/api/docs/bots",
+    "contentType": "text/html; charset=utf-8",
+    "truncated": false,
+    "artifact": "f75e639443a81493.html",
+    "sha256": "f1b9a229ffcb342e43972d5147e53b37986405ec5865123b53ccf91a9ae71e66",
+    "bytes": 327517,
+    "title": "Overview of OpenAI Crawlers",
+    "metadata": {
+      "og:title": "Overview of OpenAI Crawlers"
+    }
+  },
+  {
+    "url": "https://docs.perplexity.ai/docs/resources/perplexity-crawlers",
+    "attemptedAt": "2026-09-17T14:10:02.450095+00:00",
+    "scope": "Reachability and published metadata only; not claim validation, product testing or price verification.",
+    "status": 200,
+    "finalUrl": "https://docs.perplexity.ai/docs/resources/perplexity-crawlers",
+    "contentType": "text/html; charset=utf-8",
+    "truncated": false,
+    "artifact": "0aea7e053956a1bd.html",
+    "sha256": "ed1b6094982dc22237d46ee7d5fa375d4823b6d0f3287cf669985a45c50b64ca",
+    "bytes": 481009,
+    "title": "Perplexity Crawlers - Perplexity",
+    "metadata": {
+      "og:title": "Perplexity Crawlers - Perplexity"
+    }
+  },
+  {
+    "url": "https://easyblognetworks.com/",
+    "attemptedAt": "2026-09-17T14:10:02.641135+00:00",
+    "scope": "Reachability and published metadata only; not claim validation, product testing or price verification.",
+    "status": 200,
+    "finalUrl": "https://easyblognetworks.com/",
+    "contentType": "text/html",
+    "truncated": false,
+    "artifact": "cf81ad3b060c5ff4.html",
+    "sha256": "49e1099d55bc99cc62f3d3bbac9e3a53ff61ba807317ebffff798eb1f97fb39f",
+    "bytes": 92124,
+    "title": "PBN Hosting with Zero Footprints - EasyBlogNetworks",
+    "metadata": {
+      "author": "Easy Blog Networks",
+      "og:title": "PBN Hosting with Zero Footprints - EasyBlogNetworks"
+    }
+  },
+  {
+    "url": "https://easyblognetworks.com/pricing/",
+    "attemptedAt": "2026-09-17T14:18:36.354273+00:00",
+    "scope": "Reachability and published metadata only; not claim validation, product testing or price verification.",
+    "status": 200,
+    "finalUrl": "https://easyblognetworks.com/pricing/",
+    "contentType": "text/html",
+    "truncated": false,
+    "artifact": "d983569668b88cc1.html",
+    "sha256": "64010117a291c87879a12c133f311d8c9798ec4215eddac86e0b12573db8bd5c",
+    "bytes": 65806,
+    "title": "Plans &amp; Pricing - EasyBlogNetworks",
+    "metadata": {
+      "author": "Easy Blog Networks",
+      "og:title": "Plans &amp; Pricing - EasyBlogNetworks"
+    }
+  },
+  {
+    "url": "https://eli.pizza/posts/rescuing-the-hairpin-website-archive/",
+    "attemptedAt": "2026-09-17T14:10:02.696897+00:00",
+    "scope": "Reachability and published metadata only; not claim validation, product testing or price verification.",
+    "status": 200,
+    "finalUrl": "https://eli.pizza/posts/rescuing-the-hairpin-website-archive/",
+    "contentType": "text/html; charset=utf-8",
+    "truncated": false,
+    "artifact": "5214d287a1f0bb90.html",
+    "sha256": "9cc885cc4b53497f535fba7c5a7ae1ae697005566773a7f1fc3f203588e17bdd",
+    "bytes": 19230,
+    "title": "Rescuing the archives of The Hairpin and The Awl",
+    "metadata": {}
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/2024_Google_Search_documentation_leak",
+    "attemptedAt": "2026-09-17T14:10:02.760199+00:00",
+    "scope": "Reachability and published metadata only; not claim validation, product testing or price verification.",
+    "status": 200,
+    "finalUrl": "https://en.wikipedia.org/wiki/2024_Google_Search_documentation_leak",
+    "contentType": "text/html; charset=UTF-8",
+    "truncated": false,
+    "artifact": "8358b2ea26b0f133.html",
+    "sha256": "c3d80b088cf1181f64b6fe5aadc26ce67e9eff3d884a6205b43433742dff58c0",
+    "bytes": 128690,
+    "title": "2024 Google Search documentation leak - Wikipedia",
+    "metadata": {
+      "og:title": "2024 Google Search documentation leak - Wikipedia"
+    }
+  },
+  {
+    "url": "https://genius.com/Genius-founders-rap-genius-is-back-on-google-annotated",
+    "attemptedAt": "2026-09-17T14:10:02.882449+00:00",
+    "scope": "Reachability and published metadata only; not claim validation, product testing or price verification.",
+    "status": 200,
+    "finalUrl": "https://genius.com/Genius-founders-rap-genius-is-back-on-google-annotated",
+    "contentType": "text/html; charset=utf-8",
+    "truncated": false,
+    "artifact": "1a4c0902b64f1830.html",
+    "sha256": "b419135879934b78da50d127c070c0564afa4bfcc0897028a47fd0c2349600c5",
+    "bytes": 413724,
+    "title": "Genius Founders – Rap Genius is Back on Google | Genius",
+    "metadata": {
+      "og:title": "Genius Founders (Ft. Genius Engineering Team) – Rap Genius is Back on Google"
+    }
+  },
+  {
+    "url": "https://googleblog.blogspot.com/2005/01/preventing-comment-spam.html",
+    "attemptedAt": "2026-09-17T14:10:02.889999+00:00",
+    "scope": "Reachability and published metadata only; not claim validation, product testing or price verification.",
+    "status": 200,
+    "finalUrl": "https://googleblog.blogspot.com/2005/01/preventing-comment-spam.html",
+    "contentType": "text/html; charset=UTF-8",
+    "truncated": false,
+    "artifact": "278e4f16135860b9.html",
+    "sha256": "e957fe3d799dbe3959f2e523bc6c04719da528b4ee341a4803dba57f68e49b3f",
+    "bytes": 123660,
+    "title": "Official Google Blog: Preventing comment spam",
+    "metadata": {
+      "og:title": "Preventing comment spam"
+    }
+  },
+  {
+    "url": "https://googleblog.blogspot.com/2011/02/finding-more-high-quality-sites-in.html",
+    "attemptedAt": "2026-09-17T14:10:02.954375+00:00",
+    "scope": "Reachability and published metadata only; not claim validation, product testing or price verification.",
+    "status": 200,
+    "finalUrl": "https://googleblog.blogspot.com/2011/02/finding-more-high-quality-sites-in.html",
+    "contentType": "text/html; charset=UTF-8",
+    "truncated": false,
+    "artifact": "6f5c8423d56859aa.html",
+    "sha256": "81cc93c2add5bdecdbb00e835f8d9fe0e1f39d34cc22adcab5f2f8570bdada2f",
+    "bytes": 116463,
+    "title": "Official Google Blog: Finding more high-quality sites in search",
+    "metadata": {
+      "og:title": "Finding more high-quality sites in search"
+    }
+  },
+  {
+    "url": "https://hex.pm/api/packages/google_api_content_warehouse/releases/0.4.0",
+    "attemptedAt": "2026-09-17T14:10:02.989617+00:00",
+    "scope": "Reachability and published metadata only; not claim validation, product testing or price verification.",
+    "status": 200,
+    "finalUrl": "https://hex.pm/api/packages/google_api_content_warehouse/releases/0.4.0",
+    "contentType": "application/json; charset=utf-8",
+    "truncated": false,
+    "artifact": "a9fee3497e88da38.bin",
+    "sha256": "7bb86527c8db3e0c6a7290630afc0262fcefeddae357e3f278b554a85d23b9c0",
+    "bytes": 1046
+  },
+  {
+    "url": "https://hex.pm/packages/google_api_content_warehouse/0.4.0",
+    "attemptedAt": "2026-09-17T14:10:03.024293+00:00",
+    "scope": "Reachability and published metadata only; not claim validation, product testing or price verification.",
+    "status": 200,
+    "finalUrl": "https://hex.pm/packages/google_api_content_warehouse/0.4.0",
+    "contentType": "text/html; charset=utf-8",
+    "truncated": false,
+    "artifact": "dd825d680ea89744.html",
+    "sha256": "5f5c20d0353ba484081b6570c5bc9fc45763af29679c9de086327751db7f75ab",
+    "bytes": 87747,
+    "title": "google_api_content_warehouse | Hex",
+    "metadata": {
+      "og:title": "google_api_content_warehouse"
+    }
+  },
+  {
+    "url": "https://ipullrank.com/google-algo-leak",
+    "attemptedAt": "2026-09-17T14:10:03.156058+00:00",
+    "scope": "Reachability and published metadata only; not claim validation, product testing or price verification.",
+    "status": 200,
+    "finalUrl": "https://ipullrank.com/google-algo-leak",
+    "contentType": "text/html; charset=UTF-8",
+    "truncated": false,
+    "artifact": "6ffbab018e4a916c.html",
+    "sha256": "a541943b1cf59df7db8ca8e8ddf5ea4bad190f585920462ce0f7b81824020cbe",
+    "bytes": 395387,
+    "title": "Secrets from the Google Algorithm Leak: Search’s Internal Engineering Documentation and What it Means",
+    "metadata": {
+      "og:title": "Secrets from the Algorithm: Google Search’s Internal Engineering Documentation Has Leaked",
+      "article:published_time": "2024-05-28T01:41:54+00:00",
+      "article:modified_time": "2026-07-31T16:22:28+00:00",
+      "author": "Mike King"
+    }
+  },
+  {
+    "url": "https://justcloakit.com/about.php",
+    "attemptedAt": "2026-09-17T14:10:03.159612+00:00",
+    "scope": "Reachability and published metadata only; not claim validation, product testing or price verification.",
+    "status": 200,
+    "finalUrl": "https://justcloakit.com/about.php",
+    "contentType": "text/html; charset=UTF-8",
+    "truncated": false,
+    "artifact": "6d79f2fdf6c84592.html",
+    "sha256": "3760d5fa494d55b084697898dd7ecb7f2637fd7ddc5f810adc6ee468d0f20216",
+    "bytes": 15675,
+    "title": "Just Cloak It™ | About Us",
+    "metadata": {
+      "author": "blackjack"
+    }
+  },
+  {
+    "url": "https://keitaro.io/en/",
+    "attemptedAt": "2026-09-17T14:10:03.263884+00:00",
+    "scope": "Reachability and published metadata only; not claim validation, product testing or price verification.",
+    "status": 200,
+    "finalUrl": "https://keitaro.io/en/",
+    "contentType": "text/html; charset=utf-8",
+    "truncated": false,
+    "artifact": "a812505b03807dd8.html",
+    "sha256": "f7dc47b91b9d78de5110fb586c613d0860f24191f411355baac21b4c3f134700",
+    "bytes": 890086,
+    "title": "Keitaro — Your Ad Performance Tracker",
+    "metadata": {
+      "og:title": "Keitaro — Your Ad Performance Tracker"
+    }
+  },
+  {
+    "url": "https://kontentmachine.com/",
+    "attemptedAt": "2026-09-17T14:10:03.289381+00:00",
+    "scope": "Reachability and published metadata only; not claim validation, product testing or price verification.",
+    "status": 200,
+    "finalUrl": "https://kontentmachine.com/",
+    "contentType": "text/html",
+    "truncated": false,
+    "artifact": "6e46d75680e156e8.html",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "bytes": 0,
+    "title": "",
+    "metadata": {}
+  },
+  {
+    "url": "https://launchcdn.com/",
+    "attemptedAt": "2026-09-17T14:10:03.295336+00:00",
+    "scope": "Reachability and published metadata only; not claim validation, product testing or price verification.",
+    "status": 200,
+    "finalUrl": "https://launchcdn.com/",
+    "contentType": "text/html; charset=UTF-8",
+    "truncated": false,
+    "artifact": "5862ba0754dcbe7e.html",
+    "sha256": "155c20d0a85c8384d2baedce9761a1db555bc15d5b8a1f986f854399b5f650f8",
+    "bytes": 34372,
+    "title": "PBNs Made Simple | Cheap Hosting | No Footprints - LaunchCDN",
+    "metadata": {
+      "og:title": "LaunchCDN - Host your PBNs on Premium CDNs",
+      "article:modified_time": "2025-07-14T02:23:33+00:00"
+    }
+  },
+  {
+    "url": "https://moneyrobot.com/",
+    "attemptedAt": "2026-09-17T14:10:03.702692+00:00",
+    "scope": "Reachability and published metadata only; not claim validation, product testing or price verification.",
+    "status": 200,
+    "finalUrl": "https://www.moneyrobot.com/",
+    "contentType": "text/html; charset=UTF-8",
+    "truncated": false,
+    "artifact": "ed29a1d2a8aaf5f6.html",
+    "sha256": "48f2ab7129a3bffa3dced01f3ccc77a9d28a8c020b8945d8c1125c2c9a3f2365",
+    "bytes": 96364,
+    "title": "Money Robot Submitter - Your SEO Software",
+    "metadata": {
+      "og:title": "Money Robot Software - Best Seo Software"
+    }
+  },
+  {
+    "url": "https://news.sophos.com/en-us/2021/08/12/gootloaders-mothership-controls-malicious-content/",
+    "attemptedAt": "2026-09-17T14:10:03.852719+00:00",
+    "scope": "Reachability and published metadata only; not claim validation, product testing or price verification.",
+    "status": null,
+    "error": "The read operation timed out"
+  },
+  {
+    "url": "https://noipfraud.com/",
+    "attemptedAt": "2026-09-17T14:10:04.160425+00:00",
+    "scope": "Reachability and published metadata only; not claim validation, product testing or price verification.",
+    "status": 200,
+    "finalUrl": "https://noipfraud.com/",
+    "contentType": "text/html; charset=utf-8",
+    "truncated": false,
+    "artifact": "d8ead08b501bf9b3.html",
+    "sha256": "a3954dd8ee14124ba5f7c284ccb36c5b436ce71194b326467f02865381e3a316",
+    "bytes": 48828,
+    "title": "Noipfraud - The Premiere Traffic Filtering PlatformToggle Menu",
+    "metadata": {
+      "og:title": "Noipfraud - The Premiere Traffic Filtering Platform"
+    }
+  },
+  {
+    "url": "https://omegaindexer.com/",
+    "attemptedAt": "2026-09-17T14:10:04.374168+00:00",
+    "scope": "Reachability and published metadata only; not claim validation, product testing or price verification.",
+    "status": 200,
+    "finalUrl": "https://www.omegaindexer.com/",
+    "contentType": "text/html; charset=UTF-8",
+    "truncated": false,
+    "artifact": "939e23b77f064b43.html",
+    "sha256": "70c709ab0308d936113d36c00a4517003ca2068f39a1d1466a8dbd3ab46ebc50",
+    "bytes": 56583,
+    "title": "Omega Indexer - get indexed, or get refunded",
+    "metadata": {
+      "og:title": "Omega Indexer - get indexed, or get refunded"
+    }
+  },
+  {
+    "url": "https://originality.ai/can-google-detect-penalize-ai-content",
+    "attemptedAt": "2026-09-17T14:10:04.376512+00:00",
+    "scope": "Reachability and published metadata only; not claim validation, product testing or price verification.",
+    "status": 200,
+    "finalUrl": "https://originality.ai/can-google-detect-penalize-ai-content",
+    "contentType": "text/html; charset=utf-8",
+    "truncated": false,
+    "artifact": "60c6da26b5bbf114.html",
+    "sha256": "d876c0ab1df588a8d08fb7c95b224c827db37db138c6c2354d8c72f929b871f8",
+    "bytes": 100197,
+    "title": "Can Google Detect and Does it Penalize AI Content",
+    "metadata": {
+      "og:title": "Can Google Detect and Does it Penalize AI Content"
+    }
+  },
+  {
+    "url": "https://platform.openai.com/",
+    "attemptedAt": "2026-09-17T14:10:04.486232+00:00",
+    "scope": "Reachability and published metadata only; not claim validation, product testing or price verification.",
+    "status": 200,
+    "finalUrl": "https://platform.openai.com/",
+    "contentType": "text/html",
+    "truncated": false,
+    "artifact": "9c4cd7f299ad4fe2.html",
+    "sha256": "8a77dac53cf760ff126df7009c43d73945d13d318d5a5aa0998fc8cc9831963c",
+    "bytes": 4875,
+    "title": "OpenAI Platform",
+    "metadata": {
+      "og:title": "OpenAI Platform"
+    }
+  },
+  {
+    "url": "https://playwright.dev/",
+    "attemptedAt": "2026-09-17T14:10:04.588758+00:00",
+    "scope": "Reachability and published metadata only; not claim validation, product testing or price verification.",
+    "status": 200,
+    "finalUrl": "https://playwright.dev/",
+    "contentType": "text/html; charset=utf-8",
+    "truncated": false,
+    "artifact": "8960df5ea200923e.html",
+    "sha256": "3e57ea9f99a26830f073877f2f1e13c94d389fac463a4f20127ff7427bc0f6d0",
+    "bytes": 20699,
+    "title": "Fast and reliable end-to-end testing for modern web apps | Playwright",
+    "metadata": {
+      "og:title": "Fast and reliable end-to-end testing for modern web apps | Playwright"
+    }
+  },
+  {
+    "url": "https://publicwww.com",
+    "attemptedAt": "2026-09-17T14:10:04.675077+00:00",
+    "scope": "Reachability and published metadata only; not claim validation, product testing or price verification.",
+    "status": 200,
+    "finalUrl": "https://publicwww.com",
+    "contentType": "text/html; charset=UTF-8",
+    "truncated": false,
+    "artifact": "a0541911213c4dc2.html",
+    "sha256": "4ee898db565be14fab1934a3664dc4d3e2fa9c3d26dff715c382c21de1d40631",
+    "bytes": 19292,
+    "title": "Search Engine for Source Code - PublicWWW.com",
+    "metadata": {}
+  },
+  {
+    "url": "https://quillbot.com/",
+    "attemptedAt": "2026-09-17T14:10:04.874205+00:00",
+    "scope": "Reachability and published metadata only; not claim validation, product testing or price verification.",
+    "status": 403,
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "url": "https://quillbot.com/premium",
+    "attemptedAt": "2026-09-17T14:18:36.400462+00:00",
+    "scope": "Reachability and published metadata only; not claim validation, product testing or price verification.",
+    "status": 403,
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "url": "https://rankerx.com/homepage/",
+    "attemptedAt": "2026-09-17T14:10:05.008828+00:00",
+    "scope": "Reachability and published metadata only; not claim validation, product testing or price verification.",
+    "status": 200,
+    "finalUrl": "https://rankerx.com/homepage/",
+    "contentType": "text/html",
+    "truncated": false,
+    "artifact": "f7df619208c2d7d6.html",
+    "sha256": "d4e0c6ba247da74ead70613876ea71b5f94cd5a08b07ba62eb990e86f10d5408",
+    "bytes": 34796,
+    "title": "RankerX - Automated Link Building Tools - Backlink Marketing Software | RankerX",
+    "metadata": {
+      "og:title": "RankerX - Automated Link Building Tools - Backlink Marketing Software | RankerX"
+    }
+  },
+  {
+    "url": "https://redcanary.com/blog/threat-intelligence/gootloader/",
+    "attemptedAt": "2026-09-17T14:10:05.128618+00:00",
+    "scope": "Reachability and published metadata only; not claim validation, product testing or price verification.",
+    "status": 200,
+    "finalUrl": "https://redcanary.com/blog/threat-intelligence/gootloader/",
+    "contentType": "text/html; charset=UTF-8",
+    "truncated": false,
+    "artifact": "a4e6394048ec7bbd.html",
+    "sha256": "ba62e0cfc3dfae5bc2e3179a1b12f4a7a4d0ad31cce36535b84a571f578bf82d",
+    "bytes": 386265,
+    "title": "The Goot cause: Detecting Gootloader and its follow-on activity",
+    "metadata": {
+      "og:title": "The Goot cause: Detecting Gootloader and its follow-on activity",
+      "author": "Anna Seitz"
+    }
+  },
+  {
+    "url": "https://repo.hex.pm/tarballs/google_api_content_warehouse-0.4.0.tar",
+    "attemptedAt": "2026-09-17T14:10:05.344448+00:00",
+    "scope": "Reachability and published metadata only; not claim validation, product testing or price verification.",
+    "status": 200,
+    "finalUrl": "https://repo.hex.pm/tarballs/google_api_content_warehouse-0.4.0.tar",
+    "contentType": "application/octet-stream",
+    "truncated": false,
+    "artifact": "d6a3b0589228abff.bin",
+    "sha256": "c091e5e2a315a163295a9b1de95619d4bc254f8c57f094fa86dd72975391e0be",
+    "bytes": 1482752
+  },
+  {
+    "url": "https://searchengineland.com/google-targets-sites-using-private-blog-networks-manual-action-ranking-penalties-204000",
+    "attemptedAt": "2026-09-17T14:10:05.471952+00:00",
+    "scope": "Reachability and published metadata only; not claim validation, product testing or price verification.",
+    "status": 403,
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "url": "https://searchengineland.com/guide/private-blog-networks",
+    "attemptedAt": "2026-09-17T14:10:05.584480+00:00",
+    "scope": "Reachability and published metadata only; not claim validation, product testing or price verification.",
+    "status": 403,
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "url": "https://seoautopilot.com/",
+    "attemptedAt": "2026-09-17T14:10:05.627775+00:00",
+    "scope": "Reachability and published metadata only; not claim validation, product testing or price verification.",
+    "status": null,
+    "error": "<urlopen error timed out>"
+  },
+  {
+    "url": "https://seocontentmachine.com/",
+    "attemptedAt": "2026-09-17T14:10:05.647707+00:00",
+    "scope": "Reachability and published metadata only; not claim validation, product testing or price verification.",
+    "status": 200,
+    "finalUrl": "https://seocontentmachine.com/",
+    "contentType": "text/html; charset=UTF-8",
+    "truncated": false,
+    "artifact": "c4793b9a701bfe29.html",
+    "sha256": "e1e68dcb941fa1233a6a5ad2c11a0456b59b573cdc248144d3d9bdf53727d4f3",
+    "bytes": 288699,
+    "title": "SEO Workspace: Agentic SEO Software | SEO Content Machine",
+    "metadata": {
+      "og:title": "SEO Workspace: Agentic SEO Software | SEO Content Machine",
+      "article:published_time": "2026-07-30T08:40:48+00:00",
+      "article:modified_time": "2026-09-16T01:49:08+00:00"
+    }
+  },
+  {
+    "url": "https://seocontentmachine.com/download/",
+    "attemptedAt": "2026-09-17T14:18:36.525401+00:00",
+    "scope": "Reachability and published metadata only; not claim validation, product testing or price verification.",
+    "status": 200,
+    "finalUrl": "https://seocontentmachine.com/download/",
+    "contentType": "text/html; charset=UTF-8",
+    "truncated": false,
+    "artifact": "780d1e739061af68.html",
+    "sha256": "6048a5829c164bea89483610ffa81ce8d799e2491926435e11d9ac7c13e81c23",
+    "bytes": 121290,
+    "title": "Download SEO Content Machine | Free 7-Day Trial",
+    "metadata": {
+      "og:title": "Download SEO Content Machine | Free 7-Day Trial",
+      "article:published_time": "2025-10-21T17:30:13+00:00",
+      "article:modified_time": "2026-08-02T23:25:09+00:00"
+    }
+  },
+  {
+    "url": "https://seovipertools.com/",
+    "attemptedAt": "2026-09-17T14:10:05.694874+00:00",
+    "scope": "Reachability and published metadata only; not claim validation, product testing or price verification.",
+    "status": 200,
+    "finalUrl": "https://seovipertools.com/",
+    "contentType": "text/html; charset=utf-8",
+    "truncated": false,
+    "artifact": "81b63e404d5c0032.html",
+    "sha256": "77e7ca2e700ddcd96db49dd34a35ff0cfa09c9ce718c2321c25f7be563b9b4cd",
+    "bytes": 475946,
+    "title": "Viper SEO Tools — Kraken",
+    "metadata": {
+      "og:title": "Viper SEO Tools — Kraken",
+      "author": "M Bowes"
+    }
+  },
+  {
+    "url": "https://serpclix.com/pricing/",
+    "attemptedAt": "2026-09-17T14:10:05.920614+00:00",
+    "scope": "Reachability and published metadata only; not claim validation, product testing or price verification.",
+    "status": 503,
+    "error": "HTTP Error 503: Service Temporarily Unavailable"
+  },
+  {
+    "url": "https://sms-activate.org/",
+    "attemptedAt": "2026-09-17T14:10:06.066901+00:00",
+    "scope": "Reachability and published metadata only; not claim validation, product testing or price verification.",
+    "status": 200,
+    "finalUrl": "https://sms-activate.org/",
+    "contentType": "text/html",
+    "truncated": false,
+    "artifact": "e5b8877b212ef833.html",
+    "sha256": "fe631170940b02ab56f30ab521b0ab98a1ce8c9906e1331b5c09e27b43f4fdb6",
+    "bytes": 185617,
+    "title": "SMS-Activate",
+    "metadata": {}
+  },
+  {
+    "url": "https://sparktoro.com/blog/an-anonymous-source-shared-thousands-of-leaked-google-search-api-documents-with-me-everyone-in-seo-should-see-them/",
+    "attemptedAt": "2026-09-17T14:10:06.067703+00:00",
+    "scope": "Reachability and published metadata only; not claim validation, product testing or price verification.",
+    "status": 200,
+    "finalUrl": "https://sparktoro.com/blog/an-anonymous-source-shared-thousands-of-leaked-google-search-api-documents-with-me-everyone-in-seo-should-see-them/",
+    "contentType": "text/html; charset=UTF-8",
+    "truncated": false,
+    "artifact": "b8471477e42fc9ef.html",
+    "sha256": "4798bf9e1cd7971dcfbdfd854d192487cd149f2fe036bb94c305c4e2214ce3ba",
+    "bytes": 129151,
+    "title": "An Anonymous Source Shared Thousands of Leaked Google Search API Documents with Me; Everyone in SEO Should See Them - SparkToro",
+    "metadata": {
+      "og:title": "An Anonymous Source Shared Thousands of Leaked Google Search API Documents with Me; Everyone in SEO Should See Them - SparkToro",
+      "article:published_time": "2024-05-28T02:20:52+00:00",
+      "article:modified_time": "2024-07-03T19:28:32+00:00",
+      "author": "Rand Fishkin"
+    }
+  },
+  {
+    "url": "https://status.search.google.com/",
+    "attemptedAt": "2026-09-17T14:10:06.335633+00:00",
+    "scope": "Reachability and published metadata only; not claim validation, product testing or price verification.",
+    "status": 200,
+    "finalUrl": "https://status.search.google.com/",
+    "contentType": "text/html",
+    "truncated": false,
+    "artifact": "97f09315ddddacb9.html",
+    "sha256": "65c2b01ec90d62249982b5b7b193155587e944377d3bdf7d435678e50214a7cb",
+    "bytes": 27778,
+    "title": "Google Search Status Dashboard",
+    "metadata": {}
+  },
+  {
+    "url": "https://support.google.com/business/answer/3038177",
+    "attemptedAt": "2026-09-17T14:10:06.363008+00:00",
+    "scope": "Reachability and published metadata only; not claim validation, product testing or price verification.",
+    "status": 200,
+    "finalUrl": "https://support.google.com/business/answer/3038177",
+    "contentType": "text/html; charset=UTF-8",
+    "truncated": true,
+    "artifact": "c3aa91d3194f110f.html",
+    "sha256": "fc33dc0ac9dbfc874fb7d0ed1e7fd6682a97d0f1daa47c4c21f9175dc940ec51",
+    "bytes": 1500000,
+    "title": "Guidelines for representing your business on Google - Google Business Profile Help",
+    "metadata": {}
+  },
+  {
+    "url": "https://support.google.com/business/answer/7091?hl=en",
+    "attemptedAt": "2026-09-17T14:10:06.532953+00:00",
+    "scope": "Reachability and published metadata only; not claim validation, product testing or price verification.",
+    "status": 200,
+    "finalUrl": "https://support.google.com/business/answer/7091?hl=en",
+    "contentType": "text/html; charset=UTF-8",
+    "truncated": true,
+    "artifact": "c12bdbd174458b6d.html",
+    "sha256": "2b88c8609229a1048814f4b127d92900e17542adfc4d1c8be1159488a575823e",
+    "bytes": 1500000,
+    "title": "Tips to improve your local ranking on Google - Google Business Profile Help",
+    "metadata": {}
+  },
+  {
+    "url": "https://support.google.com/webmasters/answer/2648487?hl=en",
+    "attemptedAt": "2026-09-17T14:10:06.607485+00:00",
+    "scope": "Reachability and published metadata only; not claim validation, product testing or price verification.",
+    "status": 200,
+    "finalUrl": "https://support.google.com/webmasters/answer/2648487?hl=en",
+    "contentType": "text/html; charset=UTF-8",
+    "truncated": true,
+    "artifact": "6a632b55153d3e79.html",
+    "sha256": "8a359b971105968f9ba38579cc3c46f8790a51dc705cfbc5950953b122a191af",
+    "bytes": 1500000,
+    "title": "Disavow links to your site - Search Console Help",
+    "metadata": {}
+  },
+  {
+    "url": "https://support.google.com/webmasters/answer/9044101?hl=en",
+    "attemptedAt": "2026-09-17T14:10:07.030984+00:00",
+    "scope": "Reachability and published metadata only; not claim validation, product testing or price verification.",
+    "status": 200,
+    "finalUrl": "https://support.google.com/webmasters/answer/9044101?hl=en",
+    "contentType": "text/html; charset=UTF-8",
+    "truncated": true,
+    "artifact": "c6e33c481262ec1d.html",
+    "sha256": "4decf9192da5eaf54a9dc79d643a99b776ef2125f6b5565357e973a676fd8d16",
+    "bytes": 1500000,
+    "title": "Security issues report - Search Console Help",
+    "metadata": {}
+  },
+  {
+    "url": "https://support.google.com/webmasters/answer/9044175?hl=en",
+    "attemptedAt": "2026-09-17T14:10:07.176267+00:00",
+    "scope": "Reachability and published metadata only; not claim validation, product testing or price verification.",
+    "status": 200,
+    "finalUrl": "https://support.google.com/webmasters/answer/9044175?hl=en",
+    "contentType": "text/html; charset=UTF-8",
+    "truncated": true,
+    "artifact": "86611ea6f9caee5e.html",
+    "sha256": "639eb6903ae4425fd8c7f8b2e029bf3a1a446faa3ebbd842d27a17911c3fb42e",
+    "bytes": 1500000,
+    "title": "Manual actions report - Search Console Help",
+    "metadata": {}
+  },
+  {
+    "url": "https://trafficshield.io/",
+    "attemptedAt": "2026-09-17T14:10:07.339119+00:00",
+    "scope": "Reachability and published metadata only; not claim validation, product testing or price verification.",
+    "status": 200,
+    "finalUrl": "https://trafficshield.io/",
+    "contentType": "text/html; charset=UTF-8",
+    "truncated": false,
+    "artifact": "9bc1486b2d63de24.html",
+    "sha256": "42dddc35d744dfa6a82aeb25addf041450eb57f0e6c72a5b854a1a68da1d42b3",
+    "bytes": 42569,
+    "title": "TrafficShield.io – AI Cloaking Platform That Protects Every Click",
+    "metadata": {
+      "author": "TrafficShield.io",
+      "og:title": "TrafficShield.io – AI Cloaking Platform That Protects Every Click"
+    }
+  },
+  {
+    "url": "https://unit42.paloaltonetworks.com/ai-agent-prompt-injection/",
+    "attemptedAt": "2026-09-17T14:10:07.645678+00:00",
+    "scope": "Reachability and published metadata only; not claim validation, product testing or price verification.",
+    "status": 200,
+    "finalUrl": "https://unit42.paloaltonetworks.com/ai-agent-prompt-injection/",
+    "contentType": "text/html; charset=UTF-8",
+    "truncated": false,
+    "artifact": "e45a43e1933daee0.html",
+    "sha256": "51f279341c4dd4280e488d57a8deee9daf89f259b30b6a741be7f98957aa6dcc",
+    "bytes": 298560,
+    "title": "Fooling AI Agents: Web-Based Indirect Prompt Injection Observed in the Wild",
+    "metadata": {
+      "og:title": "Fooling AI Agents: Web-Based Indirect Prompt Injection Observed in the Wild",
+      "article:published_time": "2026-03-03T11:00:30+00:00",
+      "author": "Beliz Kaleli, Shehroze Farooqi, Oleksii Starov, Nabeel Mohamed"
+    }
+  },
+  {
+    "url": "https://web.archive.org",
+    "attemptedAt": "2026-09-17T14:10:07.746615+00:00",
+    "scope": "Reachability and published metadata only; not claim validation, product testing or price verification.",
+    "status": 200,
+    "finalUrl": "https://web.archive.org",
+    "contentType": "text/html",
+    "truncated": false,
+    "artifact": "4eeda6fe6b246156.html",
+    "sha256": "a1774072e11906116ff57920159deb7b841268a1a6b77b9c5bb0cbc108a3c8ac",
+    "bytes": 154261,
+    "title": "Wayback MachineHamburger iconInternet Archive logoWeb iconTexts iconVideo iconAudio iconSoftware iconImages iconDonate iconEllipses iconDonate iconUser iconUpload iconSearch iconSearch iconDonate icon",
+    "metadata": {}
+  },
+  {
+    "url": "https://web.archive.org/",
+    "attemptedAt": "2026-09-17T14:10:08.019419+00:00",
+    "scope": "Reachability and published metadata only; not claim validation, product testing or price verification.",
+    "status": 200,
+    "finalUrl": "https://web.archive.org/",
+    "contentType": "text/html",
+    "truncated": false,
+    "artifact": "bf133dc91275d428.html",
+    "sha256": "a1774072e11906116ff57920159deb7b841268a1a6b77b9c5bb0cbc108a3c8ac",
+    "bytes": 154261,
+    "title": "Wayback MachineHamburger iconInternet Archive logoWeb iconTexts iconVideo iconAudio iconSoftware iconImages iconDonate iconEllipses iconDonate iconUser iconUpload iconSearch iconSearch iconDonate icon",
+    "metadata": {}
+  },
+  {
+    "url": "https://wordai.com/",
+    "attemptedAt": "2026-09-17T14:10:08.333567+00:00",
+    "scope": "Reachability and published metadata only; not claim validation, product testing or price verification.",
+    "status": 200,
+    "finalUrl": "https://wordai.com/",
+    "contentType": "text/html; charset=UTF-8",
+    "truncated": false,
+    "artifact": "15ccc40f189da364.html",
+    "sha256": "224c79d0c50b00c964e0a42cedc3b273b0f23d3469521397c3161fc2b4b5bc2f",
+    "bytes": 49580,
+    "title": "AI Text Rewriter | WordAi",
+    "metadata": {
+      "author": "www.wordai.com"
+    }
+  },
+  {
+    "url": "https://www.adspect.ai/en/",
+    "attemptedAt": "2026-09-17T14:10:08.430882+00:00",
+    "scope": "Reachability and published metadata only; not claim validation, product testing or price verification.",
+    "status": 200,
+    "finalUrl": "https://www.adspect.ai/en/",
+    "contentType": "text/html; charset=UTF-8",
+    "truncated": false,
+    "artifact": "d852c42fda5754b2.html",
+    "sha256": "d97ae8ec4482faaedb69fdfc9f38fecd79f73e9edad77803f18f5f82006f4340",
+    "bytes": 88373,
+    "title": "Cloak Google, Facebook, TikTok, Bing, X, and many more | Adspect",
+    "metadata": {
+      "author": "Adspect",
+      "og:title": "Adspect – Cloak Google, Facebook, TikTok, Bing, X, and many more"
+    }
+  },
+  {
+    "url": "https://www.articleforge.com/",
+    "attemptedAt": "2026-09-17T14:10:08.574561+00:00",
+    "scope": "Reachability and published metadata only; not claim validation, product testing or price verification.",
+    "status": 200,
+    "finalUrl": "https://www.articleforge.com/",
+    "contentType": "text/html; charset=UTF-8",
+    "truncated": false,
+    "artifact": "28bfc2992cf3a7ee.html",
+    "sha256": "13ea89fabee2e68a381ee639d7591eea7f4d0c290ee3c96dcde1e0088202f37f",
+    "bytes": 94601,
+    "title": "High quality, AI content generator - Article Forge",
+    "metadata": {}
+  },
+  {
+    "url": "https://www.bleepingcomputer.com/news/security/hackers-use-black-hat-seo-to-push-ransomware-trojans-via-google/",
+    "attemptedAt": "2026-09-17T14:10:08.709181+00:00",
+    "scope": "Reachability and published metadata only; not claim validation, product testing or price verification.",
+    "status": 200,
+    "finalUrl": "https://www.bleepingcomputer.com/news/security/hackers-use-black-hat-seo-to-push-ransomware-trojans-via-google/",
+    "contentType": "text/html; charset=UTF-8",
+    "truncated": false,
+    "artifact": "3c8b3519c5841cfe.html",
+    "sha256": "1e57331c15146e87b1c318527bac1ffbedc856ef53dbf8d452e847e26946cd53",
+    "bytes": 93103,
+    "title": "Hackers use black hat SEO to push ransomware, trojans via Google",
+    "metadata": {
+      "og:title": "Hackers use black hat SEO to push ransomware, trojans via Google"
+    }
+  },
+  {
+    "url": "https://www.botmasterlabs.net/",
+    "attemptedAt": "2026-09-17T14:10:08.733580+00:00",
+    "scope": "Reachability and published metadata only; not claim validation, product testing or price verification.",
+    "status": null,
+    "error": "<urlopen error [Errno 61] Connection refused>"
+  },
+  {
+    "url": "https://www.capconvert.com/learn/blog/google-site-reputation-abuse-18-months",
+    "attemptedAt": "2026-09-17T14:10:08.975462+00:00",
+    "scope": "Reachability and published metadata only; not claim validation, product testing or price verification.",
+    "status": 200,
+    "finalUrl": "https://www.capconvert.com/learn/blog/google-site-reputation-abuse-18-months",
+    "contentType": "text/html; charset=utf-8",
+    "truncated": false,
+    "artifact": "17ff5d67216172c4.html",
+    "sha256": "72e6add48456f27093235623d9d7e03917e3f77766fafac90670d7844b7e7457",
+    "bytes": 232221,
+    "title": "Google Site Reputation Abuse: 18 Months In | Capconvert",
+    "metadata": {
+      "article:published_time": "2026-05-15",
+      "article:modified_time": "2026-05-15",
+      "og:title": "Google Site Reputation Abuse: 18 Months In"
+    }
+  },
+  {
+    "url": "https://www.charlesfloate.com/aged-vs-expired-pbn-test",
+    "attemptedAt": "2026-09-17T14:10:09.018672+00:00",
+    "scope": "Reachability and published metadata only; not claim validation, product testing or price verification.",
+    "status": 200,
+    "finalUrl": "https://www.charlesfloate.com/aged-vs-expired-pbn-test",
+    "contentType": "text/html; charset=UTF-8",
+    "truncated": false,
+    "artifact": "c5daee7593d7670e.html",
+    "sha256": "1779674edc457e6f9afa5caea116dc233b43ec9d7ce45cc5a3cd3f805605457e",
+    "bytes": 110391,
+    "title": "The Great PBN Test - Aged vs Expired Domains",
+    "metadata": {
+      "og:title": "The Great PBN Test - Aged vs Expired Domains",
+      "article:published_time": "2018-05-25T09:48:32+00:00",
+      "article:modified_time": "2018-05-25T10:01:30+00:00",
+      "author": "Charles Floate"
+    }
+  },
+  {
+    "url": "https://www.copyscape.com/",
+    "attemptedAt": "2026-09-17T14:10:09.385611+00:00",
+    "scope": "Reachability and published metadata only; not claim validation, product testing or price verification.",
+    "status": 200,
+    "finalUrl": "https://www.copyscape.com/",
+    "contentType": "text/html; charset=UTF-8",
+    "truncated": false,
+    "artifact": "622a49da04f61c7d.html",
+    "sha256": "59b315176090333f8bedfdd36c01ee61ba0cec13ede3e6d9272c9145842f8ed7",
+    "bytes": 29714,
+    "title": "Copyscape Plagiarism Checker - Duplicate Content Detection Software",
+    "metadata": {}
+  },
+  {
+    "url": "https://www.cps.gov.uk/prosecution-guidance/computer-misuse-act",
+    "attemptedAt": "2026-09-17T14:10:09.535724+00:00",
+    "scope": "Reachability and published metadata only; not claim validation, product testing or price verification.",
+    "status": 200,
+    "finalUrl": "https://www.cps.gov.uk/prosecution-guidance/computer-misuse-act",
+    "contentType": "text/html; charset=UTF-8",
+    "truncated": false,
+    "artifact": "ae04888625919d12.html",
+    "sha256": "f3804c5b73fe8cd8de16c19f317586ff2448a070f4432251ef1e8b0091439324",
+    "bytes": 70667,
+    "title": "Computer Misuse Act | The Crown Prosecution Service",
+    "metadata": {}
+  },
+  {
+    "url": "https://www.ctrbooster.com/",
+    "attemptedAt": "2026-09-17T14:10:10.018384+00:00",
+    "scope": "Reachability and published metadata only; not claim validation, product testing or price verification.",
+    "status": 200,
+    "finalUrl": "https://ctrbooster.com/",
+    "contentType": "text/html; charset=UTF-8",
+    "truncated": false,
+    "artifact": "edc3f0f2c9afa4aa.html",
+    "sha256": "6842eb4f36d868ae0c56e14671b31c2ff58319983d19781099aac441444d41c4",
+    "bytes": 474632,
+    "title": "Boost CTR with the Leading Manipulation Tool for Traffic.Facebook Group Email",
+    "metadata": {
+      "og:title": "Boost CTR with the Leading Manipulation Tool for Traffic.",
+      "article:published_time": "2022-08-09T15:58:21-06:00",
+      "article:modified_time": "2024-01-24T18:24:05-06:00"
+    }
+  },
+  {
+    "url": "https://www.deepl.com/pro-api",
+    "attemptedAt": "2026-09-17T14:10:10.126760+00:00",
+    "scope": "Reachability and published metadata only; not claim validation, product testing or price verification.",
+    "status": 200,
+    "finalUrl": "https://www.deepl.com/en/pro",
+    "contentType": "text/html; charset=utf-8",
+    "truncated": false,
+    "artifact": "316ec19f25208c0d.html",
+    "sha256": "e33543010abf7f4348937738db9bb5c262cd31c511fb4cade4fca75a9d018b0b",
+    "bytes": 158985,
+    "title": "DeepL Pro | Translate Text, Word Docs & Other Docs Securely",
+    "metadata": {
+      "og:title": "DeepL Pro | Translate Text, Word Docs & Other Docs Securely"
+    }
+  },
+  {
+    "url": "https://www.expireddomains.net/register/",
+    "attemptedAt": "2026-09-17T14:10:10.212479+00:00",
+    "scope": "Reachability and published metadata only; not claim validation, product testing or price verification.",
+    "status": 200,
+    "finalUrl": "https://www.expireddomains.net/register/",
+    "contentType": "text/html; charset=UTF-8",
+    "truncated": false,
+    "artifact": "678311798f0fb484.html",
+    "sha256": "e53f23e27f946ca167dc01bfb1d9d7ec53093ff1bf12c3cc8dcec5801422a145",
+    "bytes": 7217,
+    "title": "Sign Up - Create a new account",
+    "metadata": {}
+  },
+  {
+    "url": "https://www.ftc.gov/business-guidance/resources/can-spam-act-compliance-guide-business",
+    "attemptedAt": "2026-09-17T14:10:10.665207+00:00",
+    "scope": "Reachability and published metadata only; not claim validation, product testing or price verification.",
+    "status": 200,
+    "finalUrl": "https://www.ftc.gov/business-guidance/resources/can-spam-act-compliance-guide-business",
+    "contentType": "text/html; charset=UTF-8",
+    "truncated": false,
+    "artifact": "194ba0c87fd7106a.html",
+    "sha256": "35de03cc64d693ce302b7e7e8e6da9fe990590d3e1056addb5d2a51111f5284a",
+    "bytes": 1005431,
+    "title": "CAN-SPAM Act: A Compliance Guide for Business | Federal Trade Commission",
+    "metadata": {
+      "og:title": "CAN-SPAM Act: A Compliance Guide for Business",
+      "article:published_time": "2023-08-09T15:22:34-04:00",
+      "article:modified_time": "2025-07-22T14:39:32-04:00"
+    }
+  },
+  {
+    "url": "https://www.ftc.gov/business-guidance/resources/consumer-reviews-testimonials-rule-questions-answers",
+    "attemptedAt": "2026-09-17T14:10:10.829027+00:00",
+    "scope": "Reachability and published metadata only; not claim validation, product testing or price verification.",
+    "status": 200,
+    "finalUrl": "https://www.ftc.gov/business-guidance/resources/consumer-reviews-testimonials-rule-questions-answers",
+    "contentType": "text/html; charset=UTF-8",
+    "truncated": false,
+    "artifact": "71d45cb593028fda.html",
+    "sha256": "ad41be5f27d77e126c365dac4a4656ff0685ccb0dd7f03f57f2ff2483fc5c0f7",
+    "bytes": 1020275,
+    "title": "The Consumer Reviews and Testimonials Rule: Questions and Answers | Federal Trade Commission",
+    "metadata": {
+      "og:title": "The Consumer Reviews and Testimonials Rule: Questions and Answers",
+      "article:published_time": "2024-11-08T09:18:40-05:00",
+      "article:modified_time": "2025-05-01T09:50:15-04:00"
+    }
+  },
+  {
+    "url": "https://www.ftc.gov/business-guidance/resources/ftcs-endorsement-guides-what-people-are-asking",
+    "attemptedAt": "2026-09-17T14:10:10.892897+00:00",
+    "scope": "Reachability and published metadata only; not claim validation, product testing or price verification.",
+    "status": 200,
+    "finalUrl": "https://www.ftc.gov/business-guidance/resources/ftcs-endorsement-guides-what-people-are-asking",
+    "contentType": "text/html; charset=UTF-8",
+    "truncated": false,
+    "artifact": "629fbc85930fb3aa.html",
+    "sha256": "be00afbc0e21aab8edecd9f07969f9696a4c0e6262b80a2af0b936114de01324",
+    "bytes": 1081619,
+    "title": "FTC's Endorsement Guides: What People Are Asking | Federal Trade Commission",
+    "metadata": {
+      "og:title": "FTC's Endorsement Guides: What People Are Asking",
+      "article:published_time": "2017-09-07T10:57:01-04:00",
+      "article:modified_time": "2025-07-15T10:57:12-04:00"
+    }
+  },
+  {
+    "url": "https://www.ftc.gov/news-events/news/press-releases/2020/05/ftc-finalizes-settlement-lendedu-case-related-deceptive-rankings-fake-reviews",
+    "attemptedAt": "2026-09-17T14:10:11.208246+00:00",
+    "scope": "Reachability and published metadata only; not claim validation, product testing or price verification.",
+    "status": 200,
+    "finalUrl": "https://www.ftc.gov/news-events/news/press-releases/2020/05/ftc-finalizes-settlement-lendedu-case-related-deceptive-rankings-fake-reviews",
+    "contentType": "text/html; charset=UTF-8",
+    "truncated": false,
+    "artifact": "667a03139835cb15.html",
+    "sha256": "7e9589103026e5b55979db1199ad9ab09006c96873513735b2c2986c6059d2fe",
+    "bytes": 997283,
+    "title": "FTC Finalizes Settlement in LendEDU Case Related to Deceptive Rankings and Fake Reviews | Federal Trade Commission",
+    "metadata": {
+      "og:title": "FTC Finalizes Settlement in LendEDU Case Related to Deceptive Rankings and Fake Reviews",
+      "article:published_time": "2020-05-26T09:45:23-04:00",
+      "article:modified_time": "2025-04-25T14:14:39-04:00"
+    }
+  },
+  {
+    "url": "https://www.ftc.gov/news-events/news/press-releases/2024/08/federal-trade-commission-announces-final-rule-banning-fake-reviews-testimonials",
+    "attemptedAt": "2026-09-17T14:10:11.309442+00:00",
+    "scope": "Reachability and published metadata only; not claim validation, product testing or price verification.",
+    "status": 200,
+    "finalUrl": "https://www.ftc.gov/news-events/news/press-releases/2024/08/federal-trade-commission-announces-final-rule-banning-fake-reviews-testimonials",
+    "contentType": "text/html; charset=UTF-8",
+    "truncated": false,
+    "artifact": "e1f4ebffa91d70f1.html",
+    "sha256": "979eaefdbe8e828223f8e90d9145ff5a91a34497e654637fcfa904cd049cf5d5",
+    "bytes": 1002755,
+    "title": "Federal Trade Commission Announces Final Rule Banning Fake Reviews and Testimonials | Federal Trade Commission",
+    "metadata": {
+      "og:title": "Federal Trade Commission Announces Final Rule Banning Fake Reviews and Testimonials",
+      "article:published_time": "2024-08-14T10:44:00-04:00",
+      "article:modified_time": "2024-08-20T11:09:32-04:00"
+    }
+  },
+  {
+    "url": "https://www.gmbcrush.com/money-in-the-bank-2/",
+    "attemptedAt": "2026-09-17T14:10:11.420998+00:00",
+    "scope": "Reachability and published metadata only; not claim validation, product testing or price verification.",
+    "status": 410,
+    "error": "HTTP Error 410: Gone"
+  },
+  {
+    "url": "https://www.gov.uk/government/news/fake-reviews-and-sneaky-hidden-fees-banned-once-and-for-all",
+    "attemptedAt": "2026-09-17T14:10:11.694972+00:00",
+    "scope": "Reachability and published metadata only; not claim validation, product testing or price verification.",
+    "status": 200,
+    "finalUrl": "https://www.gov.uk/government/news/fake-reviews-and-sneaky-hidden-fees-banned-once-and-for-all",
+    "contentType": "text/html; charset=utf-8",
+    "truncated": false,
+    "artifact": "ce40d15f6b09ed54.html",
+    "sha256": "7e6b904e2cbe53ab72cdeecd6a8c870b4f3abe7179be3fa8f81c5d326a49ced8",
+    "bytes": 76642,
+    "title": "Fake reviews and sneaky hidden fees banned once and for all - GOV.UKGOV.UK",
+    "metadata": {
+      "og:title": "Fake reviews and sneaky hidden fees banned once and for all"
+    }
+  },
+  {
+    "url": "https://www.gov.uk/government/publications/unfair-commercial-practices-cma207/unfair-commercial-practices",
+    "attemptedAt": "2026-09-17T14:10:11.756651+00:00",
+    "scope": "Reachability and published metadata only; not claim validation, product testing or price verification.",
+    "status": 200,
+    "finalUrl": "https://www.gov.uk/government/publications/unfair-commercial-practices-cma207/unfair-commercial-practices",
+    "contentType": "text/html; charset=utf-8",
+    "truncated": false,
+    "artifact": "9b4d552a4806dc80.html",
+    "sha256": "4473ff64f8cebca6f6326ba94738a5ea90fac87d4a4a97bd57cc70cd7e4a988e",
+    "bytes": 404374,
+    "title": "Unfair commercial practices - GOV.UKGOV.UK",
+    "metadata": {
+      "og:title": "Unfair commercial practices"
+    }
+  },
+  {
+    "url": "https://www.gsa-online.de/en/product/search_engine_ranker/",
+    "attemptedAt": "2026-09-17T14:10:12.057806+00:00",
+    "scope": "Reachability and published metadata only; not claim validation, product testing or price verification.",
+    "status": 200,
+    "finalUrl": "https://www.gsa-online.de/en/product/search_engine_ranker/",
+    "contentType": "text/html; charset=UTF-8",
+    "truncated": false,
+    "artifact": "0e2ccbb98709b6fc.html",
+    "sha256": "f259c7851cd0e70b6ef528a7deb95cb2f5148f9b4400a1619532f2065be4dedb",
+    "bytes": 177889,
+    "title": "GSA Search Engine Ranker: Automated SEO Campaign Software",
+    "metadata": {
+      "og:title": "GSA Search Engine Ranker: Automated SEO Campaign Software",
+      "article:modified_time": "2026-09-14T06:20:35+00:00",
+      "author": "Sven Bansemer"
+    }
+  },
+  {
+    "url": "https://www.indexnow.org/faq",
+    "attemptedAt": "2026-09-17T14:10:12.884702+00:00",
+    "scope": "Reachability and published metadata only; not claim validation, product testing or price verification.",
+    "status": 200,
+    "finalUrl": "https://www.indexnow.org/faq",
+    "contentType": "text/html",
+    "truncated": false,
+    "artifact": "3a5e6cfc5d925abc.html",
+    "sha256": "fa678ff2c69ef503f1848421050509290010918242989255a93d417244382868",
+    "bytes": 55943,
+    "title": "FAQ | IndexNow.org",
+    "metadata": {}
+  },
+  {
+    "url": "https://www.jasper.ai/",
+    "attemptedAt": "2026-09-17T14:10:13.060630+00:00",
+    "scope": "Reachability and published metadata only; not claim validation, product testing or price verification.",
+    "status": 200,
+    "finalUrl": "https://www.jasper.ai/",
+    "contentType": "text/html; charset=utf-8",
+    "truncated": false,
+    "artifact": "81690fdbcd7e34e9.html",
+    "sha256": "9cccd2583c3c04214d4ba5f5b24a64f6b5dda6aba644c6bad1cef5f65d8e5dae",
+    "bytes": 484421,
+    "title": "Put AI agents to work for marketing | Jasper",
+    "metadata": {
+      "og:title": "Put AI agents to work for marketing | Jasper"
+    }
+  },
+  {
+    "url": "https://www.justice.gov/archives/opa/pr/department-justice-announces-new-policy-charging-cases-under-computer-fraud-and-abuse-act",
+    "attemptedAt": "2026-09-17T14:10:13.325457+00:00",
+    "scope": "Reachability and published metadata only; not claim validation, product testing or price verification.",
+    "status": 200,
+    "finalUrl": "https://www.justice.gov/archives/opa/pr/department-justice-announces-new-policy-charging-cases-under-computer-fraud-and-abuse-act",
+    "contentType": "text/html",
+    "truncated": false,
+    "artifact": "ea26557e3454f6d8.html",
+    "sha256": "1fae7de49a042d58bb6fde44bde8448e012430a293cf2da3a6b4a473280aecce",
+    "bytes": 2577,
+    "title": "",
+    "metadata": {}
+  },
+  {
+    "url": "https://www.justice.gov/d9/2023-10/417254.pdf",
+    "attemptedAt": "2026-09-17T14:10:13.339425+00:00",
+    "scope": "Reachability and published metadata only; not claim validation, product testing or price verification.",
+    "status": 200,
+    "finalUrl": "https://www.justice.gov/d9/2023-10/417254.pdf",
+    "contentType": "application/pdf",
+    "truncated": true,
+    "artifact": "b9b8a9b6d7623aa1.bin",
+    "sha256": "76098007b6fc18997884b63a65359ea611d659d47d8ee086880b3d7c9d1d83a5",
+    "bytes": 1500000
+  },
+  {
+    "url": "https://www.justice.gov/usao-ndtx/pr/search-engine-optimizer-sentenced-more-three-years-federal-prison-extorting-money-local",
+    "attemptedAt": "2026-09-17T14:10:13.489564+00:00",
+    "scope": "Reachability and published metadata only; not claim validation, product testing or price verification.",
+    "status": 200,
+    "finalUrl": "https://www.justice.gov/usao-ndtx/pr/search-engine-optimizer-sentenced-more-three-years-federal-prison-extorting-money-local",
+    "contentType": "text/html",
+    "truncated": false,
+    "artifact": "5f5767fdae69b854.html",
+    "sha256": "4cecd3ce3d57c88efa6e6b77f91eb3a91b75832fdc9b1af079fbb9bd747235a6",
+    "bytes": 2555,
+    "title": "",
+    "metadata": {}
+  },
+  {
+    "url": "https://www.localfalcon.com/answers/127-how-quickly-will-i-be-alerted-by-falcon-guard-if-my-listing-is-changed",
+    "attemptedAt": "2026-09-17T14:10:13.686416+00:00",
+    "scope": "Reachability and published metadata only; not claim validation, product testing or price verification.",
+    "status": 200,
+    "finalUrl": "https://www.localfalcon.com/answers/127-how-quickly-will-i-be-alerted-by-falcon-guard-if-my-listing-is-changed",
+    "contentType": "text/html; charset=UTF-8",
+    "truncated": false,
+    "artifact": "c747274c38b0961e.html",
+    "sha256": "fd7a73e9a0fe612d947cfd12b08c78c1278dbe9c740664eb65a0e93e415bc4c6",
+    "bytes": 376739,
+    "title": "How quickly will I be alerted by Falcon Guard if my listi... - Local Falcon",
+    "metadata": {
+      "author": "Local Falcon",
+      "og:title": "How quickly will I be alerted by Falcon Guard if my listi..."
+    }
+  },
+  {
+    "url": "https://www.mattcutts.com/blog/recent-reinclusions/",
+    "attemptedAt": "2026-09-17T14:10:13.736405+00:00",
+    "scope": "Reachability and published metadata only; not claim validation, product testing or price verification.",
+    "status": 200,
+    "finalUrl": "https://www.mattcutts.com/blog/recent-reinclusions/",
+    "contentType": "text/html; charset=UTF-8",
+    "truncated": false,
+    "artifact": "851069c3a7af7ff7.html",
+    "sha256": "2317ba2a881bc8f2b1b0e87325e9fd6dd8b08fa735a423531c227094def5aecd",
+    "bytes": 341291,
+    "title": "Recent reinclusions",
+    "metadata": {
+      "og:title": "Recent reinclusions",
+      "article:published_time": "2006-02-08T02:16:57+00:00",
+      "article:modified_time": "2006-02-08T02:16:57+00:00"
+    }
+  },
+  {
+    "url": "https://www.microworkers.com/",
+    "attemptedAt": "2026-09-17T14:10:14.475500+00:00",
+    "scope": "Reachability and published metadata only; not claim validation, product testing or price verification.",
+    "status": 200,
+    "finalUrl": "https://www.microworkers.com/",
+    "contentType": "text/html; charset=UTF-8",
+    "truncated": false,
+    "artifact": "016184298fb9bad3.html",
+    "sha256": "4de6c305e0039bbe17b5a16836defe8646250f3ac0e62c056889cd6e154fb625",
+    "bytes": 312145,
+    "title": "Templates | Microworkers - work & earn or offer a micro job",
+    "metadata": {
+      "author": "Microworkers"
+    }
+  },
+  {
+    "url": "https://www.moneyrobot.com/",
+    "attemptedAt": "2026-09-17T14:18:36.565141+00:00",
+    "scope": "Reachability and published metadata only; not claim validation, product testing or price verification.",
+    "status": 200,
+    "finalUrl": "https://www.moneyrobot.com/",
+    "contentType": "text/html; charset=UTF-8",
+    "truncated": false,
+    "artifact": "3fcfd472dad72f72.html",
+    "sha256": "48f2ab7129a3bffa3dced01f3ccc77a9d28a8c020b8945d8c1125c2c9a3f2365",
+    "bytes": 96364,
+    "title": "Money Robot Submitter - Your SEO Software",
+    "metadata": {
+      "og:title": "Money Robot Software - Best Seo Software"
+    }
+  },
+  {
+    "url": "https://www.nytimes.com/2011/02/13/business/13search.html",
+    "attemptedAt": "2026-09-17T14:10:14.739445+00:00",
+    "scope": "Reachability and published metadata only; not claim validation, product testing or price verification.",
+    "status": 403,
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "url": "https://www.omegaindexer.com/",
+    "attemptedAt": "2026-09-17T14:18:36.582533+00:00",
+    "scope": "Reachability and published metadata only; not claim validation, product testing or price verification.",
+    "status": 200,
+    "finalUrl": "https://www.omegaindexer.com/",
+    "contentType": "text/html; charset=UTF-8",
+    "truncated": false,
+    "artifact": "50303a50aeb4dc90.html",
+    "sha256": "70c709ab0308d936113d36c00a4517003ca2068f39a1d1466a8dbd3ab46ebc50",
+    "bytes": 56583,
+    "title": "Omega Indexer - get indexed, or get refunded",
+    "metadata": {
+      "og:title": "Omega Indexer - get indexed, or get refunded"
+    }
+  },
+  {
+    "url": "https://www.sape.ru/en/",
+    "attemptedAt": "2026-09-17T14:10:14.939660+00:00",
+    "scope": "Reachability and published metadata only; not claim validation, product testing or price verification.",
+    "status": 200,
+    "finalUrl": "https://www.sape.ru/en/",
+    "contentType": "text/html; charset=utf-8",
+    "truncated": false,
+    "artifact": "148a1512fec40f40.html",
+    "sha256": "8d39d94363eff3e679f07fc3124c91efadf299f8010275dd18e4b64d992ab66d",
+    "bytes": 22868,
+    "title": "Sape – buy and sell backlinks",
+    "metadata": {
+      "og:title": "Sape — Sapient Solutions for promotion"
+    }
+  },
+  {
+    "url": "https://www.scrapebox.com/",
+    "attemptedAt": "2026-09-17T14:10:15.032728+00:00",
+    "scope": "Reachability and published metadata only; not claim validation, product testing or price verification.",
+    "status": 200,
+    "finalUrl": "https://www.scrapebox.com/",
+    "contentType": "text/html; charset=UTF-8",
+    "truncated": false,
+    "artifact": "18c1d22ba5af49c7.html",
+    "sha256": "7f8e737adf477b263be34af3c5a21b3daf406b6c75b18629bc3ef710dc5dc6db",
+    "bytes": 46127,
+    "title": "ScrapeBox - The Swiss Army Knife of SEO!",
+    "metadata": {}
+  },
+  {
+    "url": "https://www.searchenginejournal.com/ai-poisoning-black-hat-seo-is-back/561217/",
+    "attemptedAt": "2026-09-17T14:10:15.223840+00:00",
+    "scope": "Reachability and published metadata only; not claim validation, product testing or price verification.",
+    "status": 200,
+    "finalUrl": "https://www.searchenginejournal.com/ai-poisoning-black-hat-seo-is-back/561217/",
+    "contentType": "text/html; charset=UTF-8",
+    "truncated": false,
+    "artifact": "513f7bbdae47394b.html",
+    "sha256": "c308cf51938cd950c744e863eebc53952dc2c0f6f3c3c4d2456ed5a9e9b4dc06",
+    "bytes": 231864,
+    "title": "AI Poisoning: Black Hat SEO Is Back",
+    "metadata": {
+      "og:title": "AI Poisoning: Black Hat SEO Is Back",
+      "article:published_time": "2025-12-01T13:00:54+00:00",
+      "article:modified_time": "2025-12-01T15:15:42+00:00",
+      "author": "Reza Moaiandin"
+    }
+  },
+  {
+    "url": "https://www.searchenginejournal.com/google-defends-parasite-seo-crackdown-as-eu-opens-investigation/560822/",
+    "attemptedAt": "2026-09-17T14:10:15.438380+00:00",
+    "scope": "Reachability and published metadata only; not claim validation, product testing or price verification.",
+    "status": 200,
+    "finalUrl": "https://www.searchenginejournal.com/google-defends-parasite-seo-crackdown-as-eu-opens-investigation/560822/",
+    "contentType": "text/html; charset=UTF-8",
+    "truncated": false,
+    "artifact": "7d99d8f95d30058d.html",
+    "sha256": "44b7bea60ca24f583b2b8416940ae1b26cd296b4fba5eeca0083579f2fc57a64",
+    "bytes": 222708,
+    "title": "Google Defends Parasite SEO Crackdown As EU Opens Investigation",
+    "metadata": {
+      "og:title": "Google Defends Parasite SEO Crackdown As EU Opens Investigation",
+      "article:published_time": "2025-11-13T14:10:00+00:00",
+      "article:modified_time": "2025-11-13T14:10:58+00:00",
+      "author": "Matt G. Southern"
+    }
+  },
+  {
+    "url": "https://www.searchenginejournal.com/google-strengthens-policy-against-site-reputation-abuse/533018/",
+    "attemptedAt": "2026-09-17T14:10:15.553429+00:00",
+    "scope": "Reachability and published metadata only; not claim validation, product testing or price verification.",
+    "status": 200,
+    "finalUrl": "https://www.searchenginejournal.com/google-strengthens-policy-against-site-reputation-abuse/533018/",
+    "contentType": "text/html; charset=UTF-8",
+    "truncated": false,
+    "artifact": "38d0156d675be614.html",
+    "sha256": "b4c354154ee762c23b99f6821bb01f9d67e7fe86a371cdc41dbda056dcaaa55e",
+    "bytes": 227052,
+    "title": "Google's Site Reputation Abuse Crackdown Hits Major Publishers",
+    "metadata": {
+      "og:title": "Google Site Reputation Abuse Penalties Hit Major Publishers",
+      "article:published_time": "2024-11-19T17:00:30+00:00",
+      "article:modified_time": "2024-12-05T23:52:28+00:00",
+      "author": "Matt G. Southern"
+    }
+  },
+  {
+    "url": "https://www.sec.gov/Archives/edgar/data/1130713/000110465911022171/a11-10853_1ex99d1.htm",
+    "attemptedAt": "2026-09-17T14:10:15.738875+00:00",
+    "scope": "Reachability and published metadata only; not claim validation, product testing or price verification.",
+    "status": 403,
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "url": "https://www.selenium.dev/documentation/overview/",
+    "attemptedAt": "2026-09-17T14:10:15.755256+00:00",
+    "scope": "Reachability and published metadata only; not claim validation, product testing or price verification.",
+    "status": 200,
+    "finalUrl": "https://www.selenium.dev/documentation/overview/",
+    "contentType": "text/html; charset=utf-8",
+    "truncated": false,
+    "artifact": "815ebd360cbe003f.html",
+    "sha256": "dc7af5318b9d6b4828ea4db7161428831b4c1347d04f4bc17a8e43bd4bf410a4",
+    "bytes": 77182,
+    "title": "Selenium Overview | SeleniumSelenium logo green",
+    "metadata": {
+      "og:title": "Selenium Overview"
+    }
+  },
+  {
+    "url": "https://www.semrush.com/",
+    "attemptedAt": "2026-09-17T14:10:15.872635+00:00",
+    "scope": "Reachability and published metadata only; not claim validation, product testing or price verification.",
+    "status": 200,
+    "finalUrl": "https://www.semrush.com/",
+    "contentType": "text/html; charset=utf-8",
+    "truncated": false,
+    "artifact": "eaf0818edd218820.html",
+    "sha256": "a105a828c56c7871b0ef053ab7c3ed4c3f484f8614970b7ef4f367d4bf9aa958",
+    "bytes": 195718,
+    "title": "Semrush: Your Unfair Advantage for Growing Brand Visibility",
+    "metadata": {
+      "og:title": "Semrush: Your Unfair Advantage for Growing Brand Visibility"
+    }
+  },
+  {
+    "url": "https://www.skipblast.com/project-pbn-case-study/",
+    "attemptedAt": "2026-09-17T14:10:16.004748+00:00",
+    "scope": "Reachability and published metadata only; not claim validation, product testing or price verification.",
+    "status": 200,
+    "finalUrl": "https://www.skipblast.com/project-pbn-case-study/",
+    "contentType": "text/html; charset=UTF-8",
+    "truncated": false,
+    "artifact": "72dedad7c7eb3863.html",
+    "sha256": "92e885aef2113d11737815555019492edb1fe8d684d0d587b8958b99b18821e8",
+    "bytes": 133202,
+    "title": "Project PBN Case Study: Can You Rank A Site With All PBNs? For How Long? | Skipblast",
+    "metadata": {
+      "og:title": "Project PBN Case Study: Can You Rank A Site With All PBNs? For How Long? | Skipblast",
+      "article:published_time": "2018-08-29T05:49:35-07:00",
+      "article:modified_time": "2021-04-11T13:01:03-07:00"
+    }
+  },
+  {
+    "url": "https://www.sophos.com/en-us/blog/gootloader-inside-out",
+    "attemptedAt": "2026-09-17T14:10:16.039074+00:00",
+    "scope": "Reachability and published metadata only; not claim validation, product testing or price verification.",
+    "status": null,
+    "error": "The read operation timed out"
+  },
+  {
+    "url": "https://www.spinrewriter.com/",
+    "attemptedAt": "2026-09-17T14:10:16.114673+00:00",
+    "scope": "Reachability and published metadata only; not claim validation, product testing or price verification.",
+    "status": 200,
+    "finalUrl": "https://www.spinrewriter.com/",
+    "contentType": "text/html; charset=UTF-8",
+    "truncated": false,
+    "artifact": "eb2089590c8d0b9f.html",
+    "sha256": "2ffc380157b4e70c1b932f882a2f79857892927cf81a0a154d25c57388da049b",
+    "bytes": 158671,
+    "title": "Spin Rewriter AI - Article Rewriter Loved by 181,394 UsersUser iconArrow rightPlay buttonPlayArrow rightUser iconMore articlesMore trafficFacebook iconPlay buttonPlay",
+    "metadata": {
+      "og:title": "Spin Rewriter AI - Article Rewriter with Advanced Content Spinning - Text Paraphrasing Tool"
+    }
+  },
+  {
+    "url": "https://www.theverge.com/2024/5/29/24167407/google-search-algorithm-documents-leak-confirmation",
+    "attemptedAt": "2026-09-17T14:10:16.212575+00:00",
+    "scope": "Reachability and published metadata only; not claim validation, product testing or price verification.",
+    "status": 200,
+    "finalUrl": "https://www.theverge.com/2024/5/29/24167407/google-search-algorithm-documents-leak-confirmation",
+    "contentType": "text/html; charset=utf-8",
+    "truncated": false,
+    "artifact": "0904aa819411c244.html",
+    "sha256": "5be69b5a247b06c2302b65648ca470c971f3bb2fd1b2c7ad0af1f724e9362fdd",
+    "bytes": 414995,
+    "title": "Google confirms the leaked Search documents are real | The VergeThe VergeThe VergeNotificationsNotificationsHamburger Navigation ButtonThe VergeNotificationsNotificationsHamburger Navigation ButtonThe VergeCloseExpandExpandExpandExpandExpandExpandExpandExpandExpandExpandExpandExpandExpandFacebookThreadsInstagramYoutubeRSSThe VergeNotificationsNotificationsNotificationsCloseFollowCloseFollowCloseFollowCloseFollowLinkShareGiftCloseFollowCloseFollowCloseFollowCloseFollowCloseFollowCloseFollowCloseFollowVideoVideoVideoThe VergeFacebookThreadsInstagramYoutubeRSSThe Verge",
+    "metadata": {
+      "og:title": "Google confirms the leaked Search documents are real",
+      "article:published_time": "2024-05-29T22:12:19+00:00",
+      "article:modified_time": "2024-05-29T22:12:19+00:00",
+      "author": "Mia Sato"
+    }
+  },
+  {
+    "url": "https://www.zscaler.com/blogs/security-research/indirect-prompt-injection-web-content-targets-ai-agents",
+    "attemptedAt": "2026-09-17T14:10:16.539864+00:00",
+    "scope": "Reachability and published metadata only; not claim validation, product testing or price verification.",
+    "status": 200,
+    "finalUrl": "https://www.zscaler.com/blogs/security-research/indirect-prompt-injection-web-content-targets-ai-agents",
+    "contentType": "text/html; charset=utf-8",
+    "truncated": false,
+    "artifact": "0ee31b0e6ebc4ce6.html",
+    "sha256": "315413776ddca1ff3e0b13d8b6342283c46c2a68b2f35e78732c00b4be992ad1",
+    "bytes": 340454,
+    "title": "Indirect Prompt Injection Targets AI Agents | ThreatLabz",
+    "metadata": {
+      "og:title": "Indirect Prompt Injection Targets AI Agents | ThreatLabz"
+    }
+  },
+  {
+    "url": "https://zennolab.com/en/",
+    "attemptedAt": "2026-09-17T14:10:16.560306+00:00",
+    "scope": "Reachability and published metadata only; not claim validation, product testing or price verification.",
+    "status": 200,
+    "finalUrl": "https://zennolab.com/en/",
+    "contentType": "text/html; charset=utf-8",
+    "truncated": false,
+    "artifact": "9ce43f4967beea6a.html",
+    "sha256": "f895ce95ee1eab0e60be5daacf5bee1b8d13c502185d7be95029c7b69877c503",
+    "bytes": 131215,
+    "title": "ZennoLab — web-task automation service in the browser",
+    "metadata": {}
+  }
+]

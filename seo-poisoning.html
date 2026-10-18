@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en" data-page="seo-poisoning.html">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SEO Poisoning: Delivery Chains & Defensive Analysis | Black Hat SEO Terminal</title>
+<meta name="title" content="SEO Poisoning: Delivery Chains & Defensive Analysis | Black Hat SEO Terminal">
+<meta name="description" content="Search-delivered malicious content, compromised and attacker-owned pages, delivery architecture, indicators and defensive local analysis.">
+<link rel="canonical" href="https://optimizationtheory.com/blackhat-terminal/seo-poisoning.html">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Black Hat SEO Terminal">
+<meta property="og:title" content="SEO Poisoning: Delivery Chains & Defensive Analysis">
+<meta property="og:description" content="Search-delivered malicious content, compromised and attacker-owned pages, delivery architecture, indicators and defensive local analysis.">
+<meta property="og:image" content="https://optimizationtheory.com/blackhat-terminal/assets/social-card.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Black Hat SEO Terminal — defensive SEO research archive">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Black Hat SEO Terminal — research archive and offline labs">
+<meta property="og:locale" content="en_US">
+<meta property="og:url" content="https://optimizationtheory.com/blackhat-terminal/seo-poisoning.html">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="SEO Poisoning: Delivery Chains & Defensive Analysis">
+<meta name="twitter:description" content="Search-delivered malicious content, compromised and attacker-owned pages, delivery architecture, indicators and defensive local analysis.">
+<meta name="twitter:image" content="https://optimizationtheory.com/blackhat-terminal/assets/social-card.png">
+<meta name="theme-color" content="#0a0703">
+<link rel="icon" href="./favicon.svg" type="image/svg+xml">
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-6D8GWTC7CF"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-6D8GWTC7CF');
+</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,400;0,600;0,700;1,400&family=VT323&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="./css/terminal.css?v=ccf1c26792">
+<link rel="stylesheet" href="./css/oracle.css?v=ccf1c26792">
+<link rel="stylesheet" href="./css/linkjuice.css?v=ccf1c26792">
+<link rel="stylesheet" href="./css/spintax.css?v=ccf1c26792">
+<script>
+  /* pre-paint prefs so the theme does not flash */
+  (function(){try{var c=JSON.parse(localStorage.getItem('bht.crt'));if(c==='off')document.documentElement.classList.add('crt-off');var t=JSON.parse(localStorage.getItem('bht.theme'));if(t==='green')document.documentElement.setAttribute('data-theme','green');}catch(e){}})();
+  window.BHT = {"base":"./","page":"seo-poisoning.html","pages":[{"file":"index.html","title":"Start Here","size":21673},{"file":"oracle.html","title":"Black Hat Oracle","size":5628},{"file":"link-juice-sim.html","title":"Link Juice Simulator","size":7609},{"file":"spintax-machine.html","title":"Spintax Machine","size":6479},{"file":"methodology.html","title":"Methodology & Scope","size":10152},{"file":"overview.html","title":"System Overview","size":8413},{"file":"find.html","title":"Find Anything","size":341},{"file":"starter-kit.html","title":"Black Hat Starter Kit","size":10665},{"file":"search-manipulation.html","title":"Search Manipulation","size":19617},{"file":"private-blog-networks.html","title":"Private Blog Networks","size":43079},{"file":"api-leak.html","title":"The 2024 Google API Leak","size":13787},{"file":"ctr-navboost.html","title":"CTR & NavBoost Manipulation","size":16595},{"file":"ai-geo.html","title":"AI-Search / GEO Manipulation","size":21567},{"file":"prompt-injection.html","title":"Prompt Injection / Agent Manipulation","size":17416},{"file":"affiliate-seo.html","title":"Affiliate SEO Exploitation","size":16254},{"file":"parasite-seo.html","title":"Parasite SEO / Site Reputation Abuse","size":18123},{"file":"scaled-content-abuse.html","title":"Scaled Content Abuse","size":19039},{"file":"expired-domain-abuse.html","title":"Expired Domain Abuse","size":16797},{"file":"local-seo.html","title":"Local SEO Exploitation","size":16472},{"file":"restricted-verticals.html","title":"Restricted Verticals","size":10904},{"file":"vertical-pharma.html","title":"Vertical: Illegal Pharma","size":19750},{"file":"vertical-adult.html","title":"Vertical: Adult (XXX)","size":14743},{"file":"vertical-alcohol.html","title":"Vertical: Alcohol & DTC","size":14211},{"file":"tools.html","title":"Tools Database","size":86948},{"file":"case-studies.html","title":"Case Studies & Penalties","size":11271},{"file":"seo-poisoning.html","title":"SEO Poisoning / Compromised-Search","size":16268},{"file":"underground-market.html","title":"Underground Market","size":15858},{"file":"detection-defense.html","title":"Detection & Defense","size":15175},{"file":"resources.html","title":"Resources & References","size":11214},{"file":"appendix.html","title":"Appendix","size":21522},{"file":"lab-library.html","title":"Offline Lab Library","size":8857},{"file":"experiments.html","title":"Research Studies & Results","size":13070},{"file":"case-database.html","title":"Case Database","size":28969},{"file":"timeline.html","title":"Historical Timeline","size":12007},{"file":"glossary.html","title":"Glossary","size":20199},{"file":"bibliography.html","title":"Bibliography","size":108279},{"file":"changelog.html","title":"Changelog & Review Status","size":6472}],"version":"v9.4","built":"2026-09-28","toolCount":48};
+</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"TechArticle","headline":"SEO Poisoning / Compromised-Search","name":"SEO Poisoning: Delivery Chains & Defensive Analysis","description":"Search-delivered malicious content, compromised and attacker-owned pages, delivery architecture, indicators and defensive local analysis.","url":"https://optimizationtheory.com/blackhat-terminal/seo-poisoning.html","inLanguage":"en","isPartOf":{"@type":"WebSite","name":"Black Hat SEO Terminal","url":"https://optimizationtheory.com/blackhat-terminal/"},"publisher":{"@type":"Organization","name":"Optimization Theory","url":"https://optimizationtheory.com/"},"dateModified":"2026-09-17","audience":{"@type":"Audience","audienceType":"Security researchers, threat analysts, defensive SEO professionals"}},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Start Here","item":"https://optimizationtheory.com/blackhat-terminal/"},{"@type":"ListItem","position":2,"name":"SEO Poisoning / Compromised-Search","item":"https://optimizationtheory.com/blackhat-terminal/seo-poisoning.html"}]}]}</script>
+</head>
+<body data-accent="red">
+<a class="skip-link" href="#main">Skip to content</a>
+<!--
+      ██████╗ ██╗  ██╗████████╗
+      ██╔══██╗██║  ██║╚══██╔══╝    hello, source reader.
+      ██████╔╝███████║   ██║       build the shell: node build.cjs
+      ██╔══██╗██╔══██║   ██║       try  :neofetch  in the command line.
+      ██████╔╝██║  ██║   ██║       evidence and limitations are documented.
+      ╚═════╝ ╚═╝  ╚═╝   ╚═╝
+-->
+<div class="crt-scan" aria-hidden="true"></div>
+<div class="crt-vignette" aria-hidden="true"></div>
+<div class="crt-flicker" aria-hidden="true"></div>
+<div class="crt-beam" aria-hidden="true"></div>
+<div class="boot" aria-hidden="true"></div>
+
+<div class="term">
+  <header class="topbar">
+    <button class="menu-btn" type="button" aria-label="Open navigation" aria-controls="archive-nav" aria-expanded="false">☰</button>
+    <span class="dots" aria-hidden="true"><i></i><i></i><i></i></span>
+    <span class="title">visitor@blackhat-terminal:<b>~/archive/08a_seo-poisoning</b></span>
+    <span class="spacer"></span>
+    <button type="button" class="topsearch" data-open-search aria-label="Search the archive"><span class="mag" aria-hidden="true">⌕</span><span class="ph">Search techniques, tools, cases…</span><kbd>/</kbd></button>
+    <span class="spacer"></span>
+    <span class="leds"><span class="live">SECURE</span><span class="sig" aria-hidden="true"><i></i><i></i><i></i><i></i></span><span>ONLINE</span><span class="ping" aria-hidden="true">PING <b>—</b></span><span>RECORDS 48</span></span>
+    <button type="button" data-open-cmd>sh <kbd>:</kbd></button>
+    <span class="clock" aria-hidden="true">00:00:00</span>
+  </header>
+
+  <nav class="sidebar" id="archive-nav" aria-label="Archive sections">
+    <ul class="tree">
+      <li class="root">~/archive<small>black hat seo terminal · 37 sections · 48 tool records</small></li>
+      <li class=""><a href="index.html" title="A research archive on search and AI manipulation, with evidence limits, corrected policy guidance, local demonstrations and proposed studies."><span class="br">├──</span><span class="dot" style="color:#ffb000" aria-hidden="true">■</span><span class="nm">00_start-here<span class="ext">.md</span></span></a></li>
+      <li class=" new"><a href="oracle.html" title="Domain strategy simulator. An animated consultation with the darker side of search."><span class="br">├──</span><span class="dot" style="color:#ffb000" aria-hidden="true">■</span><span class="nm">00b_black-hat-oracle<span class="ext">/</span></span></a></li>
+      <li class=" new"><a href="link-juice-sim.html" title="Interactive PageRank sandbox. Build link schemes, watch the juice flow, then survive the sweep."><span class="br">├──</span><span class="dot" style="color:#33ff99" aria-hidden="true">■</span><span class="nm">00c_link-juice-sim<span class="ext">/</span></span></a></li>
+      <li class=" new"><a href="spintax-machine.html" title="Explode a sentence into spintax, pull the lever for 50 versions, then watch the detectors catch them."><span class="br">├──</span><span class="dot" style="color:#ff5db1" aria-hidden="true">■</span><span class="nm">00d_spintax-machine<span class="ext">/</span></span></a></li>
+      <li class=""><a href="methodology.html" title="Research questions, source standards, scope, cutoff dates, evidence categories, uncertainty and the limits of the archive’s local demonstrations."><span class="br">├──</span><span class="dot" style="color:#33ff99" aria-hidden="true">■</span><span class="nm">00a_methodology<span class="ext">/</span></span></a></li>
+      <li class=""><a href="overview.html" title="Map of search and AI manipulation techniques, the signals they target, current policy context and the distinction between evidence and inference."><span class="br">├──</span><span class="dot" style="color:#ffb000" aria-hidden="true">■</span><span class="nm">01_overview<span class="ext">/</span></span></a></li>
+      <li class=""><a href="find.html" title="Filter chapter topics and tool records by name, or use full-text search to find claims, cases, labs and glossary terms."><span class="br">├──</span><span class="dot" style="color:#4fd6ee" aria-hidden="true">■</span><span class="nm">02_find<span class="ext">/</span></span></a></li>
+      <li class=""><a href="starter-kit.html" title="A guided path through the archive: prerequisites, evidence labels, terminology, local teaching demonstrations and current versus historical material."><span class="br">├──</span><span class="dot" style="color:#ff7a1a" aria-hidden="true">■</span><span class="nm">03_starter-kit<span class="ext">/</span></span></a></li>
+      <li class=""><a href="search-manipulation.html" title="Cloaking, doorway pages, hidden text, sneaky redirects, structured-data abuse and negative SEO, with defensive analysis and current feature limitations."><span class="br">├──</span><span class="dot" style="color:#ff4a3d" aria-hidden="true">■</span><span class="nm">04_search-manipulation<span class="ext">/</span></span></a></li>
+      <li class=""><a href="private-blog-networks.html" title="Private blog network architecture, evidence and practitioner hypotheses, infrastructure, detection, policy risk and the limits of proposed ranking studies."><span class="br">├──</span><span class="dot" style="color:#b98cff" aria-hidden="true">■</span><span class="nm">04a_private-blog-networks<span class="ext">/</span></span></a></li>
+      <li class=""><a href="api-leak.html" title="Google Content Warehouse documentation: authenticity, evidence provenance, leaked fields, researcher interpretations and limits on ranking conclusions."><span class="br">├──</span><span class="dot" style="color:#4fd6ee" aria-hidden="true">■</span><span class="nm">04b_google-api-leak<span class="ext">/</span></span></a></li>
+      <li class=""><a href="ctr-navboost.html" title="NavBoost and click evidence from public testimony and leak analysis; why click-use evidence does not establish purchased-click efficacy."><span class="br">├──</span><span class="dot" style="color:#ff4a3d" aria-hidden="true">■</span><span class="nm">04c_ctr-navboost<span class="ext">/</span></span></a></li>
+      <li class=""><a href="ai-geo.html" title="AI-search retrieval and citation manipulation, platform distinctions, academic evidence and the limits of proposed citation studies."><span class="br">├──</span><span class="dot" style="color:#b98cff" aria-hidden="true">■</span><span class="nm">04d_ai-geo-manipulation<span class="ext">/</span></span></a></li>
+      <li class=""><a href="prompt-injection.html" title="Indirect instructions in retrieved content, agent trust boundaries, tool-use risks, benign local demonstrations and defense limitations."><span class="br">├──</span><span class="dot" style="color:#a6ff5a" aria-hidden="true">■</span><span class="nm">04e_prompt-injection<span class="ext">/</span></span></a></li>
+      <li class=""><a href="affiliate-seo.html" title="Affiliate search abuse, thin content, redirects, source attribution, endorsement disclosure and the distinction between policy and legal claims."><span class="br">├──</span><span class="dot" style="color:#ff5db1" aria-hidden="true">■</span><span class="nm">05_affiliate-seo<span class="ext">/</span></span></a></li>
+      <li class=""><a href="parasite-seo.html" title="Site reputation abuse mechanisms, historical enforcement and August 2026 regional policy treatment, with evidence limitations."><span class="br">├──</span><span class="dot" style="color:#ff5db1" aria-hidden="true">■</span><span class="nm">05a_parasite-seo<span class="ext">/</span></span></a></li>
+      <li class=""><a href="scaled-content-abuse.html" title="Scaled content abuse is about purpose and user value, not AI use alone; mechanisms, defensive signals and limits of proposed content studies."><span class="br">├──</span><span class="dot" style="color:#ff7a1a" aria-hidden="true">■</span><span class="nm">05b_scaled-content-abuse<span class="ext">/</span></span></a></li>
+      <li class=""><a href="expired-domain-abuse.html" title="Expired-domain reuse and abuse, archive inspection, policy boundaries, illustrative scenarios and limitations of domain comparisons."><span class="br">├──</span><span class="dot" style="color:#ffb000" aria-hidden="true">■</span><span class="nm">05c_expired-domain-abuse<span class="ext">/</span></span></a></li>
+      <li class=""><a href="local-seo.html" title="Business Profile and review manipulation, local-ranking evidence, US and UK review rules, detection indicators and uncertain efficacy claims."><span class="br">├──</span><span class="dot" style="color:#a6ff5a" aria-hidden="true">■</span><span class="nm">06_local-seo<span class="ext">/</span></span></a></li>
+      <li class=" new"><a href="restricted-verticals.html" title="Why industries cut off from paid discovery lean on black-hat organic tactics, with a comparative table and the technique stack each vertical runs."><span class="br">├──</span><span class="dot" style="color:#ff4a3d" aria-hidden="true">■</span><span class="nm">06a_restricted-verticals<span class="ext">/</span></span></a></li>
+      <li class=" new"><a href="vertical-pharma.html" title="Partnerka affiliate economics, the WordPress pharma hack, hacklink markets and the payment chokepoint, with detection and defense."><span class="br">├──</span><span class="dot" style="color:#b98cff" aria-hidden="true">■</span><span class="nm">06b_vertical-pharma<span class="ext">/</span></span></a></li>
+      <li class=" new"><a href="vertical-adult.html" title="How a legal but ad-banned industry optimizes: data PR, tube ecosystems, self-built link networks, scaled content and adult GEO."><span class="br">├──</span><span class="dot" style="color:#ff5db1" aria-hidden="true">■</span><span class="nm">06c_vertical-adult<span class="ext">/</span></span></a></li>
+      <li class=" new"><a href="vertical-alcohol.html" title="The age-gate versus indexing trap, the cloaking shortcut versus the compliant overlay, gray-market DTC shipping and aggressive local pages."><span class="br">├──</span><span class="dot" style="color:#ffb000" aria-hidden="true">■</span><span class="nm">06d_vertical-alcohol<span class="ext">/</span></span></a></li>
+      <li class=""><a href="tools.html" title="An individually sourced catalogue of tools and services, including historical and unresolved records, requirements, pricing limits and official links."><span class="br">├──</span><span class="dot" style="color:#4fd6ee" aria-hidden="true">■</span><span class="nm">07_tools-database<span class="ext">/</span></span></a></li>
+      <li class=""><a href="case-studies.html" title="Source-traced case discussions distinguish documented events, company statements, policy changes and unresolved historical reports."><span class="br">├──</span><span class="dot" style="color:#b98cff" aria-hidden="true">■</span><span class="nm">08_case-studies<span class="ext">/</span></span></a></li>
+      <li class="active"><a href="seo-poisoning.html" title="Search-delivered malicious content, compromised and attacker-owned pages, delivery architecture, indicators and defensive local analysis."><span class="br">├──</span><span class="dot" style="color:#ff4a3d" aria-hidden="true">■</span><span class="nm">08a_seo-poisoning<span class="ext">/</span></span></a><ul class="sub"><li><a href="#poison-definition"><span class="br">│  └─</span><span class="nm">1 · Definition</span></a></li><li><a href="#poison-mechanism"><span class="br">│  └─</span><span class="nm">2 · Why it works</span></a></li><li><a href="#poison-architecture"><span class="br">│  └─</span><span class="nm">3 · Architecture</span></a></li><li><a href="#poison-history"><span class="br">│  └─</span><span class="nm">4 · Historical evolution</span></a></li><li><a href="#poison-tooling"><span class="br">│  └─</span><span class="nm">5 · Tooling &amp; infrastructure (categories, not instructions)</span></a></li><li><a href="#poison-workflow"><span class="br">│  └─</span><span class="nm">6 · Workflow (attacker lifecycle, for detection)</span></a></li><li><a href="#poison-demo"><span class="br">│  └─</span><span class="nm">7 · Demonstration (defensive lab only)</span></a></li><li><a href="#poison-results"><span class="br">│  └─</span><span class="nm">8 · Expected outcome (attacker) &amp; impact</span></a></li><li><a href="#poison-case"><span class="br">│  └─</span><span class="nm">9 · Documented real-world case</span></a></li><li><a href="#poison-mistakes"><span class="br">│  └─</span><span class="nm">10 · Common indicators (what gives it away)</span></a></li><li><a href="#poison-detection"><span class="br">│  └─</span><span class="nm">11 · Detection methods</span></a></li><li><a href="#poison-defense"><span class="br">│  └─</span><span class="nm">12 · Defense &amp; recovery</span></a></li><li><a href="#poison-legal"><span class="br">│  └─</span><span class="nm">13 · Legal status</span></a></li><li><a href="#poison-analysis"><span class="br">│  └─</span><span class="nm">14 · Expert analysis</span></a></li><li><a href="#poison-field-guide"><span class="br">│  └─</span><span class="nm">Field guide: preserve the delivery chain safely</span></a></li><li><a href="#poison-refs"><span class="br">│  └─</span><span class="nm">15 · References</span></a></li></ul></li>
+      <li class=""><a href="underground-market.html" title="A qualitative account of manipulation services, evidence limits, market venues, transaction risks and properly scoped enforcement context."><span class="br">├──</span><span class="dot" style="color:#ffd23f" aria-hidden="true">■</span><span class="nm">09_underground-market<span class="ext">/</span></span></a></li>
+      <li class=""><a href="detection-defense.html" title="A practical defensive workflow for content differences, file changes, suspicious links and incident recovery, with synthetic examples and false positives."><span class="br">├──</span><span class="dot" style="color:#33ff99" aria-hidden="true">■</span><span class="nm">10_detection-defense<span class="ext">/</span></span></a></li>
+      <li class=""><a href="resources.html" title="Primary documentation and research resources, source-quality checks and clearly qualified historical community references."><span class="br">├──</span><span class="dot" style="color:#5b9dff" aria-hidden="true">■</span><span class="nm">11_resources<span class="ext">/</span></span></a></li>
+      <li class=""><a href="appendix.html" title="Cross-linked technique and tool indexes, shared reference material, historical context and limits on performance claims."><span class="br">├──</span><span class="dot" style="color:#ffb000" aria-hidden="true">■</span><span class="nm">12_appendix<span class="ext">/</span></span></a></li>
+      <li class=""><a href="lab-library.html" title="Six reproducible offline teaching demonstrations with synthetic fixtures and captured outputs; no live ranking efficacy is claimed."><span class="br">├──</span><span class="dot" style="color:#4fd6ee" aria-hidden="true">■</span><span class="nm">13_lab-library<span class="ext">/</span></span></a></li>
+      <li class=""><a href="experiments.html" title="A reproducible archive-search evaluation with frozen data and measured results, plus four unexecuted external search and AI study protocols."><span class="br">├──</span><span class="dot" style="color:#5b9dff" aria-hidden="true">■</span><span class="nm">13a_experiments<span class="ext">/</span></span></a></li>
+      <li class=""><a href="case-database.html" title="Structured incident and policy-event records with dates, source scope, confidence, outcomes and related chapters; unresolved fields are explicit."><span class="br">├──</span><span class="dot" style="color:#b98cff" aria-hidden="true">■</span><span class="nm">14_case-database<span class="ext">/</span></span></a></li>
+      <li class=""><a href="timeline.html" title="A sourced chronology of search-policy and ranking events, with historical interpretations separated from confirmed announcements."><span class="br">├──</span><span class="dot" style="color:#ffd23f" aria-hidden="true">■</span><span class="nm">15_timeline<span class="ext">/</span></span></a></li>
+      <li class=""><a href="glossary.html" title="Definitions of search and AI-manipulation terminology, with current scope and links to deeper chapters."><span class="br">├──</span><span class="dot" style="color:#5b9dff" aria-hidden="true">■</span><span class="nm">16_glossary<span class="ext">/</span></span></a></li>
+      <li class=""><a href="bibliography.html" title="Source register for official policy, regulatory guidance, court evidence, academic papers and technical reporting, with provenance limitations."><span class="br">├──</span><span class="dot" style="color:#33ff99" aria-hidden="true">■</span><span class="nm">17_bibliography<span class="ext">/</span></span></a></li>
+      <li class=""><a href="changelog.html" title="Editorial changes, page review tracking, separate build and research dates, and the remaining limits of the archive."><span class="br">└──</span><span class="dot" style="color:#ffb000" aria-hidden="true">■</span><span class="nm">18_changelog<span class="ext">/</span></span></a></li>
+    </ul>
+    <div class="side-foot">
+      <div><kbd>/</kbd> search &nbsp; <kbd>:</kbd> shell &nbsp; <kbd>?</kbd> help</div>
+      <div><kbd>[</kbd> <kbd>]</kbd> prev / next section</div>
+      <div><kbd>Shift</kbd>+<kbd>E</kbd> expand all &nbsp; <kbd>Shift</kbd>+<kbd>C</kbd> collapse</div>
+      <div style="margin-top:8px"><a href="https://optimizationtheory.com/blackhat-personas" target="_blank" rel="noopener">./blackhat-personas →</a></div>
+      <div style="margin-top:8px">shell v9.4 · built 2026-09-28</div>
+    </div>
+  </nav>
+  <div class="scrim"></div>
+
+  <main class="main" id="main" tabindex="-1">
+    <div class="page has-toc">
+      <article class="content">
+<div class="ascii-banner reveal" data-accent-glow aria-hidden="true"><div class="art-pre">███████╗███████╗ ██████╗ 
+██╔════╝██╔════╝██╔═══██╗
+███████╗█████╗  ██║   ██║
+╚════██║██╔══╝  ██║   ██║
+███████║███████╗╚██████╔╝
+╚══════╝╚══════╝ ╚═════╝ 
+
+██████╗  ██████╗ ██╗███████╗ ██████╗ ███╗   ██╗██╗███╗   ██╗ ██████╗ 
+██╔══██╗██╔═══██╗██║██╔════╝██╔═══██╗████╗  ██║██║████╗  ██║██╔════╝ 
+██████╔╝██║   ██║██║███████╗██║   ██║██╔██╗ ██║██║██╔██╗ ██║██║  ███╗
+██╔═══╝ ██║   ██║██║╚════██║██║   ██║██║╚██╗██║██║██║╚██╗██║██║   ██║
+██║     ╚██████╔╝██║███████║╚██████╔╝██║ ╚████║██║██║ ╚████║╚██████╔╝
+╚═╝      ╚═════╝ ╚═╝╚══════╝ ╚═════╝ ╚═╝  ╚═══╝╚═╝╚═╝  ╚═══╝ ╚═════╝ </div><span class="scan"></span></div>
+<div class="banner-sub" aria-hidden="true"><span class="bkt">[</span><span class="lbl">SEO POISONING</span><span class="bkt">]</span><span class="sep">::</span><span class="mode">CASES</span><span class="sep">·</span><span class="sev">ENFORCEMENT</span><span class="sep">·</span><span class="path">~/archive/08a_seo-poisoning</span><span class="cur">_</span></div>
+<header class="doc-head"><div class="path"><a href="index.html">~</a><span class="sep">/</span><a href="index.html">archive</a><span class="sep">/</span><span>08a_seo-poisoning/</span></div><h1><span class="pfx">$ cat </span>SEO Poisoning / Compromised-Search</h1><p class="sub">Search-delivered malicious content, compromised and attacker-owned pages, delivery architecture, indicators and defensive local analysis.</p><div class="facts"><span><b>1,527</b> words</span><span>~<b>7</b> min read</span><span><b>1</b> tables</span><span><b>1</b> code blocks</span><span class="sev sev-high">ENFORCEMENT</span></div></header>
+<figure class="ascii-feature reveal" data-label="CHAIN // compromised-search delivery"><div class="art-pre">   [ COMPROMISED SITE ] ─▶ [ TRAFFIC DISTRIBUTION ] ─▶ [ MALWARE / SCAM ]
+          │                        │                          │
+      injected pages          cloaked to search           GootLoader etc
+   Tier C: incident analysis + defensive detection only</div></figure>
+            <div id="seo-poisoning-compromised-search" class="section-header">SEO POISONING / COMPROMISED-SEARCH</div>
+
+            <div class="chapter-meta">
+                <span class="st st-active">STATUS: ACTIVE</span>
+                <span class="mb">EXERCISE SCOPE: <b>proposals and bounded offline practice</b></span>
+                <span class="mb">PRIMARY HARM: <b>malware / phishing delivery</b></span>
+                <span class="mb">EVIDENCE: <b>confirmed threat-intel</b></span>
+                <span class="verified">editorial revision 2026-09-19</span>
+            </div>
+
+            <div class="callout danger">
+                <div class="cl">TIER C · READ FIRST</div>
+                <p>This chapter analyzes malicious search delivery and defensive indicators. Some campaigns compromise existing sites; others use attacker-owned pages. The demonstration uses synthetic or published evidence, with no live malware execution. A technical incident description establishes observed conduct, not the legal elements of a particular offence.</p>
+            </div>
+
+            <p>SEO poisoning manipulates search visibility to lead users to malicious content, including phishing or malware. Delivery can use compromised legitimate sites or attacker-owned pages. Compromise-based GootLoader activity is one documented implementation, not the definition of every campaign. Paid malicious ads are a related delivery channel that should be distinguished from organic search poisoning.</p>
+
+            <div class="evkey">
+                <span><span class="ev ev-confirmed">confirmed</span> vendor threat intelligence</span>
+                <span><span class="ev ev-practitioner">practitioner</span> incident-responder observation</span>
+                <span><span class="ev ev-interp">interpretation</span> inference</span>
+            </div>
+
+            <h2 id="poison-definition">1 · Definition</h2>
+            <p>SEO poisoning uses search-ranking manipulation as a <strong>malware distribution channel</strong>. Rather than ranking to sell a product, the attacker ranks to put a malicious download or phishing page in front of a searcher looking for something specific (a document template, a software crack, a legal form). One documented family is <strong>GootLoader</strong>, which for years has poisoned searches for legal and business document templates. <span class="ev ev-confirmed">confirmed</span><a class="cite" href="#ref-1">[1]</a></p>
+
+            <h2 id="poison-mechanism">2 · Why it works</h2>
+            <p>In the GootLoader pattern described by Sophos, a compromised legitimate site hosts search-targeted content and selectively presents a malicious download path. The page’s apparent legitimacy can mislead a searcher. This case-specific description does not prove a universal ranking mechanism, and it does not apply unchanged to attacker-owned domains. <a class="cite" href="#ref-1">[1]</a></p>
+
+            <h2 id="poison-architecture">3 · Architecture</h2>
+            <div style="background:rgba(17,12,5,0.1);padding:18px;margin:16px 0;overflow-x:auto">
+<pre data-diagram="true" style="color:var(--red);font-size:0.78em;line-height:1.15;overflow-x:auto">
+  COMPROMISED SITES (many)        C2 / "MOTHERSHIP"           VICTIM
+   real WordPress blogs   ◀──────  attacker server decides    │ searches niche query
+   with a hidden CMS        serves  what each visitor sees     │ (e.g. "[jurisdiction]
+   implant                          (cloaking logic)           │  contract template")
+        │                                │                     ▼
+        │  Googlebot ─▶ sees a clean, keyword-stuffed "forum/QA" page (ranks)
+        │  Real user via Google ─▶ served a fake "download" page ─▶ malware payload
+        └───────────── one-time serving, geo/referrer gating, then benign ───────────
+</pre>
+            </div>
+            <p>The illustrated GootLoader pattern includes a <strong>compromised trusted host</strong>, <strong>cloaking</strong> (Googlebot sees ranking-bait; a first-time human from a search referrer sees the trap), and a <strong>central controller</strong> that decides per-visitor what to serve, so the malicious behaviour is hard to reproduce for investigators. <span class="ev ev-confirmed">confirmed</span><a class="cite" href="#ref-1">[1]</a></p>
+
+            <h2 id="poison-history">4 · Historical evolution</h2>
+            <table class="data-table"><thead><tr><th>Era</th><th>What changed</th></tr></thead><tbody>
+                <tr><td><b>2010s</b></td><td>"Search poisoning" of trending news and image searches to push fake AV and exploit kits.</td></tr>
+                <tr><td><b>2018–2021</b></td><td>GootLoader matures: mass-compromised WordPress sites, a central "mothership," targeting document-template searches; documented in depth by Sophos. <span class="ev ev-confirmed">confirmed</span><a class="cite" href="#ref-1">[1]</a></td></tr>
+                <tr><td><b>2022–2024</b></td><td>Campaigns hit healthcare and enterprise; used to stage ransomware. <span class="ev ev-confirmed">confirmed</span><a class="cite" href="#ref-3">[3]</a></td></tr>
+                <tr><td><b>2024–2026</b></td><td>Related delivery channels require separate incident evidence; this archive does not establish their prevalence or a general 2024–2026 trend.</td></tr>
+            </tbody></table>
+
+            <h2 id="poison-tooling">5 · Tooling &amp; infrastructure (categories, not instructions)</h2>
+            <p>Documented at the category level so defenders know what to look for:</p>
+            <ul>
+                <li><strong>Access:</strong> compromised CMS installs (vulnerable/outdated WordPress and plugins), obtained via known exploits or credential abuse.</li>
+                <li><strong>Implant:</strong> a hidden content-management layer on the victim site that generates thousands of keyword pages on demand.</li>
+                <li><strong>Controller (C2):</strong> a central server ("mothership") that decides, per request, whether to show ranking-bait or the trap. <span class="ev ev-confirmed">confirmed</span><a class="cite" href="#ref-1">[1]</a></li>
+                <li><strong>Cloaking / gating:</strong> user-agent, referrer, geo, and one-time-serving logic so only the intended victims see the payload.</li>
+                <li><strong>Payload:</strong> a loader (e.g. a malicious script in a fake "template.zip") that pulls further malware.</li>
+            </ul>
+
+            <h2 id="poison-workflow">6 · Workflow (attacker lifecycle, for detection)</h2>
+            <p>Compromise many trusted sites → implant the page generator → generate cloaked pages for long-tail, low-competition queries → let Google rank them on the hosts' authority → serve the trap to searchers who match the gating → deliver payload → maintain access and rotate. Understanding this lifecycle is what lets defenders break it at each stage.</p>
+
+            <h2 id="poison-demo">7 · Demonstration (defensive lab only)</h2>
+<p><strong>Supplied practice:</strong> <a href="lab-library.html#lab-6">Offline Lab 6</a> demonstrates synthetic indicator triage, with no live payload or compromised website. Its captured output is distinct from any unexecuted live protocol below.</p>
+            <div class="lab">
+                <div class="lab-h">Proposed defensive indicator exercise — not executed</div>
+                <p>The safe, useful exercise is <strong>indicator analysis</strong>, which is what incident responders actually do:</p>
+                <ol>
+                    <li>Use saved report excerpts and inert fixtures, without visiting live malicious URLs or executing downloads. Compare the fake-forum page structure, the ZIP-with-JS payload pattern, the one-time serving behaviour. <span class="ev ev-confirmed">confirmed</span><a class="cite" href="#ref-1">[1]</a><a class="cite" href="#ref-4">[4]</a></li>
+                    <li>On a WordPress instance <em>you own</em>, practice detection: file-integrity monitoring, spotting unexpected generated pages, and log analysis for search-referrer cloaking.</li>
+                    <li>Record fixture provenance, collection date and a known-clean comparison. A suspicious ZIP name or a referrer difference alone is not conclusive; correlate independent indicators and document false positives.</li>
+                </ol>
+            </div>
+
+            <h2 id="poison-results">8 · Expected outcome (attacker) &amp; impact</h2>
+            <p>Published reports describe malicious delivery and possible follow-on malware activity. Distinguish a search click, a download, execution and a confirmed intrusion: each requires different evidence. The archive reports no original infections, affected-host total or campaign success rate.</p>
+
+            
+
+            <h2 id="poison-case">9 · Documented real-world case</h2>
+            <div class="callout"><div class="cl">AUGUST 12, 2021 · SOPHOS GOOTLOADER REPORT</div><p>Sophos described a central controller governing malicious content on compromised websites, including search-targeted pages and conditional delivery. The report documents an analyzed campaign mechanism; it does not supply this archive with a population-wide victim count or a success rate. Read the original report for its indicators and collection context. <a class="cite" href="#ref-1">[1]</a> Later Red Canary analysis describes loader and follow-on detection from a separate source and period. <a class="cite" href="#ref-4">[4]</a></p></div>
+
+            
+
+            <h2 id="poison-mistakes">10 · Common indicators (what gives it away)</h2>
+            <p>For a site owner: unexpected pages targeting keywords unrelated to your business, a spike in indexed URLs, hidden PHP/JS files, and cloaking that shows different content to Googlebot vs a search-referred visitor. For a searcher: a "forum" or "Q&amp;A" page that immediately pushes a ZIP download of a "template."</p>
+
+            <h2 id="poison-detection">11 · Detection methods</h2>
+            <ul>
+                <li><strong>Site owners:</strong> file-integrity monitoring, unexpected-URL alerts in Search Console, log review for user-agent/referrer-based content differences, and reputable malware scanners.</li>
+                <li><strong>Search engines / vendors:</strong> Safe Browsing and crawler-side cloaking detection flag and warn on poisoned results. <span class="ev ev-confirmed">confirmed</span></li>
+                <li><strong>Endpoint / IR:</strong> detection of the loader's behaviour (scripted execution from a downloaded archive) per published playbooks. <span class="ev ev-confirmed">confirmed</span><a class="cite" href="#ref-4">[4]</a></li>
+            </ul>
+
+            <h2 id="poison-defense">12 · Defense &amp; recovery</h2>
+            <p>Keep CMS and plugins patched, enforce strong admin credentials and 2FA, use file-integrity monitoring, and monitor Search Console for foreign pages. If compromised: take the site offline, remove the implant and any injected pages, rotate all credentials, request a Safe Browsing review, and clean up the search index. See <a href="detection-defense.html">Detection &amp; Defense</a>.</p>
+
+            <h2 id="poison-legal">13 · Legal status</h2>
+            <p>Unauthorized access, malware delivery, deception and extortion can create serious civil or criminal liability. The applicable offence depends on jurisdiction, authorization, intent and the proven acts. A threat-intelligence report can support the technical description; it does not on its own establish every statutory element or adjudicate a particular actor’s liability.</p>
+
+            
+
+            <h2 id="poison-analysis">14 · Expert analysis</h2>
+            <p>The practical defensive lesson is to trace the complete delivery chain rather than equating every suspicious page with a completed compromise. Separate the search result, hosting arrangement, redirect conditions, download and endpoint execution. This chapter documents external cases and proposed exercises; the <a href="lab-library.html">lab library</a> provides the place to inspect synthetic evidence without reproducing an attack.</p>
+
+            
+
+            <h2 id="poison-field-guide">Field guide: preserve the delivery chain safely</h2>
+<p><strong>Prerequisites:</strong> authorization to inspect the affected host, a clean reference deployment, server/change logs and an incident owner. Work from inert copies of pages, response headers and endpoint reports. Do not execute a suspicious download to complete the evidence chain. Specialist malware analysis requires its own isolated environment and procedures; the supplied archive exercises contain no malware.</p>
+<p>Keep three linked records: the search landing page, the delivery path and the affected endpoint. A host compromise can exist without a documented download. A malicious download can come from an attacker-owned site rather than a compromised legitimate one. A search screenshot alone proves neither endpoint execution nor the mechanism that produced the ranking.</p>
+<ol><li>Preserve a timestamped page copy, its URL and the observed redirect chain from already available records. Capture the context needed to explain conditional delivery.</li><li>Compare deployed files and templates with a known-good version. Distinguish approved changes from unreviewed additions and modifications.</li><li>Correlate access and change logs within a stated time window. Treat absent logs as unavailable evidence, not proof that nothing occurred.</li><li>Contain according to the supported finding: repair the host and access boundary for compromise; refer endpoint execution evidence to the incident responder.</li><li>Check recurrence, restored page behavior and platform security notices separately. Removal of an injected page does not show that stolen credentials were invalidated.</li></ol>
+<p><strong>Cost and timing:</strong> triage requires analyst time, retained logs and clean recovery material. Recovery effort depends on the access path and affected assets; no average dwell time, payload prevalence or time-to-reindex is estimated. The <a href="lab-library.html#lab-2">file-integrity exercise</a> and <a href="lab-library.html#lab-6">poisoning triage exercise</a> are reproducible practice in interpreting evidence. Their deterministic rules are not a production malware detector.</p>
+<div class="callout"><div class="cl">SEE ALSO // RESTRICTED VERTICALS</div><p>The commerce-driven form of this technique, the WordPress "pharma hack," and its industrialized descendant the <a href="https://www.netcraft.com/blog/how-fraudsters-are-poisoning-search-results-to-promote-phishing-sites" target="_blank" rel="noopener">hacklink</a> market, are documented in the <a href="vertical-pharma.html">illegal-pharma vertical chapter</a>, alongside the payment-chokepoint demonetization lesson.</p></div>
+            <h2 id="poison-refs">15 · References</h2>
+            <ol class="refs">
+                <li id="ref-1"><a href="https://news.sophos.com/en-us/2021/08/12/gootloaders-mothership-controls-malicious-content/" target="_blank" rel="noopener">GootLoader's "mothership" controls malicious content</a>. <span class="pub">Sophos, 2021.</span> <span class="src primary">primary (threat intel)</span></li>
+                <li id="ref-2"><a href="https://www.sophos.com/en-us/blog/gootloader-inside-out" target="_blank" rel="noopener">GootLoader inside out</a>. <span class="pub">Sophos.</span> <span class="src primary">primary (threat intel)</span></li>
+                <li id="ref-3"><a href="https://www.bleepingcomputer.com/news/security/hackers-use-black-hat-seo-to-push-ransomware-trojans-via-google/" target="_blank" rel="noopener">Hackers use black hat SEO to push ransomware, trojans via Google</a>. <span class="pub">BleepingComputer.</span></li>
+                <li id="ref-4"><a href="https://redcanary.com/blog/threat-intelligence/gootloader/" target="_blank" rel="noopener">The Goot cause: Detecting Gootloader and its follow-on activity</a>. <span class="pub">Red Canary.</span> <span class="src">practitioner</span></li>
+            </ol>
+
+<nav class="pager" aria-label="Section navigation"><a class="prev" href="case-studies.html"><small>← prev · 08_case-studies</small><b>Case Studies &amp; Penalties</b></a><a class="next" href="underground-market.html"><small>next · 09_underground-market →</small><b>Underground Market</b></a></nav>
+        <footer class="footer">
+<div class="footer-grid">
+<div class="footer-section"><h3>About this archive</h3><p>Educational research on search and AI manipulation. Consult the <a href="methodology.html">methodology</a>, <a href="bibliography.html">source register</a> and claim-specific limitations. Vendor claims, proposed studies and observed local demonstrations are different evidence categories.</p></div>
+<div class="footer-section"><h3>Research status</h3><p>Evidence cutoff: 2026-09-19. Editorial revision: 2026-09-19. Local fixtures demonstrate mechanisms, not Google ranking efficacy. The <a href="changelog.html">review tracker</a> records remaining limitations; the build date does not verify claims.</p></div>
+<div class="footer-section"><h3>Scope</h3><p>Use demonstrations on owned or isolated test infrastructure. Policy, contractual, civil and criminal consequences depend on the conduct and applicable rules; they are not interchangeable labels.</p></div>
+</div>
+<p>BLACK HAT SEO TERMINAL v9.4 · built 2026-09-28 · 37 pages · 11 technique chapters · 48 tool records · 231 reference-list entries</p>
+
+        </footer>
+      </article>
+<aside class="toc" aria-label="On this page"><div class="h">// ON THIS PAGE</div><ol><li class="l1"><a href="#poison-definition">1 · Definition</a></li><li class="l1"><a href="#poison-mechanism">2 · Why it works</a></li><li class="l1"><a href="#poison-architecture">3 · Architecture</a></li><li class="l1"><a href="#poison-history">4 · Historical evolution</a></li><li class="l1"><a href="#poison-tooling">5 · Tooling &amp; infrastructure (categories, not instructions)</a></li><li class="l1"><a href="#poison-workflow">6 · Workflow (attacker lifecycle, for detection)</a></li><li class="l1"><a href="#poison-demo">7 · Demonstration (defensive lab only)</a></li><li class="l1"><a href="#poison-results">8 · Expected outcome (attacker) &amp; impact</a></li><li class="l1"><a href="#poison-case">9 · Documented real-world case</a></li><li class="l1"><a href="#poison-mistakes">10 · Common indicators (what gives it away)</a></li><li class="l1"><a href="#poison-detection">11 · Detection methods</a></li><li class="l1"><a href="#poison-defense">12 · Defense &amp; recovery</a></li><li class="l1"><a href="#poison-legal">13 · Legal status</a></li><li class="l1"><a href="#poison-analysis">14 · Expert analysis</a></li><li class="l1"><a href="#poison-field-guide">Field guide: preserve the delivery chain safely</a></li><li class="l1"><a href="#poison-refs">15 · References</a></li></ol><div class="toc-tools"><button type="button" class="chip" data-expand-all>expand all</button><button type="button" class="chip" data-collapse-all>collapse all</button></div></aside>
+    </div>
+  </main>
+
+  <footer class="statusbar" aria-hidden="true">
+    <span class="mode">CASES</span>
+    <span class="seg">▸ <b>08a_seo-poisoning</b></span>
+    <span class="seg opt">1,527w · 7m · 1 tables</span>
+    <span class="seg scanseg" aria-hidden="true"><span class="scandot"></span><span class="scantxt">SCANNING</span></span>
+    <span class="spacer"></span>
+    <span class="meter"><span>read depth</span><span class="bar"><i></i></span><span class="pct">0%</span></span>
+    <span class="hint"><kbd>/</kbd> grep &nbsp; <kbd>:</kbd> sh &nbsp; <kbd>?</kbd> help</span>
+  </footer>
+</div>
+
+<div class="cmd" role="dialog" aria-modal="true" aria-label="Command line">
+  <div class="cmd-out" aria-live="polite" role="log"></div>
+  <span class="ps1">visitor@bht:~$</span>
+  <input type="text" aria-label="Terminal command" spellcheck="false" autocomplete="off" placeholder="type help">
+  <button type="button" data-close-dialog aria-label="Close command line">Close</button>
+</div>
+
+<div class="search" role="dialog" aria-modal="true" aria-label="Search the archive">
+  <div class="box">
+    <div class="row"><span class="ps1" aria-hidden="true">grep -rin</span><input type="text" aria-label="Search terms" placeholder="search techniques, tools, case studies…" spellcheck="false" autocomplete="off"><button type="button" data-close-dialog aria-label="Close search">Close</button></div>
+    <div class="meta"><span class="n" role="status">loading index…</span><span>↑↓ select · ⏎ open · esc close</span></div>
+    <div class="results"></div>
+    <div class="foot"><span>tip: try "cloaking", "PBN", "SerpClix", "Forbes", "CFAA"</span></div>
+  </div>
+</div>
+
+<script src="./search-index.js?v=ccf1c26792"></script>
+<script src="./js/terminal.js?v=ccf1c26792"></script>
+<script src="./js/oracle.js?v=ccf1c26792"></script>
+<script src="./js/linkjuice.js?v=ccf1c26792"></script>
+<script src="./js/spintax.js?v=ccf1c26792"></script>
+</body>
+</html>

@@ -1,0 +1,54 @@
+{
+  "observedAt": "2026-09-17",
+  "design": "Purposeful four-page descriptive snapshot from the existing catalogue: click service, link marketplace, hosting and task-solving service. Selected to compare billing units, not randomly or to estimate a market. No private venue, transaction, account or purchase data.",
+  "retrieval": "Public web research reader; each URL and any direct HTTP inconsistency retained. Page content may change.",
+  "coding": "Record delivery unit, displayed offer and unknown conditions; do not coerce missing prices to zero. No cross-product price average.",
+  "records": [
+    {
+      "name": "SerpClix",
+      "url": "https://serpclix.com/pricing/",
+      "unit": "Subscription credits with targeting-dependent consumption",
+      "observed": "Starter displayed $197 per month and 6,000 credits. The page distinguishes all-country and single-country credit consumption.",
+      "currency": "Dollar symbol displayed; ISO currency and checkout taxes not confirmed",
+      "amount": 197,
+      "billing": "monthly",
+      "limits": "Posted offer, no purchase or delivery test; direct automated request returned 503 while the public research reader returned pricing content."
+    },
+    {
+      "name": "Sape",
+      "url": "https://www.sape.ru/en/",
+      "unit": "Backlink placement offer",
+      "observed": "Public page displayed a from-one-cent teaser and directed signup to Serpzilla.",
+      "currency": "Not established from the inspected teaser",
+      "amount": null,
+      "billing": "Duration and full placement terms not established",
+      "limits": "The teaser cannot support an average placement price, a completed sale or verified link quality."
+    },
+    {
+      "name": "Easy Blog Networks",
+      "url": "https://easyblognetworks.com/pricing/",
+      "unit": "Hosting plan selected by number of blogs",
+      "observed": "Page offered a blog-count selector and stated prices exclude tax. Numeric plan amounts were not exposed in the inspected text representation.",
+      "currency": "Not recorded",
+      "amount": null,
+      "billing": "Plan-specific interval not verified",
+      "limits": "Missing rendered price is unresolved, not zero cost. No account was created."
+    },
+    {
+      "name": "2Captcha",
+      "url": "https://2captcha.com/pricing",
+      "unit": "Task type per 1,000",
+      "observed": "Inspected response displayed normal-captcha rates of £0.45–£0.89 per 1,000. Other task types and services had different units.",
+      "currency": "GBP symbol in this response; locale-dependent display",
+      "amount": null,
+      "billing": "usage by task type",
+      "limits": "Recorded displayed range only; no currency conversion, service testing, tax confirmation or checkout performed."
+    }
+  ],
+  "findings": {
+    "pages": 4,
+    "differentDeliveryUnits": 4,
+    "pagesWithUsableExactLikeForLikeCrossProductPrice": 0
+  },
+  "limitations": "Small purposeful convenience set; public-facing offers only; vendor self-presentation; regional/JS display effects; asking prices not sales. No prevalence, market-size, typical price, effectiveness or profitability estimate."
+}

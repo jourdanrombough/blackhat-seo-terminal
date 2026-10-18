@@ -1,0 +1,32 @@
+{
+  "id": "archive-search-census-2026-09-17",
+  "frozenAt": "2026-09-17T14:03:21.432277+00:00",
+  "question": "How does known-tool retrieval and attached text alignment differ between the preserved v9 archive index and the corrected v9.1 snapshot?",
+  "design": "Paired descriptive census of the 45 tool-card IDs present in both editions. Query = current display name. Target = same stable tool-card ID in tools.html. Frozen before evaluation, but after authors knew the indexing defect; not preregistered or blinded.",
+  "frame": {
+    "beforeRecords": 47,
+    "afterRecords": 48,
+    "matchedRecords": 45,
+    "excludedBefore": [
+      "tool-review-meta-marketplace",
+      "tool-telegram-review-channels"
+    ],
+    "excludedAfter": [
+      "tool-semrush",
+      "tool-selenium",
+      "tool-anti-captcha"
+    ],
+    "exclusionReason": "Venue records were removed and combined product cards were split during correction; no paired target ID exists for these five records."
+  },
+  "outcomes": [
+    "Primary: proportion of 45 target records whose own indexed text contains every query token (case insensitive substring).",
+    "Secondary: exact target hit at rank 1 and within top 5; reciprocal rank of first exact target (zero if absent); counts of top-5 hits with aligned target text."
+  ],
+  "analysis": "Identical corrected runtime search function and stable score sorting applied to both frozen indexes. Census totals and paired changes only, no population confidence interval or significance claim.",
+  "limits": "Two whole-edition snapshots differ in content, extraction and chunking. This comparison does not isolate a causal code-fix effect, evaluate natural user queries or measure Google, AI search, rankings or manipulation efficacy. Tool-name queries are easy and favour title matching; text alignment tests a separate known defect. Same author selected outcomes and implemented corrections.",
+  "files": {
+    "before-index.json": "a3c92546ab49d8e54444430f20fc3f6551f2de689732d4da0241bb175e0d9073",
+    "after-index.json": "c5e74f548adca04d4995278f3d5c90cf99fe1a21dcf43ee6e05e5b06a4369354",
+    "queries.json": "2735a115a132db1bc6da683a7df580cce6187c02d073ba76525c5a2d4829befc"
+  }
+}

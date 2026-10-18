@@ -1,0 +1,155 @@
+{
+  "kit_version": "1.0.0",
+  "fixture_sha256": "a1d7ea23d270800b0559274315d445d686613e1af9ebca35a32cc3d774804ffe",
+  "labs_passed": 6,
+  "assertions_passed": 33,
+  "results": {
+    "lab1": {
+      "joint_observation": 3,
+      "equally_compatible_link_effects": [
+        [
+          3,
+          0
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "synthetic_difference_in_differences": 3,
+      "interpretation": "A single aggregate outcome cannot identify two link effects. A control adjusts this constructed trend; real causal identification requires additional assumptions."
+    },
+    "lab2": {
+      "added": [
+        "documents/sample.html"
+      ],
+      "removed": [
+        "about.html"
+      ],
+      "changed": [
+        "index.html",
+        "theme.css"
+      ],
+      "unreviewed_changes": [
+        "about.html",
+        "documents/sample.html",
+        "index.html"
+      ],
+      "baseline_sha256": {
+        "index.html": "38ae9cebf7495797962a65b6625218b16f43d31c61a1156db506903999e31c12",
+        "about.html": "245bf2c963e274a6897315ffccbfd69b7919ccd742d4ade68d97b222e8103822",
+        "theme.css": "380a35b04d1768388a31f304ccf8b7297578c24a089c04a0e6b371e423d74f59"
+      },
+      "observed_sha256": {
+        "index.html": "42d36ecbcfdae40d788749fe87a49367afe5d5af6d4d36ea68ee18d29eb600b9",
+        "theme.css": "f6eb2cd974df7ee274a4ee2679656dffa335d0aa20e31aa96d19334a28ec0f00",
+        "documents/sample.html": "15412140782c000816cc527b12aa0b722376860fea1b539fa5f1d376ab721975"
+      }
+    },
+    "lab3": [
+      {
+        "id": "formatting-only",
+        "outcome": "same-normalized-text",
+        "browser_text": "Sample shop Open weekdays",
+        "crawler_text": "Sample shop Open weekdays"
+      },
+      {
+        "id": "material-difference",
+        "outcome": "review-content-difference",
+        "browser_text": "Sample shop Open weekdays",
+        "crawler_text": "Unexpected document catalogue Unrelated synthetic text"
+      },
+      {
+        "id": "access-control",
+        "outcome": "inspect-access-control",
+        "browser_text": "Sample shop",
+        "crawler_text": "Access denied"
+      }
+    ],
+    "lab4": {
+      "synthetic_observations": {
+        "structured": {
+          "runs": 3,
+          "cited_runs": 2,
+          "citation_fraction": "2/3"
+        },
+        "prose": {
+          "runs": 3,
+          "cited_runs": 2,
+          "citation_fraction": "2/3"
+        }
+      },
+      "interpretation": "Fictional data exercise only. Neither condition has a measured advantage; no search engine was queried."
+    },
+    "lab5": {
+      "toy_outputs": [
+        {
+          "id": "clean",
+          "document-obedient": "Demo Lamp uses 5 W.",
+          "strip-hidden-only": "Demo Lamp uses 5 W.",
+          "facts-only": "Demo Lamp uses 5 W."
+        },
+        {
+          "id": "visible-instruction",
+          "document-obedient": "Demo Lamp uses 5 W. BANANA",
+          "strip-hidden-only": "Demo Lamp uses 5 W. BANANA",
+          "facts-only": "Demo Lamp uses 5 W."
+        },
+        {
+          "id": "hidden-instruction",
+          "document-obedient": "Demo Lamp uses 5 W. BANANA",
+          "strip-hidden-only": "Demo Lamp uses 5 W.",
+          "facts-only": "Demo Lamp uses 5 W."
+        },
+        {
+          "id": "missing-required-fact",
+          "document-obedient": "ABSTAIN: missing required fact",
+          "strip-hidden-only": "ABSTAIN: missing required fact",
+          "facts-only": "ABSTAIN: missing required fact"
+        }
+      ],
+      "interpretation": "The strict behavior is imposed by deterministic code and an output schema. It is not evidence that a prompt or sanitizer secures an LLM."
+    },
+    "lab6": {
+      "events": [
+        {
+          "id": "normal-page",
+          "path": "/index.html",
+          "signals": [],
+          "triage": "routine-review"
+        },
+        {
+          "id": "approved-release",
+          "path": "/downloads/release-notes.html",
+          "signals": [
+            "download_lure_text"
+          ],
+          "triage": "routine-review"
+        },
+        {
+          "id": "synthetic-poisoning-pattern",
+          "path": "/documents/sample.html",
+          "signals": [
+            "new_unapproved_page",
+            "material_response_difference",
+            "download_lure_text"
+          ],
+          "triage": "escalate-for-human-review"
+        },
+        {
+          "id": "new-campaign-page",
+          "path": "/campaign/autumn.html",
+          "signals": [
+            "new_unapproved_page"
+          ],
+          "triage": "verify-change-owner"
+        }
+      ],
+      "interpretation": "One constructed pattern is escalated; this is not a validated detection rate. Known hashes, one keyword, or a user-agent string cannot establish compromise."
+    }
+  }
+}

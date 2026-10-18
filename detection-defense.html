@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en" data-page="detection-defense.html">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Detection & Defense: Evidence Collection, Triage & Recovery | Black Hat SEO Terminal</title>
+<meta name="title" content="Detection & Defense: Evidence Collection, Triage & Recovery | Black Hat SEO Terminal">
+<meta name="description" content="A practical defensive workflow for content differences, file changes, suspicious links and incident recovery, with synthetic examples and false positives.">
+<link rel="canonical" href="https://optimizationtheory.com/blackhat-terminal/detection-defense.html">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Black Hat SEO Terminal">
+<meta property="og:title" content="Detection & Defense: Evidence Collection, Triage & Recovery">
+<meta property="og:description" content="A practical defensive workflow for content differences, file changes, suspicious links and incident recovery, with synthetic examples and false positives.">
+<meta property="og:image" content="https://optimizationtheory.com/blackhat-terminal/assets/social-card.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Black Hat SEO Terminal — defensive SEO research archive">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Black Hat SEO Terminal — research archive and offline labs">
+<meta property="og:locale" content="en_US">
+<meta property="og:url" content="https://optimizationtheory.com/blackhat-terminal/detection-defense.html">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Detection & Defense: Evidence Collection, Triage & Recovery">
+<meta name="twitter:description" content="A practical defensive workflow for content differences, file changes, suspicious links and incident recovery, with synthetic examples and false positives.">
+<meta name="twitter:image" content="https://optimizationtheory.com/blackhat-terminal/assets/social-card.png">
+<meta name="theme-color" content="#0a0703">
+<link rel="icon" href="./favicon.svg" type="image/svg+xml">
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-6D8GWTC7CF"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-6D8GWTC7CF');
+</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,400;0,600;0,700;1,400&family=VT323&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="./css/terminal.css?v=ccf1c26792">
+<link rel="stylesheet" href="./css/oracle.css?v=ccf1c26792">
+<link rel="stylesheet" href="./css/linkjuice.css?v=ccf1c26792">
+<link rel="stylesheet" href="./css/spintax.css?v=ccf1c26792">
+<script>
+  /* pre-paint prefs so the theme does not flash */
+  (function(){try{var c=JSON.parse(localStorage.getItem('bht.crt'));if(c==='off')document.documentElement.classList.add('crt-off');var t=JSON.parse(localStorage.getItem('bht.theme'));if(t==='green')document.documentElement.setAttribute('data-theme','green');}catch(e){}})();
+  window.BHT = {"base":"./","page":"detection-defense.html","pages":[{"file":"index.html","title":"Start Here","size":21673},{"file":"oracle.html","title":"Black Hat Oracle","size":5628},{"file":"link-juice-sim.html","title":"Link Juice Simulator","size":7609},{"file":"spintax-machine.html","title":"Spintax Machine","size":6479},{"file":"methodology.html","title":"Methodology & Scope","size":10152},{"file":"overview.html","title":"System Overview","size":8413},{"file":"find.html","title":"Find Anything","size":341},{"file":"starter-kit.html","title":"Black Hat Starter Kit","size":10665},{"file":"search-manipulation.html","title":"Search Manipulation","size":19617},{"file":"private-blog-networks.html","title":"Private Blog Networks","size":43079},{"file":"api-leak.html","title":"The 2024 Google API Leak","size":13787},{"file":"ctr-navboost.html","title":"CTR & NavBoost Manipulation","size":16595},{"file":"ai-geo.html","title":"AI-Search / GEO Manipulation","size":21567},{"file":"prompt-injection.html","title":"Prompt Injection / Agent Manipulation","size":17416},{"file":"affiliate-seo.html","title":"Affiliate SEO Exploitation","size":16254},{"file":"parasite-seo.html","title":"Parasite SEO / Site Reputation Abuse","size":18123},{"file":"scaled-content-abuse.html","title":"Scaled Content Abuse","size":19039},{"file":"expired-domain-abuse.html","title":"Expired Domain Abuse","size":16797},{"file":"local-seo.html","title":"Local SEO Exploitation","size":16472},{"file":"restricted-verticals.html","title":"Restricted Verticals","size":10904},{"file":"vertical-pharma.html","title":"Vertical: Illegal Pharma","size":19750},{"file":"vertical-adult.html","title":"Vertical: Adult (XXX)","size":14743},{"file":"vertical-alcohol.html","title":"Vertical: Alcohol & DTC","size":14211},{"file":"tools.html","title":"Tools Database","size":86948},{"file":"case-studies.html","title":"Case Studies & Penalties","size":11271},{"file":"seo-poisoning.html","title":"SEO Poisoning / Compromised-Search","size":16268},{"file":"underground-market.html","title":"Underground Market","size":15858},{"file":"detection-defense.html","title":"Detection & Defense","size":15175},{"file":"resources.html","title":"Resources & References","size":11214},{"file":"appendix.html","title":"Appendix","size":21522},{"file":"lab-library.html","title":"Offline Lab Library","size":8857},{"file":"experiments.html","title":"Research Studies & Results","size":13070},{"file":"case-database.html","title":"Case Database","size":28969},{"file":"timeline.html","title":"Historical Timeline","size":12007},{"file":"glossary.html","title":"Glossary","size":20199},{"file":"bibliography.html","title":"Bibliography","size":108279},{"file":"changelog.html","title":"Changelog & Review Status","size":6472}],"version":"v9.4","built":"2026-09-28","toolCount":48};
+</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"WebPage","headline":"Detection & Defense","name":"Detection & Defense: Evidence Collection, Triage & Recovery","description":"A practical defensive workflow for content differences, file changes, suspicious links and incident recovery, with synthetic examples and false positives.","url":"https://optimizationtheory.com/blackhat-terminal/detection-defense.html","inLanguage":"en","isPartOf":{"@type":"WebSite","name":"Black Hat SEO Terminal","url":"https://optimizationtheory.com/blackhat-terminal/"},"publisher":{"@type":"Organization","name":"Optimization Theory","url":"https://optimizationtheory.com/"},"dateModified":"2026-09-17","audience":{"@type":"Audience","audienceType":"Security researchers, threat analysts, defensive SEO professionals"}},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Start Here","item":"https://optimizationtheory.com/blackhat-terminal/"},{"@type":"ListItem","position":2,"name":"Detection & Defense","item":"https://optimizationtheory.com/blackhat-terminal/detection-defense.html"}]}]}</script>
+</head>
+<body data-accent="green">
+<a class="skip-link" href="#main">Skip to content</a>
+<!--
+      ██████╗ ██╗  ██╗████████╗
+      ██╔══██╗██║  ██║╚══██╔══╝    hello, source reader.
+      ██████╔╝███████║   ██║       build the shell: node build.cjs
+      ██╔══██╗██╔══██║   ██║       try  :neofetch  in the command line.
+      ██████╔╝██║  ██║   ██║       evidence and limitations are documented.
+      ╚═════╝ ╚═╝  ╚═╝   ╚═╝
+-->
+<div class="crt-scan" aria-hidden="true"></div>
+<div class="crt-vignette" aria-hidden="true"></div>
+<div class="crt-flicker" aria-hidden="true"></div>
+<div class="crt-beam" aria-hidden="true"></div>
+<div class="boot" aria-hidden="true"></div>
+
+<div class="term">
+  <header class="topbar">
+    <button class="menu-btn" type="button" aria-label="Open navigation" aria-controls="archive-nav" aria-expanded="false">☰</button>
+    <span class="dots" aria-hidden="true"><i></i><i></i><i></i></span>
+    <span class="title">visitor@blackhat-terminal:<b>~/archive/10_detection-defense</b></span>
+    <span class="spacer"></span>
+    <button type="button" class="topsearch" data-open-search aria-label="Search the archive"><span class="mag" aria-hidden="true">⌕</span><span class="ph">Search techniques, tools, cases…</span><kbd>/</kbd></button>
+    <span class="spacer"></span>
+    <span class="leds"><span class="live">SECURE</span><span class="sig" aria-hidden="true"><i></i><i></i><i></i><i></i></span><span>ONLINE</span><span class="ping" aria-hidden="true">PING <b>—</b></span><span>RECORDS 48</span></span>
+    <button type="button" data-open-cmd>sh <kbd>:</kbd></button>
+    <span class="clock" aria-hidden="true">00:00:00</span>
+  </header>
+
+  <nav class="sidebar" id="archive-nav" aria-label="Archive sections">
+    <ul class="tree">
+      <li class="root">~/archive<small>black hat seo terminal · 37 sections · 48 tool records</small></li>
+      <li class=""><a href="index.html" title="A research archive on search and AI manipulation, with evidence limits, corrected policy guidance, local demonstrations and proposed studies."><span class="br">├──</span><span class="dot" style="color:#ffb000" aria-hidden="true">■</span><span class="nm">00_start-here<span class="ext">.md</span></span></a></li>
+      <li class=" new"><a href="oracle.html" title="Domain strategy simulator. An animated consultation with the darker side of search."><span class="br">├──</span><span class="dot" style="color:#ffb000" aria-hidden="true">■</span><span class="nm">00b_black-hat-oracle<span class="ext">/</span></span></a></li>
+      <li class=" new"><a href="link-juice-sim.html" title="Interactive PageRank sandbox. Build link schemes, watch the juice flow, then survive the sweep."><span class="br">├──</span><span class="dot" style="color:#33ff99" aria-hidden="true">■</span><span class="nm">00c_link-juice-sim<span class="ext">/</span></span></a></li>
+      <li class=" new"><a href="spintax-machine.html" title="Explode a sentence into spintax, pull the lever for 50 versions, then watch the detectors catch them."><span class="br">├──</span><span class="dot" style="color:#ff5db1" aria-hidden="true">■</span><span class="nm">00d_spintax-machine<span class="ext">/</span></span></a></li>
+      <li class=""><a href="methodology.html" title="Research questions, source standards, scope, cutoff dates, evidence categories, uncertainty and the limits of the archive’s local demonstrations."><span class="br">├──</span><span class="dot" style="color:#33ff99" aria-hidden="true">■</span><span class="nm">00a_methodology<span class="ext">/</span></span></a></li>
+      <li class=""><a href="overview.html" title="Map of search and AI manipulation techniques, the signals they target, current policy context and the distinction between evidence and inference."><span class="br">├──</span><span class="dot" style="color:#ffb000" aria-hidden="true">■</span><span class="nm">01_overview<span class="ext">/</span></span></a></li>
+      <li class=""><a href="find.html" title="Filter chapter topics and tool records by name, or use full-text search to find claims, cases, labs and glossary terms."><span class="br">├──</span><span class="dot" style="color:#4fd6ee" aria-hidden="true">■</span><span class="nm">02_find<span class="ext">/</span></span></a></li>
+      <li class=""><a href="starter-kit.html" title="A guided path through the archive: prerequisites, evidence labels, terminology, local teaching demonstrations and current versus historical material."><span class="br">├──</span><span class="dot" style="color:#ff7a1a" aria-hidden="true">■</span><span class="nm">03_starter-kit<span class="ext">/</span></span></a></li>
+      <li class=""><a href="search-manipulation.html" title="Cloaking, doorway pages, hidden text, sneaky redirects, structured-data abuse and negative SEO, with defensive analysis and current feature limitations."><span class="br">├──</span><span class="dot" style="color:#ff4a3d" aria-hidden="true">■</span><span class="nm">04_search-manipulation<span class="ext">/</span></span></a></li>
+      <li class=""><a href="private-blog-networks.html" title="Private blog network architecture, evidence and practitioner hypotheses, infrastructure, detection, policy risk and the limits of proposed ranking studies."><span class="br">├──</span><span class="dot" style="color:#b98cff" aria-hidden="true">■</span><span class="nm">04a_private-blog-networks<span class="ext">/</span></span></a></li>
+      <li class=""><a href="api-leak.html" title="Google Content Warehouse documentation: authenticity, evidence provenance, leaked fields, researcher interpretations and limits on ranking conclusions."><span class="br">├──</span><span class="dot" style="color:#4fd6ee" aria-hidden="true">■</span><span class="nm">04b_google-api-leak<span class="ext">/</span></span></a></li>
+      <li class=""><a href="ctr-navboost.html" title="NavBoost and click evidence from public testimony and leak analysis; why click-use evidence does not establish purchased-click efficacy."><span class="br">├──</span><span class="dot" style="color:#ff4a3d" aria-hidden="true">■</span><span class="nm">04c_ctr-navboost<span class="ext">/</span></span></a></li>
+      <li class=""><a href="ai-geo.html" title="AI-search retrieval and citation manipulation, platform distinctions, academic evidence and the limits of proposed citation studies."><span class="br">├──</span><span class="dot" style="color:#b98cff" aria-hidden="true">■</span><span class="nm">04d_ai-geo-manipulation<span class="ext">/</span></span></a></li>
+      <li class=""><a href="prompt-injection.html" title="Indirect instructions in retrieved content, agent trust boundaries, tool-use risks, benign local demonstrations and defense limitations."><span class="br">├──</span><span class="dot" style="color:#a6ff5a" aria-hidden="true">■</span><span class="nm">04e_prompt-injection<span class="ext">/</span></span></a></li>
+      <li class=""><a href="affiliate-seo.html" title="Affiliate search abuse, thin content, redirects, source attribution, endorsement disclosure and the distinction between policy and legal claims."><span class="br">├──</span><span class="dot" style="color:#ff5db1" aria-hidden="true">■</span><span class="nm">05_affiliate-seo<span class="ext">/</span></span></a></li>
+      <li class=""><a href="parasite-seo.html" title="Site reputation abuse mechanisms, historical enforcement and August 2026 regional policy treatment, with evidence limitations."><span class="br">├──</span><span class="dot" style="color:#ff5db1" aria-hidden="true">■</span><span class="nm">05a_parasite-seo<span class="ext">/</span></span></a></li>
+      <li class=""><a href="scaled-content-abuse.html" title="Scaled content abuse is about purpose and user value, not AI use alone; mechanisms, defensive signals and limits of proposed content studies."><span class="br">├──</span><span class="dot" style="color:#ff7a1a" aria-hidden="true">■</span><span class="nm">05b_scaled-content-abuse<span class="ext">/</span></span></a></li>
+      <li class=""><a href="expired-domain-abuse.html" title="Expired-domain reuse and abuse, archive inspection, policy boundaries, illustrative scenarios and limitations of domain comparisons."><span class="br">├──</span><span class="dot" style="color:#ffb000" aria-hidden="true">■</span><span class="nm">05c_expired-domain-abuse<span class="ext">/</span></span></a></li>
+      <li class=""><a href="local-seo.html" title="Business Profile and review manipulation, local-ranking evidence, US and UK review rules, detection indicators and uncertain efficacy claims."><span class="br">├──</span><span class="dot" style="color:#a6ff5a" aria-hidden="true">■</span><span class="nm">06_local-seo<span class="ext">/</span></span></a></li>
+      <li class=" new"><a href="restricted-verticals.html" title="Why industries cut off from paid discovery lean on black-hat organic tactics, with a comparative table and the technique stack each vertical runs."><span class="br">├──</span><span class="dot" style="color:#ff4a3d" aria-hidden="true">■</span><span class="nm">06a_restricted-verticals<span class="ext">/</span></span></a></li>
+      <li class=" new"><a href="vertical-pharma.html" title="Partnerka affiliate economics, the WordPress pharma hack, hacklink markets and the payment chokepoint, with detection and defense."><span class="br">├──</span><span class="dot" style="color:#b98cff" aria-hidden="true">■</span><span class="nm">06b_vertical-pharma<span class="ext">/</span></span></a></li>
+      <li class=" new"><a href="vertical-adult.html" title="How a legal but ad-banned industry optimizes: data PR, tube ecosystems, self-built link networks, scaled content and adult GEO."><span class="br">├──</span><span class="dot" style="color:#ff5db1" aria-hidden="true">■</span><span class="nm">06c_vertical-adult<span class="ext">/</span></span></a></li>
+      <li class=" new"><a href="vertical-alcohol.html" title="The age-gate versus indexing trap, the cloaking shortcut versus the compliant overlay, gray-market DTC shipping and aggressive local pages."><span class="br">├──</span><span class="dot" style="color:#ffb000" aria-hidden="true">■</span><span class="nm">06d_vertical-alcohol<span class="ext">/</span></span></a></li>
+      <li class=""><a href="tools.html" title="An individually sourced catalogue of tools and services, including historical and unresolved records, requirements, pricing limits and official links."><span class="br">├──</span><span class="dot" style="color:#4fd6ee" aria-hidden="true">■</span><span class="nm">07_tools-database<span class="ext">/</span></span></a></li>
+      <li class=""><a href="case-studies.html" title="Source-traced case discussions distinguish documented events, company statements, policy changes and unresolved historical reports."><span class="br">├──</span><span class="dot" style="color:#b98cff" aria-hidden="true">■</span><span class="nm">08_case-studies<span class="ext">/</span></span></a></li>
+      <li class=""><a href="seo-poisoning.html" title="Search-delivered malicious content, compromised and attacker-owned pages, delivery architecture, indicators and defensive local analysis."><span class="br">├──</span><span class="dot" style="color:#ff4a3d" aria-hidden="true">■</span><span class="nm">08a_seo-poisoning<span class="ext">/</span></span></a></li>
+      <li class=""><a href="underground-market.html" title="A qualitative account of manipulation services, evidence limits, market venues, transaction risks and properly scoped enforcement context."><span class="br">├──</span><span class="dot" style="color:#ffd23f" aria-hidden="true">■</span><span class="nm">09_underground-market<span class="ext">/</span></span></a></li>
+      <li class="active"><a href="detection-defense.html" title="A practical defensive workflow for content differences, file changes, suspicious links and incident recovery, with synthetic examples and false positives."><span class="br">├──</span><span class="dot" style="color:#33ff99" aria-hidden="true">■</span><span class="nm">10_detection-defense<span class="ext">/</span></span></a><ul class="sub"><li><a href="#det-google"><span class="br">│  └─</span><span class="nm">1 · What the platform tells us—and what it does not</span></a></li><li><a href="#det-signals"><span class="br">│  └─</span><span class="nm">2 · Collect evidence before assigning a cause</span></a></li><li><a href="#det-lab"><span class="br">│  └─</span><span class="nm">3 · Run the supplied detection exercises</span></a></li><li><a href="#det-penalties"><span class="br">│  └─</span><span class="nm">4 · Match the remedy to the evidence</span></a></li><li><a href="#det-monitoring"><span class="br">│  └─</span><span class="nm">5 · Monitoring that produces an actionable record</span></a></li><li><a href="#det-misconceptions"><span class="br">│  └─</span><span class="nm">6 · Common diagnostic mistakes</span></a></li><li><a href="#det-references"><span class="br">│  └─</span><span class="nm">7 · Sources and review scope</span></a></li></ul></li>
+      <li class=""><a href="resources.html" title="Primary documentation and research resources, source-quality checks and clearly qualified historical community references."><span class="br">├──</span><span class="dot" style="color:#5b9dff" aria-hidden="true">■</span><span class="nm">11_resources<span class="ext">/</span></span></a></li>
+      <li class=""><a href="appendix.html" title="Cross-linked technique and tool indexes, shared reference material, historical context and limits on performance claims."><span class="br">├──</span><span class="dot" style="color:#ffb000" aria-hidden="true">■</span><span class="nm">12_appendix<span class="ext">/</span></span></a></li>
+      <li class=""><a href="lab-library.html" title="Six reproducible offline teaching demonstrations with synthetic fixtures and captured outputs; no live ranking efficacy is claimed."><span class="br">├──</span><span class="dot" style="color:#4fd6ee" aria-hidden="true">■</span><span class="nm">13_lab-library<span class="ext">/</span></span></a></li>
+      <li class=""><a href="experiments.html" title="A reproducible archive-search evaluation with frozen data and measured results, plus four unexecuted external search and AI study protocols."><span class="br">├──</span><span class="dot" style="color:#5b9dff" aria-hidden="true">■</span><span class="nm">13a_experiments<span class="ext">/</span></span></a></li>
+      <li class=""><a href="case-database.html" title="Structured incident and policy-event records with dates, source scope, confidence, outcomes and related chapters; unresolved fields are explicit."><span class="br">├──</span><span class="dot" style="color:#b98cff" aria-hidden="true">■</span><span class="nm">14_case-database<span class="ext">/</span></span></a></li>
+      <li class=""><a href="timeline.html" title="A sourced chronology of search-policy and ranking events, with historical interpretations separated from confirmed announcements."><span class="br">├──</span><span class="dot" style="color:#ffd23f" aria-hidden="true">■</span><span class="nm">15_timeline<span class="ext">/</span></span></a></li>
+      <li class=""><a href="glossary.html" title="Definitions of search and AI-manipulation terminology, with current scope and links to deeper chapters."><span class="br">├──</span><span class="dot" style="color:#5b9dff" aria-hidden="true">■</span><span class="nm">16_glossary<span class="ext">/</span></span></a></li>
+      <li class=""><a href="bibliography.html" title="Source register for official policy, regulatory guidance, court evidence, academic papers and technical reporting, with provenance limitations."><span class="br">├──</span><span class="dot" style="color:#33ff99" aria-hidden="true">■</span><span class="nm">17_bibliography<span class="ext">/</span></span></a></li>
+      <li class=""><a href="changelog.html" title="Editorial changes, page review tracking, separate build and research dates, and the remaining limits of the archive."><span class="br">└──</span><span class="dot" style="color:#ffb000" aria-hidden="true">■</span><span class="nm">18_changelog<span class="ext">/</span></span></a></li>
+    </ul>
+    <div class="side-foot">
+      <div><kbd>/</kbd> search &nbsp; <kbd>:</kbd> shell &nbsp; <kbd>?</kbd> help</div>
+      <div><kbd>[</kbd> <kbd>]</kbd> prev / next section</div>
+      <div><kbd>Shift</kbd>+<kbd>E</kbd> expand all &nbsp; <kbd>Shift</kbd>+<kbd>C</kbd> collapse</div>
+      <div style="margin-top:8px"><a href="https://optimizationtheory.com/blackhat-personas" target="_blank" rel="noopener">./blackhat-personas →</a></div>
+      <div style="margin-top:8px">shell v9.4 · built 2026-09-28</div>
+    </div>
+  </nav>
+  <div class="scrim"></div>
+
+  <main class="main" id="main" tabindex="-1">
+    <div class="page has-toc">
+      <article class="content">
+<div class="ascii-banner reveal" data-accent-glow aria-hidden="true"><div class="art-pre">██████╗ ███████╗████████╗███████╗ ██████╗████████╗██╗ ██████╗ ███╗   ██╗
+██╔══██╗██╔════╝╚══██╔══╝██╔════╝██╔════╝╚══██╔══╝██║██╔═══██╗████╗  ██║
+██║  ██║█████╗     ██║   █████╗  ██║        ██║   ██║██║   ██║██╔██╗ ██║
+██║  ██║██╔══╝     ██║   ██╔══╝  ██║        ██║   ██║██║   ██║██║╚██╗██║
+██████╔╝███████╗   ██║   ███████╗╚██████╗   ██║   ██║╚██████╔╝██║ ╚████║
+╚═════╝ ╚══════╝   ╚═╝   ╚══════╝ ╚═════╝   ╚═╝   ╚═╝ ╚═════╝ ╚═╝  ╚═══╝</div><span class="scan"></span></div>
+<div class="banner-sub" aria-hidden="true"><span class="bkt">[</span><span class="lbl">DETECTION</span><span class="bkt">]</span><span class="sep">::</span><span class="mode">DEFENSE</span><span class="sep">·</span><span class="sev">DEFENSIVE</span><span class="sep">·</span><span class="path">~/archive/10_detection-defense</span><span class="cur">_</span></div>
+<header class="doc-head"><div class="path"><a href="index.html">~</a><span class="sep">/</span><a href="index.html">archive</a><span class="sep">/</span><span>10_detection-defense/</span></div><h1><span class="pfx">$ cat </span>Detection &amp; Defense</h1><p class="sub">A practical defensive workflow for content differences, file changes, suspicious links and incident recovery, with synthetic examples and false positives.</p><div class="facts"><span><b>1,679</b> words</span><span>~<b>8</b> min read</span><span><b>2</b> tables</span><span><b>4</b> code blocks</span><span class="sev sev-low">DEFENSIVE</span></div></header>
+<figure class="ascii-feature reveal" data-label="PIPELINE // defensive workflow"><div class="art-pre">   [ MONITOR ] ─▶ [ DIFF ] ─▶ [ TRIAGE ] ─▶ [ RECOVER ]
+       │            │            │             │
+    content      file-hash    classify      clean + request
+    changes      changes      severity      reconsideration</div></figure>
+<div id="detection-defense" class="section-header">DETECTION &amp; DEFENSE</div>
+<div class="chapter-meta"><span class="st st-active">STATUS: DEFENSIVE REFERENCE</span><span class="mb">SCOPE: <b>owned-site investigation and synthetic practice</b></span><span class="verified">editorial revision 2026-09-19</span></div>
+<p class="lead">A visibility loss, a suspicious link and a changed file are observations, not diagnoses. This chapter explains how to collect evidence, separate search-quality issues from a security incident, and choose a response that matches the cause. The local exercises are reproducible; Google’s internal classifiers and recovery timetable are not.</p>
+<h2 id="det-google">1 · What the platform tells us—and what it does not</h2>
+<p>Google documents automated spam detection and human manual actions, but does not publish a complete detector, thresholds or comparative accuracy. Its spam policies describe prohibited behavior; they are not an implementation manual for SpamBrain. Helpful-content evaluation became part of core ranking systems in March 2024. None of this proves that a specific site’s decline was a spam decision. <a class="cite" href="#ref-1">[1]</a> <a class="cite" href="#ref-2">[2]</a></p>
+<p>A <strong>manual action</strong> is a documented review outcome in the Search Console Manual Actions report. An algorithmic visibility change need not produce that notice. Also inspect the separate Security Issues report: hacked content and unsafe downloads require an incident response, and the relevant review process differs from a ranking investigation. Follow the report’s instructions for the affected property. <a class="cite" href="#ref-3">[3]</a> <a class="cite" href="#ref-4">[4]</a></p>
+<pre data-diagram="true" class="code-block">New symptom → preserve dates, URLs, reports and deployment history
+            ├─ security evidence → contain access → investigate → remediate → review
+            ├─ manual action    → read scope → fix violation → request reconsideration
+            └─ neither          → test technical, demand and content explanations
+All branches → record uncertainty → validate the fix → monitor recurrence</pre>
+<h2 id="det-signals">2 · Collect evidence before assigning a cause</h2>
+<p><strong>Minimum setup:</strong> authorized read access to Search Console, hosting or application logs, deployment history and a known-good file inventory. Use a spreadsheet or CSV for the incident record; no paid backlink subscription is required for an initial investigation. Keep raw exports with collection time and timezone. Restrict access to logs because they can contain personal information and credentials. The following is a proposed investigation workflow, not a measured detector.</p>
+<ol>
+<li><strong>Define the change.</strong> Record the first affected date, URL groups, country, device and search type. Compare equal reporting windows and account for weekday patterns, campaigns, seasonality and incomplete recent data. A change in clicks can reflect impressions or click-through rate; average position is an aggregate, not one universal rank.</li>
+<li><strong>Check known changes.</strong> Compare releases, redirects, canonicals, robots directives, indexing settings, outages and tracking changes. Select affected and apparently unaffected URLs. Inspect HTTP status and the current page before attributing a drop to an update.</li>
+<li><strong>Inspect platform evidence.</strong> Export the actual notice and affected examples if a manual action or security issue exists. URL Inspection can help examine indexing and fetched content, but one inspected URL does not represent an entire site. A <code>site:</code> query is an exploratory sample, not an index census.</li>
+<li><strong>Correlate independent artifacts.</strong> Match suspicious URLs with file changes, deployment approval, administrator activity and request logs. Write down an alternative explanation for each signal. Escalate an unexplained cluster; do not label an owner or reviewer malicious from a single shared attribute.</li>
+</ol>
+<table class="data-table"><thead><tr><th>Evidence stream</th><th>How to investigate</th><th>Limits and false positives</th></tr></thead><tbody>
+<tr><td>Request logs</td><td>Group by path, timestamp, response code, redirect target and reported user agent. Compare requests around the suspected change. Preserve original records.</td><td>User-agent strings and referrers can be forged. Verify claimed Google crawlers using Google’s published procedure; CDN and proxy configuration can obscure the client address. <a class="cite" href="#ref-5">[5]</a></td></tr>
+<tr><td>Rendered content</td><td>For an owned URL, compare captured responses under documented device, session and access conditions. Separate status differences, redirects, normalized text and script behavior.</td><td>JavaScript rendering, consent screens, geolocation and authentication can create legitimate differences. Raw HTML versus rendered DOM alone does not establish cloaking.</td></tr>
+<tr><td>Files and routes</td><td>Hash a trusted snapshot; compare additions, deletions and modifications against deployment approvals. Check server routing, plugins and scheduled tasks as well as visible pages.</td><td>A release changes hashes legitimately. An already compromised baseline can conceal a problem; unchanged files do not rule out database or account abuse.</td></tr>
+<tr><td>Backlinks and networks</td><td>Sample referring pages; record target, anchor, first observed date, placement and ownership evidence. Compare links the site commissioned with unsolicited links. Shared templates, IPs or analytics identifiers are investigation leads.</td><td>Vendor “toxicity” is a proprietary score. Shared hosting and popular themes do not prove common control. First observed is not necessarily first published.</td></tr>
+<tr><td>Content patterns</td><td>Review batches of new pages for purpose, duplication, factual quality, publisher control and differences from legitimate templates. See <a href="scaled-content-abuse.html">scaled content</a> and <a href="parasite-seo.html">site reputation abuse</a>.</td><td>Volume, AI assistance or third-party authorship alone is insufficient to establish the named policy violation.</td></tr>
+<tr><td>Local profiles and reviews</td><td>Check authorized ownership, name/address/category changes and review bursts against campaign and service records. Document specific policy concerns before using platform reporting channels.</td><td>Clustering does not prove fake reviews. Do not infer reviewer identity or fraud solely from timing. See <a href="local-seo.html">local analysis</a>.</td></tr>
+<tr><td>AI answers and agents</td><td>Record exact query, date, product/version when exposed, session settings, complete response, citations and permitted tool actions. Trace disputed statements back to source text.</td><td>Answers vary between runs. A changed citation is not evidence of prompt injection. Retrieval manipulation and instructions crossing an authority boundary require different investigations. See <a href="ai-geo.html">AI/GEO</a> and <a href="prompt-injection.html">prompt injection</a>.</td></tr>
+</tbody></table>
+<h2 id="det-lab">3 · Run the supplied detection exercises</h2>
+<p>Download the <a href="labs/offline-defense.zip" download>offline kit</a>, extract it and open a terminal in the <code>offline-defense</code> folder. Python 3.10 or newer is the only prerequisite. Run:</p>
+<pre class="code-block">python3 run_labs.py --output-dir run-output</pre>
+<p><a href="lab-library.html#lab-2">Lab 2</a> compares invented file snapshots: one addition, one deletion and two modifications. One modified CSS file has an approved deployment; three changes still need review. <a href="lab-library.html#lab-3">Lab 3</a> distinguishes a formatting difference, a material text difference and an access-control mismatch. <a href="lab-library.html#lab-6">Lab 6</a> escalates a synthetic combination of an unapproved page, a content mismatch and a download lure. Inspect <code>fixtures.json</code>, then compare <code>run-output/results.json</code> with <code>expected-results.json</code>.</p>
+<p>The committed <a href="labs/offline-defense/captured-run/results.txt">run transcript</a> records 33 passing assertions across six demonstrations. These observations establish the behavior of the supplied parsers, arithmetic and rules on invented inputs. They do not establish a production detection rate, live cloaking diagnosis, malware-scanner efficacy or ranking effect. No WordPress installation or browser emulator is included. The <a href="lab-library.html">lab library</a> explains each input and limitation.</p>
+<h2 id="det-penalties">4 · Match the remedy to the evidence</h2>
+<table class="data-table"><thead><tr><th>Finding</th><th>Response</th><th>Validation</th></tr></thead><tbody>
+<tr><td>Manual action</td><td>Read the notice, investigate its scope, correct the underlying violation and document affected examples. Request reconsideration through the report when ready. <a class="cite" href="#ref-3">[3]</a></td><td>Retain the submission and response. A lifted action does not promise restoration of former traffic.</td></tr>
+<tr><td>Security incident</td><td>Preserve evidence, restrict compromised access, restore trusted content, patch the entry point and rotate affected credentials. Review accounts, extensions and scheduled execution. Use the relevant security review process. <a class="cite" href="#ref-4">[4]</a></td><td>Check files, routes, access and logs after deployment; removing the visible spam without closing the entry point is incomplete.</td></tr>
+<tr><td>Unnatural links</td><td>Investigate links the site controlled and seek removal where appropriate. Google says to consider disavow only when both a considerable number of spammy/artificial/low-quality links exist <em>and</em> they caused or are likely to cause a manual action. <a class="cite" href="#ref-6">[6]</a></td><td>Keep removal records and the exact submitted file. A suspicious vendor score or unsolicited-link spike alone is not the threshold.</td></tr>
+<tr><td>Visibility change without a notice</td><td>Resolve demonstrated technical faults and evaluate content/usefulness against the query and audience. Compare multiple plausible causes; do not submit a manual-action reconsideration request without a manual action.</td><td>Use a change log and comparable cohorts. Timing can vary; neither the next update nor any fixed waiting period guarantees recovery.</td></tr>
+<tr><td>Local or AI issue</td><td>Restore authorized profile information or correct source content; use the product’s current reporting process for a documented violation. Limit agent permissions and isolate untrusted retrieval content.</td><td>Retain original and corrected artifacts. Repeated queries can monitor recurrence but do not prove the intervention caused a visibility change.</td></tr>
+</tbody></table>
+<h2 id="det-monitoring">5 · Monitoring that produces an actionable record</h2>
+<p>Choose a review cadence based on how frequently the site changes and the cost of missing an incident; this guide does not prescribe a universal frequency. Review deployment diffs when deploying, route/security alerts when they fire, and search trends over comparable reporting windows. Maintain a record with: observation time; affected URLs; symptom; raw evidence path; approved-change reference; alternative explanations; owner; action; follow-up date; and outcome. Separate confirmed findings from open hypotheses.</p>
+<p>For a worked hypothetical example, a new <code>/support/update</code> page appears after a release. A hash diff alone could be legitimate. The release manifest has no such page, the served text differs by access condition, and a lure asks for a download. Preserve these artifacts and escalate to security review. The same URL added by an approved documentation release with matching responses remains a routine change. This comparison is encoded in Lab 6; it is not an external incident report. For documented incidents and source limits, read the <a href="case-database.html">case database</a>.</p>
+<h2 id="det-misconceptions">6 · Common diagnostic mistakes</h2>
+<ul><li><strong>“No manual action means no problem.”</strong> Technical failures, security incidents and algorithmic changes can exist without that notice.</li><li><strong>“A traffic drop proves a penalty.”</strong> The symptom alone cannot separate demand, measurement, ranking and search-result presentation changes.</li><li><strong>“Every mismatch is cloaking.”</strong> Compare purpose and access conditions before attributing deceptive intent.</li><li><strong>“Disavowing every odd link is routine maintenance.”</strong> Follow the documented two-part threshold; the tool is an advanced remedy.</li><li><strong>“The simulator validates our defense.”</strong> Passing fixtures demonstrates specific expected behavior. Evaluation against independent realistic cases, including benign cases, is separate work.</li></ul>
+<div class="callout"><div class="cl">SEE ALSO // RESTRICTED VERTICALS</div><p>The <a href="restricted-verticals.html">restricted-vertical chapters</a> each carry a detection section: crawler-versus-user comparison for the pharma hack and for age-gate cloaking (the same comparison demonstrated in <a href="lab-library.html#lab-3">Lab 3</a>), and PBN/doorway footprints for adult.</p></div>
+            <h2 id="det-references">7 · Sources and review scope</h2>
+<p>These primary documents support the platform rules above. The investigation sequence and synthetic scenario are editorial guidance, not claims about Google’s undisclosed implementation or measured operational performance.</p>
+<ol class="refs">
+<li id="ref-1"><a href="https://developers.google.com/search/docs/essentials/spam-policies" target="_blank" rel="noopener">Google Search spam policies</a>. Google, living documentation. Primary platform policy.</li>
+<li id="ref-2"><a href="https://developers.google.com/search/docs/appearance/ranking-systems-guide" target="_blank" rel="noopener">A guide to Google Search ranking systems</a>. Google, living documentation. Primary platform explanation.</li>
+<li id="ref-3"><a href="https://support.google.com/webmasters/answer/9044175?hl=en" target="_blank" rel="noopener">Manual Actions report</a>. Google Search Console Help. Primary procedure.</li>
+<li id="ref-4"><a href="https://support.google.com/webmasters/answer/9044101?hl=en" target="_blank" rel="noopener">Security Issues report</a>. Google Search Console Help. Primary procedure.</li>
+<li id="ref-5"><a href="https://developers.google.com/crawling/docs/crawlers-fetchers/verify-google-requests" target="_blank" rel="noopener">Verifying Googlebot and other Google crawlers</a>. Google, living documentation. Primary technical instructions.</li>
+<li id="ref-6"><a href="https://support.google.com/webmasters/answer/2648487?hl=en" target="_blank" rel="noopener">Disavow links to your site</a>. Google Search Console Help. Primary procedure and limitations.</li>
+</ol>
+
+<nav class="pager" aria-label="Section navigation"><a class="prev" href="underground-market.html"><small>← prev · 09_underground-market</small><b>Underground Market</b></a><a class="next" href="resources.html"><small>next · 11_resources →</small><b>Resources &amp; References</b></a></nav>
+        <footer class="footer">
+<div class="footer-grid">
+<div class="footer-section"><h3>About this archive</h3><p>Educational research on search and AI manipulation. Consult the <a href="methodology.html">methodology</a>, <a href="bibliography.html">source register</a> and claim-specific limitations. Vendor claims, proposed studies and observed local demonstrations are different evidence categories.</p></div>
+<div class="footer-section"><h3>Research status</h3><p>Evidence cutoff: 2026-09-19. Editorial revision: 2026-09-19. Local fixtures demonstrate mechanisms, not Google ranking efficacy. The <a href="changelog.html">review tracker</a> records remaining limitations; the build date does not verify claims.</p></div>
+<div class="footer-section"><h3>Scope</h3><p>Use demonstrations on owned or isolated test infrastructure. Policy, contractual, civil and criminal consequences depend on the conduct and applicable rules; they are not interchangeable labels.</p></div>
+</div>
+<p>BLACK HAT SEO TERMINAL v9.4 · built 2026-09-28 · 37 pages · 11 technique chapters · 48 tool records · 231 reference-list entries</p>
+
+        </footer>
+      </article>
+<aside class="toc" aria-label="On this page"><div class="h">// ON THIS PAGE</div><ol><li class="l1"><a href="#det-google">1 · What the platform tells us—and what it does not</a></li><li class="l1"><a href="#det-signals">2 · Collect evidence before assigning a cause</a></li><li class="l1"><a href="#det-lab">3 · Run the supplied detection exercises</a></li><li class="l1"><a href="#det-penalties">4 · Match the remedy to the evidence</a></li><li class="l1"><a href="#det-monitoring">5 · Monitoring that produces an actionable record</a></li><li class="l1"><a href="#det-misconceptions">6 · Common diagnostic mistakes</a></li><li class="l1"><a href="#det-references">7 · Sources and review scope</a></li></ol><div class="toc-tools"><button type="button" class="chip" data-expand-all>expand all</button><button type="button" class="chip" data-collapse-all>collapse all</button></div></aside>
+    </div>
+  </main>
+
+  <footer class="statusbar" aria-hidden="true">
+    <span class="mode">DEFENSE</span>
+    <span class="seg">▸ <b>10_detection-defense</b></span>
+    <span class="seg opt">1,679w · 8m · 2 tables</span>
+    <span class="seg scanseg" aria-hidden="true"><span class="scandot"></span><span class="scantxt">SCANNING</span></span>
+    <span class="spacer"></span>
+    <span class="meter"><span>read depth</span><span class="bar"><i></i></span><span class="pct">0%</span></span>
+    <span class="hint"><kbd>/</kbd> grep &nbsp; <kbd>:</kbd> sh &nbsp; <kbd>?</kbd> help</span>
+  </footer>
+</div>
+
+<div class="cmd" role="dialog" aria-modal="true" aria-label="Command line">
+  <div class="cmd-out" aria-live="polite" role="log"></div>
+  <span class="ps1">visitor@bht:~$</span>
+  <input type="text" aria-label="Terminal command" spellcheck="false" autocomplete="off" placeholder="type help">
+  <button type="button" data-close-dialog aria-label="Close command line">Close</button>
+</div>
+
+<div class="search" role="dialog" aria-modal="true" aria-label="Search the archive">
+  <div class="box">
+    <div class="row"><span class="ps1" aria-hidden="true">grep -rin</span><input type="text" aria-label="Search terms" placeholder="search techniques, tools, case studies…" spellcheck="false" autocomplete="off"><button type="button" data-close-dialog aria-label="Close search">Close</button></div>
+    <div class="meta"><span class="n" role="status">loading index…</span><span>↑↓ select · ⏎ open · esc close</span></div>
+    <div class="results"></div>
+    <div class="foot"><span>tip: try "cloaking", "PBN", "SerpClix", "Forbes", "CFAA"</span></div>
+  </div>
+</div>
+
+<script src="./search-index.js?v=ccf1c26792"></script>
+<script src="./js/terminal.js?v=ccf1c26792"></script>
+<script src="./js/oracle.js?v=ccf1c26792"></script>
+<script src="./js/linkjuice.js?v=ccf1c26792"></script>
+<script src="./js/spintax.js?v=ccf1c26792"></script>
+</body>
+</html>
